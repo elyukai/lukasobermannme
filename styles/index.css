@@ -43,6 +43,11 @@ body > header > nav > ul > li > a {
   text-transform: uppercase;
   color: var(--black);
   line-height: 4em;
+  padding-bottom: 2px;
+}
+
+body > header > nav > ul > li.active > a {
+  border-bottom: 2px solid var(--brand-bright);
 }
 
 main {
