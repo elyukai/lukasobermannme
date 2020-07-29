@@ -1,0 +1,177 @@
+:root {
+  --black: #121017;
+  --black-shadow: rgba(18, 16, 23, 0.25);
+  --white: #f5f4f8;
+  --brand-bright: #b4acff;
+  --brand-shadow: rgba(96, 51, 223, 0.23);
+  --brand-dark: #5532d2;
+  font: normal 14px/26px "commuters-sans";
+}
+
+body {
+  color: var(--black);
+  background: var(--white);
+  margin: 0;
+}
+
+body > header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+body > header > nav {
+  max-width: 1024px;
+  padding: 1.7rem 2.6rem 0;
+}
+
+body > header > nav > ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+body > header > nav > ul > li:not(:last-child) {
+  margin-right: 1.7rem;
+}
+
+body > header > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--black);
+  line-height: 4em;
+}
+
+main {
+  overflow: hidden;
+}
+
+div.title {
+  margin-top: 7.8rem;
+  padding: 0 2.6rem;
+  z-index: 1;
+}
+
+div.title > span {
+  font-size: 1.4em;
+}
+
+h1 {
+  font: normal 4.1em "flood-std";
+  margin: 1rem 0 0.5em;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  height: 17.1rem;
+  width: 17.1rem;
+  border-radius: 50%;
+  background: var(--brand-bright);
+  box-shadow: 0 20px 66px var(--brand-shadow);
+  position: absolute;
+  z-index: -1;
+  right: -7rem;
+  top: -5rem;
+}
+
+h2 {
+  font: normal 2.1em "flood-std";
+  margin: 0 0 2rem;
+}
+
+section.projects {
+  margin-top: 9rem;
+  padding: 0 2.6rem;
+}
+
+section.projects > article {
+  position: relative;
+}
+
+section.projects > article a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+section.projects > article:not(:first-child) {
+  margin-top: 2.6rem;
+}
+
+section.projects > article img {
+  display: block;
+  width: 100%;
+  box-shadow: 0 12px 41px var(--black-shadow);
+}
+
+section.projects > article h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 0.75rem 0 0;
+}
+
+section.projects a.all-projects {
+  margin: 10rem 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+section.projects a.all-projects::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: -1em;
+  top: 0.55em;
+  height: 0.4em;
+  width: 0.4em;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: var(--black);
+  transform: rotate(45deg);
+}
+
+section.about-me {
+  background: var(--black);
+  color: var(--white);
+  padding: 10rem 2.6rem;
+}
+
+footer {
+  padding: 10rem 2.6rem;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+footer a {
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer ul.legal {
+  margin-top: 3.6em;
+}
+
+footer li.copy {
+  font-weight: 600;
+}
