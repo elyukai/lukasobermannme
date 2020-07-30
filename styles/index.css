@@ -346,7 +346,7 @@ div.title--cover > .wrapper > img.cover + h1::after {
     margin-top: 10rem;
   }
 
-  .home span {
+  .home div.title span {
     line-height: 1.4em;
   }
 
