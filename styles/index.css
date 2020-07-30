@@ -80,6 +80,24 @@ ul > li {
   padding: 0 0 0 0.5em;
 }
 
+@media (min-width: 1200px) {
+  dl:not(.lists) {
+    display: grid;
+    margin: 2.7em 0 0;
+    gap: 1.7rem 1.2rem;
+    grid-template-columns: auto 1fr;
+  }
+
+  dl:not(.lists) dt {
+    justify-self: end;
+  }
+
+  dl:not(.lists) dt,
+  dl:not(.lists) dt + dd {
+    margin-top: 0;
+  }
+}
+
 
 
 
@@ -164,9 +182,6 @@ header > nav > ul > li.active > a > span {
     padding: 0;
     line-height: 2em;
   }
-}
-
-@media (min-width: 1600px) {
 }
 
 
@@ -577,11 +592,15 @@ a.back::before {
   transform: rotate(-135deg);
 }
 
-
-
 dt.blur,
 dd.blur {
   opacity: 0.5;
+}
+
+@media (min-width: 1200px) {
+  dl.key-data {
+    display: block;
+  }
 }
 
 
