@@ -346,6 +346,10 @@ div.title--cover > .wrapper > img.cover + h1::after {
     margin-top: 10rem;
   }
 
+  .home span {
+    line-height: 1.4em;
+  }
+
   .home h1 {
     font-size: 8em;
     margin-top: 0;
