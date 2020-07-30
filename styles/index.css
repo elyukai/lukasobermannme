@@ -5,7 +5,7 @@
   --brand-bright: #b4acff;
   --brand-shadow: rgba(96, 51, 223, 0.23);
   --brand-dark: #5532d2;
-  --section-margin: 9rem;
+  --section-margin: 6rem;
   --canvas-padding: 2.6rem;
   font: normal 14px/26px "commuters-sans";
 }
@@ -136,7 +136,6 @@ header > nav > ul > li.active > a > span {
   header > nav > ul > li > a {
     font-size: 1em;
     font-weight: 700;
-    line-height: 2em;
   }
 }
 
@@ -148,7 +147,7 @@ header > nav > ul > li.active > a > span {
 
   header > nav {
     padding: 4.5rem 0 0;
-    width: 51.2rem;
+    width: 45rem;
   }
 
   header > nav > ul > li {
@@ -163,6 +162,7 @@ header > nav > ul > li.active > a > span {
     font-size: 1em;
     font-weight: 700;
     padding: 0;
+    line-height: 2em;
   }
 }
 
@@ -201,7 +201,7 @@ header > nav > ul > li.active > a > span {
   div.title > .wrapper,
   section > .wrapper,
   footer > .wrapper {
-    width: 51.2rem;
+    width: 45rem;
   }
 }
 
@@ -223,7 +223,7 @@ main {
 
 h1 {
   font: normal 4.1em "flood-std";
-  margin: 1rem 0 0;
+  margin: 1rem 0 0 -0.03em;
   position: relative;
 }
 
@@ -322,6 +322,37 @@ div.title--cover > .wrapper > img.cover + h1::after {
   top: -6.5rem;
 }
 
+@media (min-width: 1200px) {
+  div.title {
+    margin-bottom: 8rem;
+  }
+
+  .home div.title {
+    margin-top: 10rem;
+  }
+
+  .home h1 {
+    font-size: 8em;
+    margin-top: 0;
+  }
+
+  h1::after {
+    right: auto;
+    left: -4.97rem;
+  }
+
+  .home h1::after {
+    height: 20rem;
+    width: 20rem;
+    left: -7rem;
+    top: -9rem;
+  }
+
+  .home h1 + span {
+    margin-left: 15.5rem;
+  }
+}
+
 
 
 
@@ -346,32 +377,33 @@ section {
   margin: var(--section-margin) 0 0;
 }
 
-section.projects > article {
+section.projects article {
   position: relative;
   margin-top: var(--canvas-padding);
 }
 
-section.projects > article:first-child {
+section.projects article:first-child {
   margin-top: 0;
 }
 
-section.projects > article a {
+section.projects article a {
   color: var(--black);
   display: block;
+  text-decoration: none;
 }
 
-section.projects > article img {
+section.projects article img {
   display: block;
   width: 100%;
   box-shadow: 0 12px 41px var(--black-shadow);
 }
 
-section.projects > article p {
+section.projects article p {
   font-size: 1;
   margin: 0.8rem 0 0;
 }
 
-section.projects > article p.read-more {
+section.projects article p.read-more {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -379,7 +411,7 @@ section.projects > article p.read-more {
 }
 
 section.projects a.all-projects::after,
-section.projects > article p.read-more::after {
+section.projects article p.read-more::after {
   display: block;
   content: "";
   position: absolute;
@@ -393,7 +425,7 @@ section.projects > article p.read-more::after {
   transform: rotate(45deg);
 }
 
-section.projects > article p.read-more::after {
+section.projects article p.read-more::after {
   top: 0.6em;
 }
 
@@ -407,6 +439,97 @@ section.projects a.all-projects {
   display: inline-block;
   position: relative;
 }
+
+@media (min-width: 1200px) {
+  section.projects > .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 1.5rem;
+  }
+
+  section.projects > .wrapper > h2,
+  section.projects > .wrapper > a {
+    grid-column: span 3;
+    justify-self: left;
+  }
+
+  section.projects > .wrapper > a {
+    margin-bottom: 0;
+  }
+
+  section.projects article {
+    margin-top: 0;
+  }
+
+  body.projects section.projects > .wrapper {
+    display: blocK;
+  }
+
+  body.projects section.projects article {
+    margin-top: 3.5rem;
+  }
+
+  body.projects section.projects article:first-child {
+    margin-top: 0;
+  }
+
+  body.projects section.projects article > a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 1.5rem;
+    align-content: center;
+  }
+
+  body.projects section.projects article > a img {
+    grid-row: span 5;
+    grid-column-start: 1;
+  }
+
+  body.projects section.projects article > a h3 {
+    grid-column: 2 / 4;
+    grid-row-start: 2;
+    font-size: 1.4em;
+  }
+
+  body.projects section.projects article > a p {
+    grid-column: 2 / 4;
+    grid-row-start: 3;
+    font-size: 0.8em;
+  }
+
+  body.projects section.projects article > a p.read-more {
+    grid-column: 2 / 4;
+    grid-row-start: 4;
+    margin-top: 1rem;
+  }
+
+  body.projects section.projects article p.read-more::after {
+    top: 0.78em;
+  }
+
+  body.projects section.projects article > a h3,
+  body.projects section.projects article > a p {
+    margin: 0;
+    justify-self: start;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dl.key-data {
   margin: 3.6em 0 0;
@@ -535,6 +658,40 @@ footer {
   font-size: 0.9em;
   letter-spacing: 0.03em;
   font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    font-size: 0.8em;
+  }
+
+  footer > .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: ". nav" "legal nav";
+  }
+
+  footer > .wrapper > nav {
+    grid-area: nav;
+    text-align: right;
+  }
+
+  footer > .wrapper > ul {
+    grid-area: legal;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  footer > .wrapper > ul li {
+    margin-left: 3rem;
+    margin-top: 0;
+  }
+
+  footer > .wrapper > ul li:last-child {
+    margin-left: 0;
+  }
 }
 
 footer ul {
