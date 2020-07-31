@@ -1,0 +1,100 @@
+Title: Profile
+
+----
+
+Education:
+
+- 
+  startyear: 2007
+  endyear: 2016
+  summary: >
+    High School (Gymnasium Jungmannschule
+    Eckernförde)
+  details: ""
+  gap: 'false'
+- 
+  startyear: 2016
+  endyear: 2017
+  summary: 'Work & Travel New Zealand'
+  details: ""
+  gap: 'true'
+- 
+  startyear: 2017
+  endyear: null
+  summary: Flensburg University of Applied Sciences
+  details: '**Media Informatics B.Sc.** – Major Film'
+  gap: 'false'
+
+----
+
+Languages:
+
+- 
+  language: German
+  quality: Native Tongue
+- 
+  language: English
+  quality: Good
+
+----
+
+Skills:
+
+- 
+  category: Design
+  skills:
+    - 
+      name: UI Design
+    - 
+      name: UX Design
+    - 
+      name: Corporate Design
+- 
+  category: Programming Languages
+  skills:
+    - 
+      name: JavaScript
+    - 
+      name: TypeScript
+    - 
+      name: ReasonML
+    - 
+      name: PHP
+    - 
+      name: Java
+- 
+  category: Application Development
+  skills:
+    - 
+      name: Electron
+    - 
+      name: Android Native
+- 
+  category: Web Development
+  skills:
+    - 
+      name: Node.js
+    - 
+      name: React
+    - 
+      name: Redux
+- 
+  category: Content Management Systems
+  skills:
+    - 
+      name: Kirby
+    - 
+      name: Drupal
+
+----
+
+Interestshobbies:
+
+- 
+  name: Functional Programming
+- 
+  name: 'Pen-and-paper, especially *The Dark Eye*'
+- 
+  name: Playing the piano
+- 
+  name: Digital painting

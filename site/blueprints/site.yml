@@ -1,0 +1,31 @@
+title: Site
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      drafts:
+        type: pages
+        headline: Drafts
+        status: draft
+      unlisted:
+        type: pages
+        headline: Unlisted
+        status: unlisted
+      listed:
+        type: pages
+        headline: Listed
+        status: listed
+  about:
+    width: 1/3
+    sections:
+      about:
+        type: fields
+        fields:
+          about:
+            type: textarea
+            size: medium
+            required: true
+          copy:
+            type: text
+            required: true

@@ -1,0 +1,43 @@
+Title: A Light in the Dark
+
+----
+
+Cover:
+
+- screenshot-1.png
+
+----
+
+Description:
+
+*A Light in the Dark* is a dexterity game where you have to roll a ball through a labyrinth of paths to collect points and find the end. I created the game during a game programming module at university as the module's assignment.
+
+I paid a lot of attention to the look and feel of the game and the difficuly of the levels rather than complex game mechanics. My goal was to create a pleasing but challenging game while being easy to use.
+
+----
+
+Scopes: Game Design, Environment Design, Development
+
+----
+
+Tools: Unity, C#
+
+----
+
+Startdate: 2018-04-01
+
+----
+
+Enddate: 2018-07-31
+
+----
+
+Projecttype: University Assignment
+
+----
+
+Teammembers: 
+
+----
+
+Links: 

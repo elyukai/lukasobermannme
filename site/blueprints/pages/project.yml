@@ -1,0 +1,75 @@
+title: Project
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      main:
+        type: fields
+        fields:
+          cover:
+            label: Cover
+            type: files
+            uploads:
+              template: cover
+            multiple: false
+            required: true
+            layout: cards
+            image:
+              ratio: 16/9
+              cover: true
+          description:
+            type: textarea
+            size: medium
+            required: true
+  meta:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          scopes:
+            label: Scopes
+            type: tags
+            options: query
+            query: page.siblings.pluck("scopes", ",", true)
+            required: true
+          tools:
+            label: Tools used
+            type: tags
+            options: query
+            query: page.siblings.pluck("tools", ",", true)
+            required: true
+          startDate:
+            label: Start Date
+            type: date
+            required: true
+          endDate:
+            label: End Date
+            type: date
+          projectType:
+            label: Project Type
+            type: tags
+            options: query
+            query: page.siblings.pluck("projectType", ",", true)
+            required: true
+          teamMembers:
+            label: Team Members
+            type: structure
+            fields:
+              name:
+                label: Name
+                type: text
+                required: true
+          links:
+            label: Links
+            type: structure
+            fields:
+              name:
+                label: Name
+                type: text
+                required: true
+              url:
+                label: URL
+                type: url
+                required: true

@@ -1,0 +1,5 @@
+Title: Projects
+
+----
+
+Featured: projects/optolith, projects/a-light-in-the-dark, projects/maats-prinzip
