@@ -12,7 +12,7 @@
         <a href="<?= $project->url() ?>">
           <?php $cover = $project->cover()->toFile() ?>
           <img src="<?= $cover->url() ?>" alt="<?= $cover->alt() ?>">
-          <h2><?= $project->title()->html() ?></h2>
+          <h3><?= $project->title()->html() ?></h3>
           <ul>
             <?php foreach ($project->scopes()->split() as $scope) : ?>
               <li><?= $scope ?></li>
