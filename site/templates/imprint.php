@@ -26,6 +26,7 @@
         echo $addedSpaces ?>
       </a></dd>
     </dl>
+    <p>This website uses <a href="https://getkirby.com">Kirby</a>.</p>
   </div>
 </section>
 
