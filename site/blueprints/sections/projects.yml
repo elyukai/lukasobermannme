@@ -1,0 +1,8 @@
+type: pages
+headline: Photography
+size: tiny
+template: project
+empty: No projects yet
+image:
+  cover: true
+  ratio: 5/4

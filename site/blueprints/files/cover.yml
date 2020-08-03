@@ -1,0 +1,6 @@
+title: Cover Image
+accept: image/*
+fields:
+  alt:
+    label: Alt Text
+    type: text

@@ -1,0 +1,22 @@
+title: Contact
+
+fields:
+  email:
+    label: E-Mail
+    type: email
+    required: true
+  facebook:
+    label: Facebook
+    type: text
+    icon: facebook
+    required: true
+  twitter:
+    label: Twitter
+    type: text
+    icon: twitter
+    required: true
+  github:
+    label: GitHub
+    type: text
+    icon: github
+    required: true

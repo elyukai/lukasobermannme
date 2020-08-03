@@ -1,0 +1,70 @@
+title: Profile
+
+fields:
+  education:
+    label: Education
+    type: structure
+    fields:
+      startYear:
+        label: Start Year
+        type: number
+        required: true
+      endYear:
+        label: Start Year
+        type: number
+        hint: Leave empty if education did not end yet.
+      summary:
+        label: Summary
+        type: text
+        required: true
+      details:
+        label: Details
+        type: textarea
+        size: small
+      gap:
+        label: Is Education gap?
+        type: toggle
+        text:
+          - Education
+          - Gap
+    required: true
+  languages:
+    label: Languages
+    type: structure
+    fields:
+      language:
+        label: Language name
+        type: text
+        required: true
+      quality:
+        label: Quality
+        type: text
+        required: true
+    required: true
+  skills:
+    label: Skills
+    type: structure
+    fields:
+      category:
+        label: Category
+        type: text
+        required: true
+      skills:
+        label: Individual Skills
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+            required: true
+        required: true
+    required: true
+  interestsHobbies:
+    label: Interests & Hobbies
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+        required: true
+    required: true
