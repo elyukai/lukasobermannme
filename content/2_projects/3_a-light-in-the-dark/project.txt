@@ -20,7 +20,11 @@ Scopes: Game Design, Environment Design, Development
 
 ----
 
-Tools: Unity, C#
+Tools: Unity, Visual Studio Code
+
+----
+
+Technologies: C#, Unity
 
 ----
 

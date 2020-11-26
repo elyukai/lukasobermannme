@@ -2,7 +2,7 @@
 
 <div class="title">
   <div class="wrapper">
-    <h1><?= $page->title()->html() ?></h1>
+    <h1><?= $page->title()->smartypants() ?></h1>
   </div>
 </div>
 <section>

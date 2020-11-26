@@ -20,7 +20,11 @@ Scopes: Project Management, UI Design, UX Design, Frontend Development
 
 ----
 
-Tools: Electron, ReasonML, TypeScript, Adobe XD
+Tools: Adobe XD, Adobe Illustrator, Visual Studio Code
+
+----
+
+Technologies: ReasonML, TypeScript, Electron, Node.js, React, Redux
 
 ----
 

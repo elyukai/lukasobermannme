@@ -1,0 +1,34 @@
+title: Home
+
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      main:
+        type: fields
+        fields:
+          introStart:
+            label: Intro Start
+            type: textarea
+            size: small
+            required: true
+          introEnd:
+            label: Intro End
+            type: textarea
+            size: small
+            required: true
+  side:
+    width: 1/3
+    sections:
+      side:
+        type: fields
+        fields:
+          projectsShowcase:
+            label: Projects to show
+            type: pages
+            min: 3
+            max: 3
+            query: site.find('projects')
+            required: true
+            subpages: false
