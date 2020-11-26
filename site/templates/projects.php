@@ -2,7 +2,7 @@
 
 <div class="title">
   <div class="wrapper">
-    <h1><?= $page->title()->html() ?></h1>
+    <h1><?= $page->title()->smartypants() ?></h1>
   </div>
 </div>
 <section class="projects">
@@ -12,7 +12,7 @@
         <a href="<?= $project->url() ?>">
           <?php $cover = $project->cover()->toFile() ?>
           <img src="<?= $cover->url() ?>" alt="<?= $cover->alt() ?>">
-          <h2><?= $project->title()->html() ?></h2>
+          <h2><?= $project->title()->smartypants() ?></h2>
           <ul>
             <?php foreach ($project->scopes()->split() as $scope) : ?>
               <li><?= $scope ?></li>

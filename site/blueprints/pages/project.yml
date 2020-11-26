@@ -39,7 +39,11 @@ columns:
             type: tags
             options: query
             query: page.siblings.pluck("tools", ",", true)
-            required: true
+          technologies:
+            label: Technologies used
+            type: tags
+            options: query
+            query: page.siblings.pluck("technologies", ",", true)
           startDate:
             label: Start Date
             type: date

@@ -1,1 +1,17 @@
 Title: Home
+
+----
+
+Introstart: Hello, I'm
+
+----
+
+Introend: and I **develop** and **design** software for **web**, **mobile** and **desktop**.
+
+----
+
+Projectsshowcase:
+
+- projects/optolith
+- projects/a-light-in-the-dark
+- projects/maats-prinzip
