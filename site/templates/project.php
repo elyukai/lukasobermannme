@@ -47,7 +47,15 @@
         <?php if ($page->endDate()->isEmpty()) : ?>
           <dd>Since <?= $page->startDate()->toDate('M Y') ?></dd>
         <?php else : ?>
-          <dd><?= $page->startDate()->toDate('M Y') ?>&ndash;<?= $page->endDate()->toDate('M Y') ?></dd>
+          <?php
+          $start = $page->startDate()->toDate('M Y');
+          $end = $page->endDate()->toDate('M Y');
+
+          if ($start == $end) : ?>
+            <dd><?= $start ?></dd>
+          <?php else : ?>
+            <dd><?= $start ?>&ndash;<?= $end ?></dd>
+          <?php endif ?>
         <?php endif ?>
       </div>
       <div>

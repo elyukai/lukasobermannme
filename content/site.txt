@@ -6,7 +6,7 @@ About:
 
 My (real) name is Lukas Obermann and I'm 23 years old. Currently I am a student of Media Informatics (B.Sc.) at Flensburg University of Applied Sciences.
 
-I've been using JavaScript and TypeScript for a few years now and recently started to use ReasonML. I am a big fan of React and related libraries as well as functional programming techniques.
+I've been using JavaScript and TypeScript for a few years now and recently started to use ReasonML and OCaml. I am a big fan of React and related libraries as well as functional programming techniques.
 
 On the design side, I use the Adobe CC software on a regular basis, especially InDesign, Photoshop, Illustrator and XD. I use it for basically all projects you can find on this page – as well as the page itself.
 

@@ -59,6 +59,10 @@ Skills:
     - 
       name: ReasonML
     - 
+      name: OCaml
+    - 
+      name: Kotlin
+    - 
       name: PHP
     - 
       name: Java
@@ -91,10 +95,10 @@ Skills:
 Interestshobbies:
 
 - 
-  name: Functional Programming
-- 
   name: 'Pen-and-paper, especially *The Dark Eye*'
 - 
   name: Playing the piano
 - 
   name: Digital painting
+- 
+  name: Functional Programming

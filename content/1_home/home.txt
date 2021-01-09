@@ -6,12 +6,12 @@ Introstart: Hello, I'm
 
 ----
 
-Introend: and I **develop** and **design** software for **web**, **mobile** and **desktop**.
+Introend: and I **develop** and **design** software for **web** and **desktop**.
 
 ----
 
 Projectsshowcase:
 
 - projects/optolith
-- projects/a-light-in-the-dark
+- projects/filmkorte
 - projects/maats-prinzip

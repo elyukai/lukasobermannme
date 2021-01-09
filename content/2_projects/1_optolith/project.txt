@@ -24,7 +24,7 @@ Tools: Adobe XD, Adobe Illustrator, Visual Studio Code
 
 ----
 
-Technologies: ReasonML, TypeScript, Electron, Node.js, React, Redux
+Technologies: ReasonML, OCaml, TypeScript, Electron, Node.js, React, Redux
 
 ----
 

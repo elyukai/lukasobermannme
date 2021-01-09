@@ -2,4 +2,4 @@ Title: Projects
 
 ----
 
-Featured: projects/optolith, projects/a-light-in-the-dark, projects/maats-prinzip
+Featured: projects/optolith, projects/maats-prinzip, projects/filmkorte
