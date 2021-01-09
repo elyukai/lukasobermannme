@@ -323,17 +323,17 @@ div.title--cover {
   margin-top: 3rem;
 }
 
-div.title--cover > .wrapper > img.cover {
+div.title--cover > .wrapper > .cover {
   display: block;
   width: 100%;
   box-shadow: 0 12px 41px var(--black-shadow);
 }
 
-div.title--cover > .wrapper > img.cover + h1 {
+div.title--cover > .wrapper > .cover + h1 {
   margin-top: 1.8rem;
 }
 
-div.title--cover > .wrapper > img.cover + h1::after {
+div.title--cover > .wrapper > .cover + h1::after {
   top: -6.5rem;
 }
 

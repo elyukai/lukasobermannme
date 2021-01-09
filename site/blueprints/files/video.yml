@@ -1,0 +1,16 @@
+title: Cover Image
+accept: video/*
+fields:
+  alt:
+    label: Alt Text
+    type: text
+  thumbnail:
+    label: Thumbnail
+    type: files
+    uploads:
+      template: cover
+    multiple: false
+    layout: cards
+    image:
+      ratio: 16/9
+      cover: true

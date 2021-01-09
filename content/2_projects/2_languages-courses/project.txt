@@ -4,7 +4,7 @@ Title: Languages Courses
 
 Cover:
 
-- anmerkung-2020-07-30-204938.png
+- video.mp4
 
 ----
 
@@ -21,6 +21,10 @@ Scopes: Graphic Design, Motion Graphics
 ----
 
 Tools: Adobe Illustrator, Adobe After Effects
+
+----
+
+Technologies: 
 
 ----
 

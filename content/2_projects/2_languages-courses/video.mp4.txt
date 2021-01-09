@@ -1,0 +1,12 @@
+Alt: Film screenshot
+
+----
+
+Thumbnail:
+
+- >
+  projects/languages-courses/anmerkung-2020-07-30-204938.png
+
+----
+
+Template: video

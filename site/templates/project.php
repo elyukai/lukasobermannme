@@ -2,8 +2,17 @@
 
 <div class="title title--cover">
   <div class="wrapper">
-    <?php $cover = $page->cover()->toFile() ?>
-    <img class="cover" src="<?= $cover->url() ?>" alt="<?= $cover->alt() ?>">
+    <?php
+    $cover = $page->cover()->toFile();
+
+    if ($cover->type() == "video") : ?>
+      <?php $thumbnail = $cover->thumbnail(); ?>
+      <video class="cover" controls poster="<?= $thumbnail != null ? $thumbnail->toFile()->url() : "" ?>">
+        <source src="<?= $cover->url() ?>" type="<?= $cover->mime() ?>">
+      </video>
+    <?php else : ?>
+      <img class="cover" src="<?= $cover->url() ?>" alt="<?= $cover->alt() ?>">
+    <?php endif ?>
     <h1><?= $page->title()->smartypants() ?></h1>
   </div>
 </div>

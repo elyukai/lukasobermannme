@@ -10,7 +10,13 @@
     <?php foreach ($page->children()->listed() as $project) : ?>
       <article>
         <a href="<?= $project->url() ?>">
-          <?php $cover = $project->cover()->toFile() ?>
+          <?php
+          $cover = $project->cover()->toFile();
+
+          if ($cover->type() == "video") {
+            $cover = $cover->thumbnail()->toFile();
+          }
+          ?>
           <img src="<?= $cover->url() ?>" alt="<?= $cover->alt() ?>">
           <h2><?= $project->title()->smartypants() ?></h2>
           <ul>
