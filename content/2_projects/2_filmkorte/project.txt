@@ -13,13 +13,13 @@ Description:
 
 filmkorte started with the *Media Conception* module at FUAS from Sep 2018 to Feb 2019, which aims at creating Corporate Designs. In 2018, we were asked to create a new branding for the *Flensburger Kurzfilmtage e. V.*, which hosts the (link: https://www.flensburger-kurzfilmtage.de/ text: Flensburger Kurzfilmtage) short film event in Flensburg – but since the association has grown over the past 10 years, they needed a branding that clearly tells they are not hosting only the FKFT anymore but other events as well. And this was the main point that should be reflected with the rebranding.
 
-We started by defining their brand's core values and utilizing a brand filter to create a new logo, claim and name: *filmdocks – Heimathafen für Kurzfilme*. We then projected the brand core onto different media: from business cards and flyers to a fully remade website that suits both their needs and the needs of future users.
+We started by defining their brand's core values and utilizing a brand filter to create a new logo, claim and name: *filmdocks – Heimathafen für Kurzfilme*. We then projected the brand core onto different media: from business cards and flyers to a fully remade website that suits both their needs and those of future users.
 
 The management then selected a few rebranding submissions – which we were part of – and then in late 2019 decided that we were the group with a design that fits their vision most. One exception: They felt our name and claim were too locally focused and so we needed to come up with a new name and claim that both fits their vision and the current branding, since they liked the latter one a lot.
 
 Finishing their branding and implementing the actual website was the topic we chose for the *Project* module at FUAS starting Mar 2020. We chose (link: https://getkirby.com/ text: Kirby) as the CMS because we felt it had a great Editor Experience and it's simplicity and customizability fitted simple sites with complex layouts – like our new page – very well.
 
-The project was finished in late 2020 and the new branding is going to launch in early 2021.
+The project was finished in late 2020 and the (link: https://filmkorte.de text: new branding has been launched) on May 1, 2021.
 
 ----
 
@@ -58,4 +58,8 @@ Teammembers:
 
 ----
 
-Links: 
+Links:
+
+- 
+  name: filmkorte Website
+  url: https://filmkorte.de
