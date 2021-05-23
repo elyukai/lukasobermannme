@@ -15,5 +15,12 @@
       </ul>
     </div>
   </footer>
+
+  <?= js([
+    'assets/js/enabled.js',
+    'assets/js/slideshow.js',
+    '@auto',
+  ]) ?>
+
 </body>
 </html>

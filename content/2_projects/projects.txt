@@ -1,5 +1,1 @@
 Title: Projects
-
-----
-
-Featured: projects/optolith, projects/maats-prinzip, projects/filmkorte

@@ -2,4 +2,4 @@ Alt: Optolith interface
 
 ----
 
-Template: cover
+Template: image

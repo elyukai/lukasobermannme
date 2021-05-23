@@ -2,7 +2,7 @@ Title: Digital presence recording UX
 
 ----
 
-Cover:
+Gallery:
 
 - vergleich.png
 
@@ -40,8 +40,8 @@ Projecttype: Commission
 
 ----
 
-Teammembers: 
+Teammembers:
 
 ----
 
-Links: 
+Links:

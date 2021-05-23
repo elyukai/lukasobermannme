@@ -11,7 +11,7 @@
       <article>
         <a href="<?= $project->url() ?>">
           <?php
-          $cover = $project->cover()->toFile();
+          $cover = $project->gallery()->toFile();
 
           if ($cover->type() == "video") {
             $cover = $cover->thumbnail()->toFile();

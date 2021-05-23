@@ -2,7 +2,7 @@ Title: Optolith
 
 ----
 
-Cover:
+Gallery:
 
 - full-page-promo-de.png
 
@@ -32,7 +32,7 @@ Startdate: 2016-09-01
 
 ----
 
-Enddate: 
+Enddate:
 
 ----
 
@@ -42,19 +42,19 @@ Projecttype: Open Source
 
 Teammembers:
 
-- 
+-
   name: Philipp Borucki
-- 
+-
   name: Contributors (see GitHub)
 
 ----
 
 Links:
 
-- 
+-
   name: Website
   url: https://optolith.app
-- 
+-
   name: GitHub Repository
   url: >
     https://github.com/elyukai/optolith-client

@@ -2,4 +2,4 @@ Alt: Game screenshot
 
 ----
 
-Template: cover
+Template: image

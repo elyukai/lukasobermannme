@@ -1,0 +1,23 @@
+{
+  "name": "lukasobermannme",
+  "version": "0.0.1",
+  "description": "This is the repository for my personal website.",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "sass site/css:assets/css --source-map",
+    "css:watch": "sass -w site/css:assets/css --source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elyukai/lukasobermannme.git"
+  },
+  "author": "Lukas Obermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elyukai/lukasobermannme/issues"
+  },
+  "homepage": "https://lukasobermann.me",
+  "dependencies": {
+    "sass": "^1.34.0"
+  }
+}

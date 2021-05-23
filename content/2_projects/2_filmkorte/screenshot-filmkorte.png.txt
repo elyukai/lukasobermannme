@@ -2,4 +2,4 @@ Alt: Screenshot der filmkorte-Website
 
 ----
 
-Template: cover
+Template: image

@@ -7,12 +7,10 @@ columns:
       main:
         type: fields
         fields:
-          cover:
-            label: Cover
+          gallery:
+            label: Gallery
             type: files
-            uploads:
-              template: cover
-            multiple: false
+            uploads: image
             required: true
             layout: cards
             image:
@@ -22,42 +20,54 @@ columns:
             type: textarea
             size: medium
             required: true
-  meta:
-    width: 1/3
-    sections:
-      meta:
+      details:
         type: fields
         fields:
+          projectType:
+            width: 1/2
+            label: Project Type
+            type: tags
+            options: query
+            query: page.siblings.pluck("projectType", ",", true)
+            required: true
           scopes:
+            width: 1/2
             label: Scopes
             type: tags
             options: query
             query: page.siblings.pluck("scopes", ",", true)
             required: true
           tools:
+            width: 1/2
             label: Tools used
             type: tags
             options: query
             query: page.siblings.pluck("tools", ",", true)
           technologies:
+            width: 1/2
             label: Technologies used
             type: tags
             options: query
             query: page.siblings.pluck("technologies", ",", true)
           startDate:
+            width: 1/2
             label: Start Date
             type: date
             required: true
           endDate:
+            width: 1/2
             label: End Date
             type: date
-          projectType:
-            label: Project Type
-            type: tags
-            options: query
-            query: page.siblings.pluck("projectType", ",", true)
-            required: true
+  meta:
+    width: 1/3
+    sections:
+      files:
+        type: files
+      meta:
+        type: fields
+        fields:
           teamMembers:
+            width: 1/2
             label: Team Members
             type: structure
             fields:
@@ -66,6 +76,7 @@ columns:
                 type: text
                 required: true
           links:
+            width: 1/2
             label: Links
             type: structure
             fields:

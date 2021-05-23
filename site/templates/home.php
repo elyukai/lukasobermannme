@@ -19,8 +19,9 @@ snippet("header") ?>
     foreach ($page->projectsShowcase()->toPages() as $project) : ?>
       <article>
         <a href="<?= $project->url() ?>">
-          <?php $cover = $project->cover()->toFile() ?>
-          <img src="<?= $cover->url() ?>" alt="<?= $cover->alt()->smartypants() ?>">
+          <?php if ($cover = $project->gallery()->toFile()) : ?>
+            <img src="<?= $cover->url() ?>" alt="<?= $cover->alt()->smartypants() ?>">
+          <?php endif ?>
           <h3><?= $project->title()->smartypants() ?></h3>
         </a>
       </article>

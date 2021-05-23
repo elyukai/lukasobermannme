@@ -9,7 +9,7 @@
   <title><?= $page->title()->html() ?> | <?= $site->title()->html() ?></title>
   <link rel="stylesheet" href="https://use.typekit.net/dgn5czr.css">
   <link rel="shortcut icon" href="/favicon.png" type="image/png">
-  <?= css(['assets/css/site.20210109.css', '@auto']) ?>
+  <?= css(['assets/css/styles.css', '@auto']) ?>
 </head>
 
 <body class="<?= $page->template()->name() ?>">

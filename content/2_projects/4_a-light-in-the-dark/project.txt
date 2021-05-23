@@ -2,7 +2,7 @@ Title: A Light in the Dark
 
 ----
 
-Cover:
+Gallery:
 
 - screenshot-1.png
 
@@ -40,8 +40,8 @@ Projecttype: University Assignment
 
 ----
 
-Teammembers: 
+Teammembers:
 
 ----
 
-Links: 
+Links:

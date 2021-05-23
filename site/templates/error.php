@@ -14,7 +14,7 @@
     <?php else : ?>
       <p>I don't know what happened...</p>
     <?php endif ?>
-    <a class="back" href="<?= $site->url()->html() ?>">Back to home page</a>
+    <a class="back" href="<?= $site->url() ?>">Back to home page</a>
   </div>
 </section>
 

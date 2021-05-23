@@ -2,7 +2,7 @@ Title: Languages Courses
 
 ----
 
-Cover:
+Gallery:
 
 - video.mp4
 
@@ -24,7 +24,7 @@ Tools: Adobe Illustrator, Adobe After Effects
 
 ----
 
-Technologies: 
+Technologies:
 
 ----
 
@@ -42,9 +42,9 @@ Projecttype: University Assignment
 
 Teammembers:
 
-- 
+-
   name: Thorben Dusenstahl
 
 ----
 
-Links: 
+Links:

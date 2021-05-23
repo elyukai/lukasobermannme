@@ -2,4 +2,4 @@ Alt: Maats Prinzip cards
 
 ----
 
-Template: cover
+Template: image

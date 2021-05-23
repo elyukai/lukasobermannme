@@ -2,7 +2,7 @@ Title: Maats Prinzip
 
 ----
 
-Cover:
+Gallery:
 
 - promo-1.png
 
@@ -40,13 +40,13 @@ Projecttype: University Assignment
 
 Teammembers:
 
-- 
+-
   name: Antonia Bornefeld-Ettmann
-- 
+-
   name: Thorben Dusenstahl
-- 
+-
   name: Leonie König
 
 ----
 
-Links: 
+Links:

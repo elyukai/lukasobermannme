@@ -11,13 +11,3 @@ sections:
     extends: sections/projects
     headline: Published Projects
     status: listed
-
-  featured:
-    type: fields
-    fields:
-      featured:
-        label: Featured Projects
-        type: checkboxes
-        options: query
-        query: page.children.published
-        max: 3

@@ -2,10 +2,9 @@ Title: filmkorte
 
 ----
 
-Cover:
+Gallery:
 
-- >
-  screenshot-2021-01-09-165905-filmkorte.png
+- screenshot-filmkorte.png
 
 ----
 
@@ -20,6 +19,10 @@ The management then selected a few rebranding submissions – which we were part
 Finishing their branding and implementing the actual website was the topic we chose for the *Project* module at FUAS starting Mar 2020. We chose (link: https://getkirby.com/ text: Kirby) as the CMS because we felt it had a great Editor Experience and it's simplicity and customizability fitted simple sites with complex layouts – like our new page – very well.
 
 The project was finished in late 2020 and the (link: https://filmkorte.de text: new branding has been launched) on May 1, 2021.
+
+----
+
+Projecttype: University Assignment
 
 ----
 
@@ -40,10 +43,6 @@ Startdate: 2018-09-01
 ----
 
 Enddate: 2020-10-31
-
-----
-
-Projecttype: University Assignment
 
 ----
 
