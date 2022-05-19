@@ -1,0 +1,35 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run dev server",
+      "type": "shell",
+      "command": "composer start",
+      "isBackground": true,
+      "group": "build",
+      "presentation": {
+        "group": "watch"
+      }
+    },
+    {
+      "label": "watch sass",
+      "type": "shell",
+      "command": "composer css:watch",
+      "isBackground": true,
+      "group": "build",
+      "presentation": {
+        "group": "watch"
+      }
+    },
+    {
+      "label": "watch",
+      "dependsOn": ["run dev server", "watch sass"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

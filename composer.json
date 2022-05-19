@@ -21,6 +21,17 @@
         "php": ">=7.1.0",
         "getkirby/cms": "^3.0"
     },
+    "scripts": {
+      "start": [
+        "Composer\\Config::disableProcessTimeout",
+        "@php -S localhost:8000 kirby/router.php"
+      ],
+      "css:build": "sass site/styles:assets/css",
+      "css:watch": [
+        "Composer\\Config::disableProcessTimeout",
+        "sass -w site/css:assets/css"
+      ]
+    },
     "config": {
         "optimize-autoloader": true,
         "allow-plugins": {
