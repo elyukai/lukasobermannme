@@ -7,6 +7,34 @@
 </div>
 <section>
   <div class="wrapper">
+    <h2>Work Experience</h2>
+    <dl>
+      <?php foreach ($page->workExperience()->toStructure() as $education) : ?>
+        <?php if ($education->endYear()->isEmpty()) : ?>
+          <dt>Since <?= $education->startYear()->toDate('M Y') ?></dt>
+        <?php else : ?>
+          <dt><?= $education->startYear()->toDate('M Y') ?>&ndash;<?= $education->endYear()->toDate('M Y') ?></dt>
+        <?php endif ?>
+        <dd>
+          <p class="summary">
+            <strong><?= $education->role()->smartypants() ?></strong>
+            <?php if ($education->company()->isNotEmpty()) : ?>
+              at <em><?= $education->company()->smartypants() ?></em>
+            <?php endif ?>
+            <?php if ($education->location()->isNotEmpty()) : ?>
+              in <?= $education->location()->smartypants() ?>
+            <?php endif ?>
+          </p>
+          <?php if (!$education->details()->isEmpty()) : ?>
+            <?= $education->details()->kirbytext() ?>
+          <?php endif ?>
+        </dd>
+      <?php endforeach ?>
+    </dl>
+  </div>
+</section>
+<section>
+  <div class="wrapper">
     <h2>Education</h2>
     <dl>
       <?php foreach ($page->education()->toStructure() as $education) : ?>

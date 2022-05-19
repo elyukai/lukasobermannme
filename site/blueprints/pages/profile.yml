@@ -1,6 +1,33 @@
 title: Profile
 
 fields:
+  workExperience:
+    label: Work Experience
+    type: structure
+    fields:
+      startYear:
+        label: Start Year
+        type: date
+        required: true
+      endYear:
+        label: Start Year
+        type: date
+        hint: Leave empty if work did not end yet.
+      role:
+        label: Role
+        type: text
+        required: true
+      company:
+        label: Company
+        type: text
+      location:
+        label: Location
+        type: text
+      details:
+        label: Details
+        type: textarea
+        size: small
+    required: true
   education:
     label: Education
     type: structure
