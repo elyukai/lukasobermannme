@@ -52,6 +52,8 @@ Education:
     **Media Informatics B. Sc.** – Major Film
     
     *Final Grade:* 1,2
+    
+    *Thesis Title:* Visitor guidance systems in the pandemic context of analog open events
   gap: 'false'
 - 
   startyear: 2021
