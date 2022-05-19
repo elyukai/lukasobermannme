@@ -48,17 +48,17 @@ Enddate: 2020-10-31
 
 Teammembers:
 
-- 
+-
   name: Thorben Dusenstahl
-- 
+-
   name: Dorien Grönwald
-- 
+-
   name: Rouven Wurm
 
 ----
 
 Links:
 
-- 
+-
   name: filmkorte Website
   url: https://filmkorte.de

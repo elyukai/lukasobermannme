@@ -4,7 +4,7 @@ Title: Profile
 
 Education:
 
-- 
+-
   startyear: 2007
   endyear: 2016
   summary: >
@@ -12,27 +12,36 @@ Education:
     Eckernförde)
   details: ""
   gap: 'false'
-- 
+-
   startyear: 2016
   endyear: 2017
   summary: 'Work & Travel New Zealand'
   details: ""
   gap: 'true'
-- 
+-
   startyear: 2017
+  endyear: 2021
+  summary: Flensburg University of Applied Sciences
+  details: |
+    **Media Informatics B. Sc.** – Major Film
+
+    *Final Grade:* 1,2
+  gap: 'false'
+-
+  startyear: 2021
   endyear: null
   summary: Flensburg University of Applied Sciences
-  details: '**Media Informatics B.Sc.** – Major Film'
+  details: '**Applied Computer Science (M. Sc.)**'
   gap: 'false'
 
 ----
 
 Languages:
 
-- 
+-
   language: German
   quality: Native Tongue
-- 
+-
   language: English
   quality: Good
 
@@ -40,65 +49,65 @@ Languages:
 
 Skills:
 
-- 
+-
   category: Design
   skills:
-    - 
+    -
       name: UI Design
-    - 
+    -
       name: UX Design
-    - 
+    -
       name: Corporate Design
-- 
+-
   category: Programming Languages
   skills:
-    - 
+    -
       name: JavaScript
-    - 
+    -
       name: TypeScript
-    - 
+    -
       name: ReasonML
-    - 
+    -
       name: OCaml
-    - 
+    -
       name: Kotlin
-    - 
+    -
       name: PHP
-    - 
+    -
       name: Java
-- 
+-
   category: Application Development
   skills:
-    - 
+    -
       name: Electron
-    - 
+    -
       name: Android Native
-- 
+-
   category: Web Development
   skills:
-    - 
+    -
       name: Node.js
-    - 
+    -
       name: React
-    - 
+    -
       name: Redux
-- 
+-
   category: Content Management Systems
   skills:
-    - 
+    -
       name: Kirby
-    - 
+    -
       name: Drupal
 
 ----
 
 Interestshobbies:
 
-- 
+-
   name: 'Pen-and-paper, especially *The Dark Eye*'
-- 
+-
   name: Playing the piano
-- 
+-
   name: Digital painting
-- 
+-
   name: Functional Programming
