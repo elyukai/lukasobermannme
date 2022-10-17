@@ -1,0 +1,59 @@
+Title: FLENSCUP Website
+
+----
+
+Gallery:
+
+- file://14xpYWvVlzqhRUWN
+- file://IU7lT8Iyxabfr2BM
+- file://ujgUImFiHUdi6V6m
+
+----
+
+Description:
+
+FLENSCUP is a project that is fighting disposable cups – especially those that don't make it into trash cans and thus lie around on the streets. It originates in Flensburg, in the very north of Germany, but also spreads into the surrounding districts.
+
+When the team approached me, they already had some promotional material, but a website for bundling all the information and display it in a appealing and helpful way was still missing. So I started by taking their already existing work as a base to expand on and project it onto a dynamic medium.
+
+An essential part of the project was scale and accessibility, so I incorporated a mobile-first and accessibility-focused approach right from the beginning. It also features easy-to-change content, such as new shops automatically appearing on the custom map or if more colors are required.
+
+----
+
+Projecttype: Contract
+
+----
+
+Scopes: Web Design, CMS, SEO
+
+----
+
+Tools: Adobe XD, Adobe Illustrator
+
+----
+
+Technologies: PHP, JavaScript, Kirby CMS
+
+----
+
+Startdate: 2022-04-01
+
+----
+
+Enddate: 2022-07-30
+
+----
+
+Teammembers: 
+
+----
+
+Links:
+
+- 
+  name: Website
+  url: https://flenscup.de
+
+----
+
+Uuid: 1LWmdJLL3ZmhmJEB
