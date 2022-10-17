@@ -2,9 +2,7 @@ Title: Maats Prinzip
 
 ----
 
-Gallery:
-
-- promo-1.png
+Gallery: - file://611ClG9aRV8UCDgt
 
 ----
 
@@ -18,11 +16,19 @@ I was responsible for most of the graphic design, created the base idea for the 
 
 ----
 
+Projecttype: University Assignment
+
+----
+
 Scopes: Game Design, Graphic Design
 
 ----
 
 Tools: Adobe InDesign, Adobe Photoshop, Adobe Illustrator
+
+----
+
+Technologies: 
 
 ----
 
@@ -34,19 +40,19 @@ Enddate: 2018-03-31
 
 ----
 
-Projecttype: University Assignment
-
-----
-
 Teammembers:
 
--
+- 
   name: Antonia Bornefeld-Ettmann
--
+- 
   name: Thorben Dusenstahl
--
+- 
   name: Leonie König
 
 ----
 
-Links:
+Links: 
+
+----
+
+Uuid: YVGmq8GHD3i9T8ul

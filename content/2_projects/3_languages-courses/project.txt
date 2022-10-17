@@ -2,9 +2,7 @@ Title: Languages Courses
 
 ----
 
-Gallery:
-
-- video.mp4
+Gallery: - file://0u9ur6TSomlyUozL
 
 ----
 
@@ -16,6 +14,10 @@ I was responsible for most of the graphic design as well as parts of the story a
 
 ----
 
+Projecttype: University Assignment
+
+----
+
 Scopes: Graphic Design, Motion Graphics
 
 ----
@@ -24,7 +26,7 @@ Tools: Adobe Illustrator, Adobe After Effects
 
 ----
 
-Technologies:
+Technologies: 
 
 ----
 
@@ -36,15 +38,15 @@ Enddate: 2020-03-31
 
 ----
 
-Projecttype: University Assignment
-
-----
-
 Teammembers:
 
--
+- 
   name: Thorben Dusenstahl
 
 ----
 
-Links:
+Links: 
+
+----
+
+Uuid: SY2tpvTeJq61Rq3M

@@ -10,3 +10,7 @@ Thumbnail:
 ----
 
 Template: video
+
+----
+
+Uuid: 0u9ur6TSomlyUozL

@@ -12,6 +12,10 @@ Introend: and I **develop** and **design** software for **web** and **desktop**.
 
 Projectsshowcase:
 
-- projects/optolith
-- projects/filmkorte
-- projects/maats-prinzip
+- page://sre1BDGPHRQ7I3Cp
+- page://eHsCctmYiDjcKa2j
+- page://YVGmq8GHD3i9T8ul
+
+----
+
+Uuid: h3yAzQVZG14yciCU

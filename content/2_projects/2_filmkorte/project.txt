@@ -2,9 +2,7 @@ Title: filmkorte
 
 ----
 
-Gallery:
-
-- screenshot-filmkorte.png
+Gallery: - file://FQ2bYVjGESybxjR0
 
 ----
 
@@ -48,17 +46,21 @@ Enddate: 2020-10-31
 
 Teammembers:
 
--
+- 
   name: Thorben Dusenstahl
--
+- 
   name: Dorien Grönwald
--
+- 
   name: Rouven Wurm
 
 ----
 
 Links:
 
--
+- 
   name: filmkorte Website
   url: https://filmkorte.de
+
+----
+
+Uuid: eHsCctmYiDjcKa2j

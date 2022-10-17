@@ -2,9 +2,7 @@ Title: Digital presence recording UX
 
 ----
 
-Gallery:
-
-- vergleich.png
+Gallery: - file://mjkVH25rGIYqgABW
 
 ----
 
@@ -13,6 +11,10 @@ Description:
 In early December 2020, I was asked to improve the UI/UX of the current screens used to record present staff and guests in buildings of Flensburg University of Applied Sciences. I aligned the different screens with the corporate design and modified the overall design to be touch-friendly. I also added a home button to every page to be able to recover faster after a failure of the system, where the user had to wait up to 10 seconds before it refreshed the screen. Using proper input types made typing the personal numbers way easier.
 
 In consultation with (link: https://hs-flensburg.de/hochschule/personen/zimmermann text: Uwe Zimmermann), who initiated the UI/UX improvement project, I submitted the proposed changes, which were then deployed in late December, shortly after lauching the original digital recording system.
+
+----
+
+Projecttype: Commission
 
 ----
 
@@ -36,12 +38,12 @@ Enddate: 2020-12-17
 
 ----
 
-Projecttype: Commission
+Teammembers: 
 
 ----
 
-Teammembers:
+Links: 
 
 ----
 
-Links:
+Uuid: KjEcpiRjN5QXSeOJ
