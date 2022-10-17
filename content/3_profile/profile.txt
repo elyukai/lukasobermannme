@@ -4,14 +4,14 @@ Title: Profile
 
 Workexperience:
 
--
+- 
   startyear: 2021-04-01
   endyear: 2021-06-30
   role: Intership
   company: Chainsulting
   location: Flensburg
   details: '*Main Topics:* Decentralized Web Apps, Mobile Apps with React Native'
--
+- 
   startyear: 2022-01-01
   endyear: ""
   role: Freelance Media IT Specialist
@@ -23,7 +23,7 @@ Workexperience:
 
 Education:
 
--
+- 
   startyear: 2007
   endyear: 2016
   summary: >
@@ -31,24 +31,24 @@ Education:
     Eckernförde)
   details: ""
   gap: 'false'
--
+- 
   startyear: 2016
   endyear: 2017
   summary: 'Work & Travel New Zealand'
   details: ""
   gap: 'true'
--
+- 
   startyear: 2017
   endyear: 2021
   summary: Flensburg University of Applied Sciences
   details: |
     **Media Informatics B. Sc.** – Major Film
-
+    
     *Final Grade:* 1,2
-
+    
     *Thesis Title:* Visitor guidance systems in the pandemic context of analog open events
   gap: 'false'
--
+- 
   startyear: 2021
   endyear: null
   summary: Flensburg University of Applied Sciences
@@ -59,10 +59,10 @@ Education:
 
 Languages:
 
--
+- 
   language: German
   quality: Native Tongue
--
+- 
   language: English
   quality: Good
 
@@ -70,67 +70,71 @@ Languages:
 
 Skills:
 
--
+- 
   category: Design
   skills:
-    -
+    - 
       name: UI Design
-    -
+    - 
       name: UX Design
-    -
+    - 
       name: Corporate Design
--
+- 
   category: Programming Languages
   skills:
-    -
+    - 
       name: JavaScript
-    -
+    - 
       name: TypeScript
-    -
+    - 
       name: ReasonML
-    -
+    - 
       name: OCaml
-    -
+    - 
+      name: Swift
+    - 
       name: Kotlin
-    -
+    - 
       name: PHP
-    -
+    - 
       name: Java
--
+- 
   category: Application Development
   skills:
-    -
+    - 
       name: Electron
-    -
+    - 
+      name: Swift with SwiftUI (Apple)
+    - 
       name: Android Native
--
+- 
   category: Web Development
   skills:
-    -
+    - 
       name: Node.js
-    -
+    - 
       name: React
-    -
+    - 
       name: Redux
--
+- 
   category: Content Management Systems
   skills:
-    -
+    - 
       name: Kirby
-    -
+    - 
       name: Drupal
 
 ----
 
 Interestshobbies:
 
--
+- 
   name: 'Pen-and-paper, especially *The Dark Eye*'
--
+- 
   name: Playing the piano
--
+- 
   name: Digital painting
--
+- 
   name: Functional Programming
 
 ----
