@@ -14,9 +14,9 @@ Description:
 
 FLENSCUP is a project that is fighting disposable cups – especially those that don't make it into trash cans and thus lie around on the streets. It originates in Flensburg, in the very north of Germany, but also spreads into the surrounding districts.
 
-When the team approached me, they already had some promotional material, but a website for bundling all the information and display it in a appealing and helpful way was still missing. So I started by taking their already existing work as a base to expand on and project it onto a dynamic medium.
+When the team approached me, they already had some promotional material, but a website for bundling all the information and display it in a appealing and helpful way was still missing. So I started by taking their already existing design as a base to expand on and project it onto a dynamic medium. I was not only responsible for the design and concrete structure of the website, but also for the implementation using Kirby as the CMS. Doing both design and development allowed me to already think of possible development hurdles during the design process, how to address them as well as if and how ideas are translatable into code.
 
-An essential part of the project was scale and accessibility, so I incorporated a mobile-first and accessibility-focused approach right from the beginning. It also features easy-to-change content, such as new shops automatically appearing on the custom map or if more colors are required.
+An essential part of the project was scale and accessibility, so I incorporated a mobile-first and accessibility-focused approach right from the beginning. It also features easy-to-change content, such as new shops automatically appearing on the custom map or if more colors are required, so that maintenance is possible in the most easy way.
 
 ----
 
