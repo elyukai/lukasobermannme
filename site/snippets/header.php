@@ -2,10 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Lukas Obermann">
-  <meta name="description" content="The personal website for Lukas Obermann, showcasing previous and current projects as well as being a digital CV.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php snippet("seo") ?>
   <title><?= $page->title()->html() ?> | <?= $site->title()->html() ?></title>
   <link rel="stylesheet" href="https://use.typekit.net/dgn5czr.css">
   <link rel="shortcut icon" href="/favicon.png" type="image/png">

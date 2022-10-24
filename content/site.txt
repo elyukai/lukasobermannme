@@ -15,3 +15,11 @@ When I'm not working, I really enjoy playing pen-and-paper games and playing the
 ----
 
 Copy: © Lukas Obermann 2020–present
+
+----
+
+Metaauthor: Lukas Obermann
+
+----
+
+Metadescription: The personal website for Lukas Obermann, showcasing previous and current projects as well as being a digital CV.

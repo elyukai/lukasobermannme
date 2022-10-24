@@ -1,31 +1,55 @@
-title: Site
-
-columns:
-  main:
-    width: 2/3
-    sections:
-      drafts:
-        type: pages
-        headline: Drafts
-        status: draft
-      unlisted:
-        type: pages
-        headline: Unlisted
-        status: unlisted
-      listed:
-        type: pages
-        headline: Listed
-        status: listed
-  about:
-    width: 1/3
-    sections:
+tabs:
+  content:
+    label: Inhalt
+    icon: text
+    columns:
+      main:
+        width: 2/3
+        sections:
+          drafts:
+            type: pages
+            headline: Drafts
+            status: draft
+          unlisted:
+            type: pages
+            headline: Unlisted
+            status: unlisted
+          listed:
+            type: pages
+            headline: Listed
+            status: listed
       about:
-        type: fields
-        fields:
+        width: 1/3
+        sections:
           about:
-            type: textarea
-            size: medium
-            required: true
-          copy:
-            type: text
-            required: true
+            type: fields
+            fields:
+              about:
+                type: textarea
+                size: medium
+                required: true
+              copy:
+                type: text
+                required: true
+  seo:
+    label: SEO
+    icon: search
+    fields:
+      metaHeadline:
+        type: headline
+        label: Meta-Informationen
+      metaAuthor:
+        type: text
+        label: Autor:in
+        minlength: 1
+        maxlength: 160
+        help: Autor:in der Seite
+      metaDescription:
+        type: textarea
+        size: short
+        label: Beschreibung
+        minlength: 3
+        maxlength: 160
+        buttons: false
+        uploads: false
+        help: Dieser Text wird z. B. in einem Suchmaschinenergebnis als beschreibender Text unter dem Seitentitel angezeigt.
