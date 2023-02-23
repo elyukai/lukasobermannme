@@ -7,7 +7,7 @@ Workexperience:
 - 
   startyear: 2021-04-01
   endyear: 2021-06-30
-  role: Intership
+  role: Internship
   company: Chainsulting
   location: Flensburg
   details: '*Main Topics:* Decentralized Web Apps, Mobile Apps with React Native'

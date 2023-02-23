@@ -4,7 +4,7 @@ Title: elyukai
 
 About:
 
-My (real) name is Lukas Obermann and I'm 24 years old. Currently I am a student of Applied Computer Science (M. Sc.) at Flensburg University of Applied Sciences and I've done my B. Sc. in Media Informatics at the same university.
+My (real) name is Lukas Obermann and I'm 25 years old. Currently I am a student of Applied Computer Science (M. Sc.) at Flensburg University of Applied Sciences and I've done my B. Sc. in Media Informatics at the same university.
 
 I've been using JavaScript and TypeScript for a few years now and recently started to use ReasonML and OCaml. I am a big fan of React and related libraries as well as functional programming techniques. When searching for a backend solution for web projects, I enjoy using Kirby CMS, since it’s very flexible and can adapt to (almost) all needs.
 
