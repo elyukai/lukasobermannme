@@ -1,0 +1,239 @@
+Title: Profil
+
+----
+
+Slug: profil
+
+----
+
+Workexperience:
+
+- 
+  startyear: 2021
+  startmonth: 4
+  startday: ""
+  endyear: 2021
+  endmonth: 6
+  endday: ""
+  title: 'Praktikum bei *Chainsulting*'
+  details:
+    - 
+      label: Ort
+      contents:
+        - 
+          content: Flensburg
+      content: [ ]
+    - 
+      label: Hauptthemen
+      contents:
+        - 
+          content: Decentralized Web Apps
+        - 
+          content: Mobile Apps mit React Native
+      content: [ ]
+- 
+  startyear: 2022
+  startmonth: ""
+  startday: ""
+  endyear: ""
+  endmonth: ""
+  endday: ""
+  title: Freiberuflicher Medieninformatiker
+  details: [ ]
+
+----
+
+Education:
+
+- 
+  startyear: 2007
+  startmonth: ""
+  startday: ""
+  endyear: 2016
+  endmonth: ""
+  endday: ""
+  title: Weiterführende Schule
+  details:
+    - 
+      label: Schule
+      contents:
+        - 
+          content: Gymnasium Jungmannschule Eckernförde
+  gap: 'false'
+- 
+  startyear: 2016
+  startmonth: 11
+  startday: ""
+  endyear: 2017
+  endmonth: 5
+  endday: ""
+  title: 'Work & Travel Neuseeland'
+  details: [ ]
+  gap: 'true'
+- 
+  startyear: 2017
+  startmonth: 9
+  startday: ""
+  endyear: 2021
+  endmonth: 2
+  endday: ""
+  title: Medieninformatik, B. Sc.
+  details:
+    - 
+      label: Hochschule
+      contents:
+        - 
+          content: Hochschule Flensburg
+    - 
+      label: Schwerpunkt
+      contents:
+        - 
+          content: Film
+    - 
+      label: Abschlussnote
+      contents:
+        - 
+          content: 1,2
+    - 
+      label: Thesistitel
+      contents:
+        - 
+          content: >
+            Besucherleitsysteme im pandemischen
+            Kontext analoger offener Veranstaltungen
+  gap: 'false'
+- 
+  startyear: 2021
+  startmonth: 9
+  startday: ""
+  endyear: ""
+  endmonth: ""
+  endday: ""
+  title: Angewandte Informatik, M. Sc.
+  details:
+    - 
+      label: Hochschule
+      contents:
+        - 
+          content: Hochschule Flensburg
+    - 
+      label: Schwerpunkt
+      contents:
+        - 
+          content: Mobile Computing
+  gap: 'false'
+
+----
+
+Languages:
+
+- 
+  language: German
+  quality: c2
+  isnativespeaker: 'true'
+- 
+  language: English
+  quality: b2
+  isnativespeaker: 'false'
+
+----
+
+Skills:
+
+- 
+  category: Design
+  skills:
+    - 
+      name: Web Design
+      proficiency: proficient
+    - 
+      name: User Interface Design
+      proficiency: proficient
+    - 
+      name: User Experience Design
+      proficiency: proficient
+    - 
+      name: Corporate Design
+      proficiency: intermediate
+- 
+  category: Programmiersprachen
+  skills:
+    - 
+      name: JavaScript
+      proficiency: advanced
+    - 
+      name: TypeScript
+      proficiency: advanced
+    - 
+      name: ReasonML
+      proficiency: proficient
+    - 
+      name: ReScript
+      proficiency: proficient
+    - 
+      name: OCaml
+      proficiency: proficient
+    - 
+      name: Swift
+      proficiency: intermediate
+    - 
+      name: Kotlin
+      proficiency: intermediate
+    - 
+      name: PHP
+      proficiency: intermediate
+    - 
+      name: Elixir
+      proficiency: intermediate
+    - 
+      name: Java
+      proficiency: beginner
+    - 
+      name: 'C#'
+      proficiency: beginner
+- 
+  category: Anwendungsentwicklung
+  skills:
+    - 
+      name: Electron
+      proficiency: advanced
+    - 
+      name: Swift with SwiftUI (Apple)
+      proficiency: intermediate
+    - 
+      name: Android Native
+      proficiency: intermediate
+- 
+  category: Webentwicklung
+  skills:
+    - 
+      name: Node.js
+      proficiency: proficient
+    - 
+      name: React
+      proficiency: advanced
+    - 
+      name: Redux
+      proficiency: advanced
+- 
+  category: Content-Management-Systeme
+  skills:
+    - 
+      name: Kirby
+      proficiency: proficient
+    - 
+      name: Drupal
+      proficiency: beginner
+
+----
+
+Interestshobbies:
+
+- 
+  name: 'Pen-and-paper, besonders *Das Schwarze Auge*'
+- 
+  name: Klavier spielen
+- 
+  name: Digitales Zeichnen
+- 
+  name: Funktionale Programmierung

@@ -1,83 +1,193 @@
 title: Profile
 
-fields:
-  workExperience:
-    label: Work Experience
-    type: structure
+tabs:
+  content:
+    label: Content
+    icon: text
     fields:
-      startYear:
-        label: Start Year
-        type: date
+      workExperience:
+        label: Work Experience
+        type: structure
+        fields:
+          startYear:
+            width: 1/3
+            label: Start Year
+            type: number
+            min: 1970
+            required: true
+          startMonth:
+            width: 1/3
+            label: Start Month
+            type: number
+            min: 1
+            max: 12
+          startDay:
+            width: 1/3
+            label: Start Day
+            type: number
+            min: 1
+            max: 31
+          endYear:
+            width: 1/3
+            label: End Year
+            type: number
+            min: 1970
+          endMonth:
+            width: 1/3
+            label: End Month
+            type: number
+            min: 1
+            max: 12
+          endDay:
+            width: 1/3
+            label: End Day
+            type: number
+            min: 1
+            max: 31
+          title:
+            label: Title
+            type: text
+            required: true
+          details:
+            label: Details
+            type: structure
+            fields:
+              label:
+                label: Label
+                type: text
+                required: true
+              contents:
+                label: Details
+                type: structure
+                fields:
+                  content:
+                    label: Details
+                    type: textarea
+                    size: small
+                required: true
         required: true
-      endYear:
-        label: Start Year
-        type: date
-        hint: Leave empty if work did not end yet.
-      role:
-        label: Role
-        type: text
+      education:
+        label: Education
+        type: structure
+        fields:
+          startYear:
+            width: 1/3
+            label: Start Year
+            type: number
+            min: 1970
+            required: true
+          startMonth:
+            width: 1/3
+            label: Start Month
+            type: number
+            min: 1
+            max: 12
+          startDay:
+            width: 1/3
+            label: Start Day
+            type: number
+            min: 1
+            max: 31
+          endYear:
+            width: 1/3
+            label: End Year
+            type: number
+            min: 1970
+          endMonth:
+            width: 1/3
+            label: End Month
+            type: number
+            min: 1
+            max: 12
+          endDay:
+            width: 1/3
+            label: End Day
+            type: number
+            min: 1
+            max: 31
+          title:
+            label: Title
+            type: text
+            required: true
+          details:
+            label: Details
+            type: structure
+            fields:
+              label:
+                label: Label
+                type: text
+                required: true
+              contents:
+                label: Details
+                type: structure
+                fields:
+                  content:
+                    label: Details
+                    type: textarea
+                    size: small
+                required: true
+          gap:
+            label: Is Education gap?
+            type: toggle
+            text:
+              - Education
+              - Gap
         required: true
-      company:
-        label: Company
-        type: text
-      location:
-        label: Location
-        type: text
-      details:
-        label: Details
-        type: textarea
-        size: small
-    required: true
-  education:
-    label: Education
-    type: structure
-    fields:
-      startYear:
-        label: Start Year
-        type: number
-        required: true
-      endYear:
-        label: Start Year
-        type: number
-        hint: Leave empty if education did not end yet.
-      summary:
-        label: Summary
-        type: text
-        required: true
-      details:
-        label: Details
-        type: textarea
-        size: small
-      gap:
-        label: Is Education gap?
-        type: toggle
-        text:
-          - Education
-          - Gap
-    required: true
-  languages:
-    label: Languages
-    type: structure
-    fields:
-      language:
-        label: Language name
-        type: text
-        required: true
-      quality:
-        label: Quality
-        type: text
-        required: true
-    required: true
-  skills:
-    label: Skills
-    type: structure
-    fields:
-      category:
-        label: Category
-        type: text
+      languages:
+        label: Languages
+        type: structure
+        fields:
+          language:
+            label: Language name
+            type: text
+            required: true
+          quality:
+            label: Quality
+            type: select
+            options:
+              a1: A1
+              a2: A2
+              b1: B1
+              b2: B2
+              c1: C1
+              c2: C2
+            required: true
+          isNativeSpeaker:
+            label: Is native speaker?
+            type: toggle
+            text:
+              - 'No'
+              - 'Yes'
         required: true
       skills:
-        label: Individual Skills
+        label: Skills
+        type: structure
+        fields:
+          category:
+            label: Category
+            type: text
+            required: true
+          skills:
+            label: Individual Skills
+            type: structure
+            fields:
+              name:
+                label: Name
+                type: text
+                required: true
+              proficiency:
+                label: Proficiency
+                type: select
+                options:
+                  beginner: Beginner
+                  intermediate: Intermediate
+                  proficient: Proficient
+                  advanced: Advanced
+                required: true
+            required: true
+        required: true
+      interestsHobbies:
+        label: Interests & Hobbies
         type: structure
         fields:
           name:
@@ -85,13 +195,4 @@ fields:
             type: text
             required: true
         required: true
-    required: true
-  interestsHobbies:
-    label: Interests & Hobbies
-    type: structure
-    fields:
-      name:
-        label: Name
-        type: text
-        required: true
-    required: true
+  seo: seo/page

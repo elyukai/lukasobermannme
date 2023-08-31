@@ -48,4 +48,5 @@ node_modules
 # ---------------
 /kirby
 /site/plugins/*
+!/site/plugins/local
 /vendor

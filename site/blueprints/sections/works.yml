@@ -1,0 +1,7 @@
+type: pages
+size: tiny
+template: work
+empty: No works yet
+image:
+  cover: true
+  ratio: 5/4

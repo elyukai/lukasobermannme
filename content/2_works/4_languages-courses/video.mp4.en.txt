@@ -1,0 +1,13 @@
+Alt: Film screenshot
+
+----
+
+Thumbnail: - file://Lvr3PoHWOjk2TRWk
+
+----
+
+Template: video
+
+----
+
+Uuid: 0u9ur6TSomlyUozL

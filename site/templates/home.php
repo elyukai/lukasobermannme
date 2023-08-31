@@ -1,35 +1,36 @@
-<?php
+<?php use Kirby\Cms\Page; ?>
+<?php snippet('layout', slots: true) ?>
 
-use Kirby\Cms\Page;
+<h1 class="sr-only"><?= $page->title()->html() ?></h1>
 
-snippet("header") ?>
+<p class="intro scaled"><?= $page->intro()->html() ?></p>
 
-<div class="title">
-  <div class="wrapper">
-    <span><?= $page->introStart()->kirbytextinline() ?></span>
-    <h1><?= $site->title()->smartypants() ?></h1>
-    <span><?= $page->introEnd()->kirbytextinline() ?></span>
-  </div>
-</div>
-<section class="projects">
-  <div class="wrapper">
-    <?php $projects = $site->children()->find('projects'); ?>
-    <h2><?php echo $projects->title()->smartypants() ?></h2>
+<section class="works">
+  <h2><?= t('Selected Work') ?></h2>
+  <div class="grid">
     <?php
-    foreach ($page->projectsShowcase()->toPages() as $project) : ?>
-      <article>
-        <a href="<?= $project->url() ?>">
-          <?php if ($cover = $project->gallery()->toFile()) : ?>
-            <img src="<?= $cover->url() ?>" alt="<?= $cover->alt()->smartypants() ?>">
+    foreach ($page->selectedWork()->toPages() as $work) : ?>
+      <article class="work">
+        <a href="<?= $work->url() ?>">
+          <?php if ($cover = $work->gallery()->toFile()) : ?>
+            <img src="<?= $cover->url() ?>" alt="<?= $cover->alt()->html() ?>" aria-hidden="true">
           <?php endif ?>
-          <h3><?= $project->title()->smartypants() ?></h3>
+          <h3 class="title"><?= $work->title()->html() ?></h3>
+          <span class="areas"><?= $work->scopes()->html() ?></span><!--
+       --><span class="arrow" aria-hidden="true">&nbsp;→</span>
         </a>
       </article>
     <?php endforeach ?>
-    <a class="all-projects" href="<?= $projects->url() ?>">All projects</a>
   </div>
+  <a href="<?= $page->selectedWork()->toPage()?->parent()->url() ?>" class="more"><span class="arrow" aria-hidden="true">→ </span><?= t('View all works') ?></a>
 </section>
 
-<?php snippet("aboutme") ?>
+<p class="intro scaled"><?= $page->contactHook()->html() ?> →&nbsp;<a class="contact" href="mailto:lukas@lukasobermann.me">Mail</a> →&nbsp;<a class="contact" href="https://twitter.com/@elyukai" target="_blank" rel="noopener noreferrer">Twitter</a> →&nbsp;<a class="contact" href="https://mastodon.social/@elyukai" target="_blank" rel="noopener noreferrer">Mastodon</a> →&nbsp;<a class="contact" href="https://github.com/elyukai" target="_blank" rel="noopener noreferrer">GitHub</a></p>
 
-<?php snippet("footer") ?>
+<section class="aboutme">
+  <h2><?= t('About Me') ?></h2>
+  <div class="scaled--small">
+    <?= $page->aboutMe()->kirbytext() ?>
+  </div>
+  <a href="<?= $site->find("page://jLnMUVj7Z35jOjEk")?->url() ?>" class="more"><span class="arrow" aria-hidden="true">→ </span><?= t('View my profile/CV') ?></a>
+</section>

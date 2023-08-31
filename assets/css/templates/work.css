@@ -1,0 +1,56 @@
+figure#slideshow {
+  margin: var(--padding-scaled) 0;
+  position: relative;
+  max-width: 66rem;
+}
+figure#slideshow img {
+  display: block;
+  width: 100%;
+  outline: 0.5px solid var(--color-text-20);
+}
+
+div.work-information {
+  display: grid;
+  max-width: none;
+  gap: var(--padding-scaled);
+}
+@media (min-width: 1550px) {
+  div.work-information {
+    grid-template-columns: 33em 1fr;
+  }
+}
+div.work-information > section {
+  margin: 0;
+}
+
+section.description p:first-of-type {
+  margin-top: 0;
+}
+
+section.key-data {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: var(--padding-scaled) 0;
+}
+@media (min-width: 1500px) {
+  section.key-data dl {
+    margin: 0.5em 0 0;
+  }
+}
+section.key-data dl div:not(:first-child) {
+  margin-top: 0.5em;
+}
+section.key-data dl dt {
+  font-weight: 600;
+  display: block;
+  margin: 0;
+}
+section.key-data dl dd {
+  display: inline;
+  margin: 0;
+}
+section.key-data dl dd:not(:last-child)::after {
+  content: ", ";
+}
+
+/*# sourceMappingURL=work.css.map */

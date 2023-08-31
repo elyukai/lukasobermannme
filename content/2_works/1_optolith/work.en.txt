@@ -1,0 +1,78 @@
+Title: Optolith
+
+----
+
+Gallery: - file://cDEyj8I0cHZdGAYH
+
+----
+
+Description:
+
+Optolith is a project I started 2016. It is a character creation and management software for the pen-and-paper game *The Dark Eye* from Ulisses Spiele (*Das Schwarze Auge* in German). If you know pen-and-paper games, you probably know you usually need to do a lot of calculations. Optolith solves that issue. It's primary target are beginners, who want to be guided so they don't need to keep track of all the dependencies and costs.
+
+I'm still the main contributor to Optolith, although there are a few other contributors due to the project being available on GitHub as Open Source. I develop the core and design and implement UI and UX concepts and improvements.
+
+----
+
+Projecttype: Open Source
+
+----
+
+Scopes: Project Management, UI Design, UX Design, Frontend Development
+
+----
+
+Tools: Adobe XD, Adobe Illustrator, Visual Studio Code
+
+----
+
+Technologies: ReasonML, OCaml, TypeScript, Electron, Node.js, React, Redux
+
+----
+
+Startyear: 2016
+
+----
+
+Startmonth: 9
+
+----
+
+Startday:
+
+----
+
+Endyear:
+
+----
+
+Endmonth:
+
+----
+
+Endday:
+
+----
+
+Teammembers:
+
+-
+  name: Philipp Borucki
+-
+  name: Contributors (see GitHub)
+
+----
+
+Links:
+
+-
+  name: Website
+  url: https://optolith.app
+-
+  name: GitHub Repository
+  url: >
+    https://github.com/elyukai/optolith-client
+
+----
+
+Uuid: sre1BDGPHRQ7I3Cp
