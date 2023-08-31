@@ -14,6 +14,11 @@ return [
     'do.guillemets' => 1,
     'do.space.endash' => 2
   ],
+  'languages' => true,
+  'smartypants' => true,
+  'date'  => [
+    'handler' => 'intl'
+  ],
   'routes' => [
     [
       'pattern' => 'sitemap.xml',
@@ -36,5 +41,10 @@ return [
         return go('sitemap.xml', 301);
       }
     ]
-  ]
+  ],
+  'tobimori.seo' => [
+    'robots' => [
+      'sitemap' => 'https://lukasobermann.me/sitemap.xml',
+    ]
+  ],
 ];

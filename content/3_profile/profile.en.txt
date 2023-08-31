@@ -1,0 +1,239 @@
+Title: Profile
+
+----
+
+Workexperience:
+
+- 
+  startyear: 2021
+  startmonth: 4
+  startday: ""
+  endyear: 2021
+  endmonth: 6
+  endday: ""
+  title: 'Internship at *Chainsulting*'
+  details:
+    - 
+      label: Location
+      contents:
+        - 
+          content: Flensburg
+      content: [ ]
+    - 
+      label: Main Topics
+      contents:
+        - 
+          content: Decentralized Web Apps
+        - 
+          content: Mobile Apps with React Native
+      content: [ ]
+- 
+  startyear: 2022
+  startmonth: ""
+  startday: ""
+  endyear: ""
+  endmonth: ""
+  endday: ""
+  title: Freelance Media IT Specialist
+  details: [ ]
+
+----
+
+Education:
+
+- 
+  startyear: 2007
+  startmonth: ""
+  startday: ""
+  endyear: 2016
+  endmonth: ""
+  endday: ""
+  title: High School
+  details:
+    - 
+      label: School
+      contents:
+        - 
+          content: Gymnasium Jungmannschule Eckernförde
+  gap: 'false'
+- 
+  startyear: 2016
+  startmonth: 11
+  startday: ""
+  endyear: 2017
+  endmonth: 5
+  endday: ""
+  title: 'Work & Travel New Zealand'
+  details: [ ]
+  gap: 'true'
+- 
+  startyear: 2017
+  startmonth: 9
+  startday: ""
+  endyear: 2021
+  endmonth: 2
+  endday: ""
+  title: Media Informatics, B. Sc.
+  details:
+    - 
+      label: University
+      contents:
+        - 
+          content: Flensburg University of Applied Sciences
+    - 
+      label: Major
+      contents:
+        - 
+          content: Film
+    - 
+      label: Final Grade
+      contents:
+        - 
+          content: "1.2"
+    - 
+      label: Thesis Title
+      contents:
+        - 
+          content: >
+            Visitor guidance systems in a pandemic
+            context of analog open events
+  gap: 'false'
+- 
+  startyear: 2021
+  startmonth: 9
+  startday: ""
+  endyear: ""
+  endmonth: ""
+  endday: ""
+  title: Applied Computer Science, M. Sc.
+  details:
+    - 
+      label: University
+      contents:
+        - 
+          content: Flensburg University of Applied Sciences
+    - 
+      label: Major
+      contents:
+        - 
+          content: Mobile Computing
+  gap: 'false'
+
+----
+
+Languages:
+
+- 
+  language: German
+  quality: c2
+  isnativespeaker: 'true'
+- 
+  language: English
+  quality: b2
+  isnativespeaker: 'false'
+
+----
+
+Skills:
+
+- 
+  category: Design
+  skills:
+    - 
+      name: Web Design
+      proficiency: proficient
+    - 
+      name: User Interface Design
+      proficiency: proficient
+    - 
+      name: User Experience Design
+      proficiency: proficient
+    - 
+      name: Corporate Design
+      proficiency: intermediate
+- 
+  category: Programming Languages
+  skills:
+    - 
+      name: JavaScript
+      proficiency: advanced
+    - 
+      name: TypeScript
+      proficiency: advanced
+    - 
+      name: ReasonML
+      proficiency: proficient
+    - 
+      name: ReScript
+      proficiency: proficient
+    - 
+      name: OCaml
+      proficiency: proficient
+    - 
+      name: Swift
+      proficiency: intermediate
+    - 
+      name: Kotlin
+      proficiency: intermediate
+    - 
+      name: PHP
+      proficiency: intermediate
+    - 
+      name: Elixir
+      proficiency: intermediate
+    - 
+      name: Java
+      proficiency: beginner
+    - 
+      name: 'C#'
+      proficiency: beginner
+- 
+  category: Application Development
+  skills:
+    - 
+      name: Electron
+      proficiency: advanced
+    - 
+      name: Swift with SwiftUI (Apple)
+      proficiency: intermediate
+    - 
+      name: Android Native
+      proficiency: intermediate
+- 
+  category: Web Development
+  skills:
+    - 
+      name: Node.js
+      proficiency: proficient
+    - 
+      name: React
+      proficiency: advanced
+    - 
+      name: Redux
+      proficiency: advanced
+- 
+  category: Content Management Systems
+  skills:
+    - 
+      name: Kirby
+      proficiency: proficient
+    - 
+      name: Drupal
+      proficiency: beginner
+
+----
+
+Interestshobbies:
+
+- 
+  name: 'Pen-and-paper, especially *The Dark Eye*'
+- 
+  name: Playing the piano
+- 
+  name: Digital painting
+- 
+  name: Functional Programming
+
+----
+
+Uuid: jLnMUVj7Z35jOjEk

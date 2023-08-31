@@ -1,0 +1,33 @@
+Title: Home
+
+----
+
+Intro: Hi, I’m Lukas, a freelance designer and developer from Flensburg, Germany. I create websites, apps and more.
+
+----
+
+Contacthook: Interested? Get in touch!
+
+----
+
+Aboutme:
+
+I’ve done my B. Sc. in Media Informatics and I’m currently studying Applied Computer Science (M. Sc.), both at Flensburg University of Applied Sciences.
+
+I’ve been working with JavaScript and TypeScript for over five years. I am a big fan of React and related libraries as well as functional programming in general. For websites, I enjoy using Kirby as a CMS, since it’s very flexible and can adapt to (almost) all needs. For apps, I prefer native development with Kotlin and Swift to build the best possible experience.
+
+On the design side, I’m very familiar with Adobe’s Creative Cloud, but also the Affinity suite and individual software such as Figma or Sketch.
+
+When I’m not working, I really enjoy pen-and-paper games, playing the piano, and tea. And learning something new everyday.
+
+----
+
+Selectedwork:
+
+- page://sre1BDGPHRQ7I3Cp
+- page://eHsCctmYiDjcKa2j
+- page://1LWmdJLL3ZmhmJEB
+
+----
+
+Uuid: h3yAzQVZG14yciCU

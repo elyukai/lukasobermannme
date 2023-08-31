@@ -1,16 +1,7 @@
-<?php snippet("header") ?>
+<?php snippet('layout', slots: true) ?>
 
-<div class="title">
-  <div class="wrapper">
-    <h1><?= $page->title()->smartypants() ?></h1>
-  </div>
-</div>
+<h1 class="scaled"><?= $page->title()->html() ?></h1>
+
 <section>
-  <div class="wrapper">
-    <?= $page->text()->kirbytext() ?>
-  </div>
+  <?= $page->text()->kirbytext() ?>
 </section>
-
-<?php snippet("aboutme") ?>
-
-<?php snippet("footer") ?>

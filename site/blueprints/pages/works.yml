@@ -1,0 +1,18 @@
+title: Projects
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    sections:
+      drafts:
+        extends: sections/works
+        headline: Drafts
+        layout: list
+        status: draft
+
+      listed:
+        extends: sections/works
+        headline: Published Projects
+        status: listed
+  seo: seo/page

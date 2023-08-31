@@ -1,34 +1,42 @@
 title: Home
 
-
-columns:
-  main:
-    width: 2/3
-    sections:
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
       main:
-        type: fields
-        fields:
-          introStart:
-            label: Intro Start
-            type: textarea
-            size: small
-            required: true
-          introEnd:
-            label: Intro End
-            type: textarea
-            size: small
-            required: true
-  side:
-    width: 1/3
-    sections:
+        width: 2/3
+        sections:
+          main:
+            type: fields
+            fields:
+              intro:
+                label: Intro
+                type: textarea
+                size: small
+                required: true
+              contactHook:
+                label: Contact Hook
+                type: textarea
+                size: tiny
+                required: true
+              aboutMe:
+                label: About Me
+                type: textarea
+                size: medium
+                required: true
       side:
-        type: fields
-        fields:
-          projectsShowcase:
-            label: Projects to show
-            type: pages
-            min: 3
-            max: 3
-            query: site.find('projects')
-            required: true
-            subpages: false
+        width: 1/3
+        sections:
+          side:
+            type: fields
+            fields:
+              selectedWork:
+                label: Selected Work
+                type: pages
+                query: site.find('projects')
+                required: true
+                subpages: false
+                translate: false
+  seo: seo/page

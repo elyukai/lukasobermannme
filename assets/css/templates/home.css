@@ -1,0 +1,28 @@
+.intro {
+  font-weight: 500;
+  margin: var(--padding-scaled) 0 var(--padding-scaled) -0.05em;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-left: -0.075em;
+  }
+}
+a.contact {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+a.contact:hover {
+  color: var(--color-link-hover);
+}
+
+section.aboutme {
+  margin: var(--padding-scaled-2) 0;
+}
+
+section.aboutme p {
+  margin-left: -0.05em;
+}
+
+/*# sourceMappingURL=home.css.map */
