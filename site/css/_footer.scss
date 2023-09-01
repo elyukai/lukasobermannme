@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 footer {
   margin: var(--padding-scaled-2) 0 0;
   display: grid;
@@ -14,7 +16,7 @@ footer {
   }
 
   li {
-    font-size: 0.8rem;
+    @include v.font-xs;
     margin: 0.4rem 0 0 0;
 
     &::marker {
@@ -36,7 +38,7 @@ footer {
   }
 
   p.copyright {
-    font-size: 0.8rem;
+    @include v.font-xs;
     margin: 0;
   }
 }
