@@ -30,6 +30,10 @@ Country: Germany
 
 ----
 
+Additionalinformation: 
+
+----
+
 Email: lukas@lukasobermann.me
 
 ----
