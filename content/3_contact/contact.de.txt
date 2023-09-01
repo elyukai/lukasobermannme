@@ -1,0 +1,85 @@
+Title: Kontakt
+
+----
+
+Slug: kontakt
+
+----
+
+Intro: Du kannst mich auf unterschiedliche Art und Weise erreichen – wie du willst!
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Email: lukas@lukasobermann.me
+
+----
+
+Twitter: elyukai
+
+----
+
+Github: elyukai

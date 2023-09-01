@@ -3,7 +3,7 @@
 }
 
 html {
-  font: 20px var(--font-family);
+  font: 20px/1.3 var(--font-family);
   color: var(--color-text);
 }
 
@@ -88,15 +88,20 @@ a {
       color: var(--color-link-hover);
     }
   }
+
+  &.contact {
+    color: var(--color-text);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-link-hover);
+    }
+  }
 }
 
 p {
   margin: 0.6em 0 0;
-}
-
-address {
-  font-style: normal;
-  margin-top: 1.3em;
+  max-width: 45em;
 }
 
 h1 {
@@ -105,13 +110,56 @@ h1 {
 }
 
 h2 {
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin: 0 0 var(--padding-scaled-05);
+  color: var(--color-text-10);
+  font-weight: 600;
+  margin: var(--padding-scaled-2) 0 var(--padding-scaled-05) -0.05em;
+  font-size: calc(min(5vw + 0.4rem, 4rem));
+  line-height: calc(min(5vw + 0.8rem - 0.1em, 4rem));
+  max-width: 15em;
 
   @media (min-width: 768px) {
     &.scaled {
       margin-left: -0.05em;
     }
+  }
+
+  @media (prefers-contrast: more) {
+    color: var(--color-text);
+    font-weight: 400;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 1em 0 0.5em;
+  max-width: 45em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin: 1em 0 0.5em;
+  max-width: 45em;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: "→ ";
+  padding: 0 0 0 1.25em;
+  margin: 0.6em 0;
+
+  &.contacts {
+    margin: var(--padding-scaled) 0;
+    padding: 0;
+    list-style-position: inside;
+  }
+}
+
+li {
+  max-width: 45em;
+  margin-top: 0.3em;
+
+  &::marker {
+    width: 1.5em;
   }
 }

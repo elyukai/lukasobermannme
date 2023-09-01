@@ -17,9 +17,10 @@
     <nav class="main">
       <h2 class="sr-only"><?= t('Primary Navigation') ?></h2>
       <ul>
-        <?php foreach ($site->children()->listed() as $menuPage) : ?>
+        <?php $headerMenu = $site->headerMenu()->toPages(); ?>
+        <?php foreach ($headerMenu as $headerMenuItem) : ?>
           <li>
-            <a href="<?= $menuPage->url() ?>"<?= ($menuPage->id() === $page->id() || $menuPage->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><span><?= $menuPage->title()->html() ?></span></a>
+            <a href="<?= $headerMenuItem->url() ?>"<?= ($headerMenuItem->id() === $page->id() || $headerMenuItem->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><?= $headerMenuItem->title()->html() ?></a>
           </li>
         <?php endforeach ?>
       </ul>

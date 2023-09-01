@@ -18,12 +18,16 @@ tabs:
             type: pages
             headline: Listed
             status: listed
-      about:
+      layout:
         width: 1/3
         sections:
-          about:
+          layout:
             type: fields
             fields:
+              headerMenu:
+                type: pages
+                label: Header Menu Items
+                translate: false
               footerMenu:
                 type: pages
                 label: Footer Menu Items
@@ -31,4 +35,25 @@ tabs:
               copyright:
                 type: text
                 required: true
+  contact:
+    label: Contact Options
+    icon: chat
+    fields:
+      mail:
+        label: E-Mail
+        type: email
+        translate: false
+      otherContactOptions:
+        label: Other
+        type: structure
+        translate: false
+        fields:
+          name:
+            label: Name
+            type: text
+            required: true
+          url:
+            label: URL
+            type: url
+            required: true
   seo: seo/site

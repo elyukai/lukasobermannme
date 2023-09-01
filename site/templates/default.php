@@ -3,5 +3,5 @@
 <h1 class="scaled"><?= $page->title()->html() ?></h1>
 
 <section>
-  <?= $page->text()->kirbytext() ?>
+  <?= $page->text()->kt() ?>
 </section>

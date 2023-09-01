@@ -17,6 +17,7 @@ return [
         'Back to home page' => 'Zurück zur Startseite',
         'Selected Work' => 'Ausgewählte Arbeiten',
         'View all works' => 'Alle Arbeiten ansehen',
+        'Mail' => 'Mail',
         'About Me' => 'Über mich',
         'View my profile/CV' => 'Mein Profil/Lebenslauf ansehen',
         'Description' => 'Beschreibung',
