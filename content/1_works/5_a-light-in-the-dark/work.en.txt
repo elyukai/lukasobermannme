@@ -38,7 +38,7 @@ Startmonth: 4
 
 ----
 
-Startday:
+Startday: 
 
 ----
 
@@ -50,7 +50,7 @@ Endmonth: 7
 
 ----
 
-Endday:
+Endday: 
 
 ----
 
@@ -59,6 +59,70 @@ Teammembers:
 ----
 
 Links: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 

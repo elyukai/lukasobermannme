@@ -44,7 +44,7 @@ Startmonth: 9
 
 ----
 
-Startday:
+Startday: 
 
 ----
 
@@ -56,7 +56,7 @@ Endmonth: 10
 
 ----
 
-Endday:
+Endday: 
 
 ----
 
@@ -76,6 +76,70 @@ Links:
 - 
   name: filmkorte Website
   url: https://filmkorte.de
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 
