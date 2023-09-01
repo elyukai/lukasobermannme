@@ -1,3 +1,5 @@
+@use "../variables" as v;
+
 .intro {
   font-weight: 500;
   margin: var(--padding-scaled) 0 var(--padding-scaled) -0.05em;
@@ -8,8 +10,7 @@
 }
 
 h2 {
-  font-size: 0.8rem;
-  line-height: 1.1;
+  @include v.font-xs;
   font-weight: 400;
   margin: 0 0 var(--padding-scaled-05);
   color: var(--color-text);

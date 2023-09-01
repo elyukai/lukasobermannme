@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 section.works {
   margin: var(--padding-scaled-2) 0;
 
@@ -26,8 +28,8 @@ article.work {
     text-decoration: none;
     display: block;
     color: var(--color-text);
-    font-size: 0.8rem;
-    line-height: 1.4;
+    @include v.font-sm;
+    max-width: none;
 
     &:hover {
       color: var(--color-link-hover);
