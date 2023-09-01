@@ -10,16 +10,7 @@
   <div class="grid">
     <?php
     foreach ($page->selectedWork()->toPages() as $work) : ?>
-      <article class="work">
-        <a href="<?= $work->url() ?>">
-          <?php if ($cover = $work->gallery()->toFile()) : ?>
-            <img src="<?= $cover->url() ?>" alt="<?= $cover->alt()->html() ?>" aria-hidden="true">
-          <?php endif ?>
-          <h3 class="title"><?= $work->title()->html() ?></h3>
-          <span class="areas"><?= $work->scopes()->html() ?></span><!--
-       --><span class="arrow" aria-hidden="true">&nbsp;→</span>
-        </a>
-      </article>
+      <?php snippet('workTeaser', ['work' => $work]) ?>
     <?php endforeach ?>
   </div>
   <a href="<?= $page->selectedWork()->toPage()?->parent()->url() ?>" class="more"><span class="arrow" aria-hidden="true">→ </span><?= t('View all works') ?></a>
