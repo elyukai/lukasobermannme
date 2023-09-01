@@ -1,6 +1,13 @@
 <article class="work">
   <a href="<?= $work->url() ?>">
-    <?php if ($cover = $work->gallery()->toFile()) : ?>
+    <?php
+      $cover = $work->gallery()->toFile();
+
+      if ($cover?->type() == "video" && $cover->thumbnail()->isNotEmpty()) {
+        $cover = $cover->thumbnail()->toFile();
+      }
+
+      if ($cover) : ?>
       <?php $sizes = "(min-width: 2200px) 700px, (min-width: 1440px) 33vw, (min-width: 900px) 50vw, 100vw" ?>
       <picture>
         <source
@@ -30,7 +37,7 @@
           alt="<?= $cover->alt()->html() ?>"
           aria-hidden="true"
         >
-    </picture>
+      </picture>
     <?php endif ?>
     <h3 class="title"><?= $work->title()->html() ?></h3>
     <span class="areas"><?= $work->scopes()->html() ?></span><!--
