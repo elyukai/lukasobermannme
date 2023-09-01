@@ -53,6 +53,13 @@ tabs:
                 type: text
                 required: true
                 translate: false
+          additionalInformation:
+            type: fields
+            fields:
+              additionalInformation:
+                label: Additional Information
+                type: textarea
+                size: large
       meta:
         width: 1/3
         sections:

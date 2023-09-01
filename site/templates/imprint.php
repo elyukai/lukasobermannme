@@ -14,4 +14,7 @@
     <?php if ($page->email()->isNotEmpty()) : ?><li><?= kirbytag(['email' => $page->email(), 'class' => 'contact']) ?></li><?php endif ?>
     <?php if ($page->tel()->isNotEmpty()) : ?><li><?= kirbytag(['tel' => $page->tel(), 'text' => preg_replace('/(\d{4})/', '$1 ', preg_replace('/^(\+\d{2})/', '$1 (0) ', $page->tel()), 1), 'class' => 'contact']) ?></li><?php endif ?>
   </ul>
+  <?php if ($page->additionalInformation()->isNotEmpty()) : ?>
+  <?= $page->additionalInformation()->kt() ?>
+  <?php endif ?>
 </section>
