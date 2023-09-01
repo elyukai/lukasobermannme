@@ -17,6 +17,7 @@ return [
         'Back to home page' => 'Back to home page',
         'Selected Work' => 'Selected Work',
         'View all works' => 'View all works',
+        'Mail' => 'Mail',
         'About Me' => 'About Me',
         'View my profile/CV' => 'View my profile/CV',
         'Description' => 'Description',

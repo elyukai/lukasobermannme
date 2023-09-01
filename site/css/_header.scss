@@ -17,8 +17,12 @@ nav.languages {
     align-items: baseline;
   }
 
-  li::marker {
-    color: transparent;
+  li {
+    margin: 0;
+
+    &::marker {
+      color: transparent;
+    }
   }
 
   a {

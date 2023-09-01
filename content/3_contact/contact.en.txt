@@ -1,0 +1,85 @@
+Title: Contact
+
+----
+
+Intro: You can reach out to me in multiple ways! Feel free to use the platform of your choice!
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Email: lukas@lukasobermann.me
+
+----
+
+Twitter: elyukai
+
+----
+
+Github: elyukai
+
+----
+
+Uuid: LhOh4x2FiPxBeqz2

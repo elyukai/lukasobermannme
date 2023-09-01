@@ -8,6 +8,14 @@ tabs:
       main:
         width: 2/3
         sections:
+          intro:
+            type: fields
+            fields:
+              intro:
+                label: Intro
+                type: textarea
+                size: tiny
+                required: true
           address:
             type: fields
             fields:

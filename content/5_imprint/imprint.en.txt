@@ -1,0 +1,105 @@
+Title: Imprint
+
+----
+
+Intro: This website uses (link: https://getkirby.com text: Kirby target: _blank) and is made by:
+
+----
+
+Name: Lukas Obermann
+
+----
+
+Street: Duburger Straße
+
+----
+
+Number: 13
+
+----
+
+Zipcode: 24939
+
+----
+
+City: Flensburg
+
+----
+
+Country: Germany
+
+----
+
+Email: lukas@lukasobermann.me
+
+----
+
+Tel: +4915227707397
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: A5xK5CRSxoCOjGAf
