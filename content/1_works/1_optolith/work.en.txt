@@ -38,40 +38,104 @@ Startmonth: 9
 
 ----
 
-Startday:
+Startday: 
 
 ----
 
-Endyear:
+Endyear: 
 
 ----
 
-Endmonth:
+Endmonth: 
 
 ----
 
-Endday:
+Endday: 
 
 ----
 
 Teammembers:
 
--
+- 
   name: Philipp Borucki
--
+- 
   name: Contributors (see GitHub)
 
 ----
 
 Links:
 
--
+- 
   name: Website
   url: https://optolith.app
--
+- 
   name: GitHub Repository
   url: >
     https://github.com/elyukai/optolith-client
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 
