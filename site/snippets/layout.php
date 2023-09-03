@@ -45,17 +45,18 @@
     <nav class="footer">
       <ul>
         <?php foreach ($footerMenu as $footerMenuItem): ?>
-        <li><a href="<?= $footerMenuItem->url() ?>"<?= ($footerMenuItem->id() === $page->id() || $footerMenuItem->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><?= $footerMenuItem->title()->html() ?></a></li>
+        <li class="aos"><a href="<?= $footerMenuItem->url() ?>"<?= ($footerMenuItem->id() === $page->id() || $footerMenuItem->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><?= $footerMenuItem->title()->html() ?></a></li>
         <?php endforeach ?>
       </ul>
     </nav>
     <?php endif ?>
-    <p class="copyright"><?= $site->copyright()->html() ?></p>
+    <p class="copyright aos"><?= $site->copyright()->html() ?></p>
   </footer>
 
   <?= js([
     'assets/js/enabled.js',
     'assets/js/slideshow.js',
+    'assets/js/scroll-animate.js',
     '@auto',
   ]) ?>
 

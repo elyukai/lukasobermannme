@@ -4,13 +4,13 @@ use Kirby\Toolkit\Str;
 
 snippet('layout', slots: true) ?>
 
-<h1 class="scaled"><?= $page->title()->html() ?></h1>
+<h1 class="scaled aos"><?= $page->title()->html() ?></h1>
 
 <section>
-  <h2 class="scaled"><?= t('Work Experience') ?></h2>
+  <h2 class="scaled aos"><?= t('Work Experience') ?></h2>
   <dl>
     <?php foreach ($page->workExperience()->toStructure() as $workExperience) : ?>
-    <div>
+    <div class="aos">
       <dt><?= $workExperience->title()->kti() ?></dt>
       <dd>
         <dl>
@@ -44,10 +44,10 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section>
-  <h2 class="scaled"><?= t('Education') ?></h2>
+  <h2 class="scaled aos"><?= t('Education') ?></h2>
   <dl>
     <?php foreach ($page->education()->toStructure() as $education) : ?>
-    <div<?= $education->gap()->toBool() ? ' class="blur"' : '' ?>>
+    <div<?= $education->gap()->toBool() ? ' class="blur aos"' : ' class="aos"' ?>>
       <dt><?= $education->title()->kti() ?></dt>
       <dd>
         <dl>
@@ -81,14 +81,14 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section class="capabilities">
-  <h2 class="scaled"><?= t('Capabilities') ?></h2>
+  <h2 class="scaled aos"><?= t('Capabilities') ?></h2>
   <div class="subsection-grid">
     <section>
-      <h3><?= t('Languages') ?></h3>
+      <h3 class="aos"><?= t('Languages') ?></h3>
       <dl>
         <?php foreach ($page->languages()->toStructure() as $language) : ?>
-        <dt><?= $language->language()->smartypants() ?></dt>
-        <dd>
+        <dt class="aos"><?= $language->language()->smartypants() ?></dt>
+        <dd class="aos">
           <?php $isNativeSpeaker = $language->isNativeSpeaker()->toBool() ?>
           <?php $label = $isNativeSpeaker ? t('Native Speaker') : Str::upper($language->quality()) ?>
           <?php $quality = match ($language->quality()->toString()) {
@@ -115,11 +115,11 @@ snippet('layout', slots: true) ?>
     </section>
     <?php foreach ($page->skills()->toStructure() as $category) : ?>
     <section>
-      <h3><?= $category->category()->kti() ?></h3>
+      <h3 class="aos"><?= $category->category()->kti() ?></h3>
       <dl>
       <?php foreach ($category->skills()->toStructure() as $skill) : ?>
-        <dt><?= $skill->name()->kti() ?></dt>
-        <dd>
+        <dt class="aos"><?= $skill->name()->kti() ?></dt>
+        <dd class="aos">
           <?php $label = match ($skill->proficiency()->toString()) {
               'beginner' => t('Beginner'),
               'intermediate' => t('Intermediate'),
@@ -150,10 +150,10 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section class="interests-hobbies">
-  <h2 class="scaled"><?= t('Interests & Hobbies') ?></h2>
+  <h2 class="scaled aos"><?= t('Interests & Hobbies') ?></h2>
   <ul class="scaled--small">
   <?php foreach ($page->interestsHobbies()->toStructure() as $interestHobby) : ?>
-    <li><?= $interestHobby->name()->kirbytextinline() ?></li>
+    <li class="aos"><?= $interestHobby->name()->kirbytextinline() ?></li>
   <?php endforeach ?>
   </ul>
 </section>

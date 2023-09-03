@@ -1,7 +1,7 @@
 <?php snippet('layout', slots: true) ?>
 
-<h1 class="scaled"><?= $page->title()->html() ?></h1>
+<h1 class="scaled aos"><?= $page->title()->html() ?></h1>
 
-<section>
+<section class="aos-parent">
   <?= $page->text()->kt() ?>
 </section>
