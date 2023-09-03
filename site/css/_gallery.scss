@@ -11,6 +11,8 @@ figure.gallery {
     display: block;
     transform: translateX(var(--tx, 0));
     z-index: 1;
+    outline: 0.5px solid var(--color-text-20);
+    max-width: 49.5rem;
   }
 
   ul {
