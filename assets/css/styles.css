@@ -291,6 +291,20 @@ li::marker {
   }
 }
 
+.js-enabled .typewriter .typewriter-text--shown {
+  position: relative;
+}
+.js-enabled .typewriter .typewriter-text--shown.typewriter-text--cursor::after {
+  content: "|";
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  color: var(--color-selection-background);
+}
+.js-enabled .typewriter .typewriter-text--hidden {
+  opacity: 0;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;

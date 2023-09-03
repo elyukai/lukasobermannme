@@ -57,6 +57,7 @@
     'assets/js/enabled.js',
     'assets/js/slideshow.js',
     'assets/js/scroll-animate.js',
+    'assets/js/simple-typewriter.js',
     '@auto',
   ]) ?>
 

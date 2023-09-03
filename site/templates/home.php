@@ -3,7 +3,7 @@
 
 <h1 class="sr-only"><?= $page->title()->html() ?></h1>
 
-<p class="intro scaled"><?= $page->intro()->html() ?></p>
+<p class="intro scaled typewriter typewriter--keep-cursor"><?= $page->intro()->kti() ?></p>
 
 <section class="works">
   <h2 class="aos"><?= t('Selected Work') ?></h2>
@@ -16,7 +16,7 @@
   <a href="<?= $page->selectedWork()->toPage()?->parent()->url() ?>" class="aos more"><span class="arrow" aria-hidden="true">→ </span><?= t('View all works') ?></a>
 </section>
 
-<p class="intro scaled aos"><?= $page->contactHook()->html() ?> <?php if ($site->mail()->isNotEmpty()) : ?>→&nbsp;<?= kirbytag(['email' => $site->mail(), 'text' => t('Mail'), 'class' => 'contact']) ?><?php endif ?><?php foreach ($site->otherContactOptions()->toStructure() as $contactOption) : ?> →&nbsp;<a class="contact" href="<?= $contactOption->url() ?>" target="_blank" rel="noopener noreferrer"><?= $contactOption->name()->html() ?></a><?php endforeach ?></p>
+<p class="intro scaled aos typewriter"><?= $page->contactHook()->html() ?> <?php if ($site->mail()->isNotEmpty()) : ?>→&nbsp;<?= kirbytag(['email' => $site->mail(), 'text' => t('Mail'), 'class' => 'contact']) ?><?php endif ?><?php foreach ($site->otherContactOptions()->toStructure() as $contactOption) : ?> →&nbsp;<a class="contact" href="<?= $contactOption->url() ?>" target="_blank" rel="noopener noreferrer"><?= $contactOption->name()->html() ?></a><?php endforeach ?></p>
 
 <section class="aboutme">
   <h2 class="aos"><?= t('About Me') ?></h2>
