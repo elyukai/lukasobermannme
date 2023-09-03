@@ -1,4 +1,4 @@
-<?php if ($file->type() === "video") : ?> -->
+<?php if ($file->type() === "video") : ?>
   <video controls>
     <source src="<?= $file->url() ?>" type="<?= $file->mime() ?>">
   </video>
