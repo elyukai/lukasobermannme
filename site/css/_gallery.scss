@@ -1,0 +1,127 @@
+figure.gallery {
+  display: flex;
+  margin: var(--padding-scaled) 0;
+  position: relative;
+
+  picture,
+  img,
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateX(var(--tx, 0));
+    z-index: 1;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: block;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      .js-enabled & {
+        display: none;
+        margin-top: 0;
+
+        &.active {
+          display: block;
+        }
+      }
+    }
+
+    ::marker {
+      color: transparent;
+    }
+  }
+
+  --tab-size: 10px;
+
+  [role="tablist"] {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+
+    button {
+      width: var(--tab-size);
+      height: var(--tab-size);
+      border-radius: 5px;
+      background-color: var(--color-text-10);
+      border: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+
+      @media (prefers-contrast) {
+        border: 1px solid var(--color-text);
+      }
+
+      &:not(:first-child) {
+        margin-left: 0.5rem;
+      }
+
+      &[aria-selected="true"] {
+        background-color: var(--color-link-hover);
+      }
+
+      &:focus {
+        outline: 2px solid var(--color-focus);
+        outline-offset: 2px;
+      }
+    }
+
+    .js-enabled & {
+      display: flex;
+    }
+  }
+
+  .gallery-main {
+    position: relative;
+    padding-bottom: calc(1rem + var(--tab-size));
+  }
+
+  button {
+    display: none;
+    margin: 0;
+    padding: 0;
+
+    &.gallery-previous,
+    &.gallery-next {
+      position: absolute;
+      top: calc((100% - 1rem - var(--tab-size)) / 2 - 17px);
+      width: 34px;
+      height: 34px;
+      border-radius: 17px;
+      background-color: var(--color-text);
+      color: var(--color-background);
+      border: none;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--font-family);
+      font-size: 20px;
+      z-index: 2;
+
+      .js-enabled & {
+        display: flex;
+      }
+    }
+
+    &.gallery-previous {
+      left: -17px;
+    }
+
+    &.gallery-next {
+      right: -17px;
+    }
+
+    .js-enabled & {
+      display: block;
+    }
+  }
+}
