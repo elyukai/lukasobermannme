@@ -4,10 +4,10 @@
   </video>
 <?php else : ?>
   <picture>
-    <source
-      srcset="<?= $file->thumb(['format' => 'avif'])->url() ?>"
+    <!-- <source
+      srcset="<?php /* echo $file->thumb(['format' => 'avif'])->url() */ ?>"
       type="image/avif"
-    >
+    > -->
     <source
       srcset="<?= $file->thumb(['format' => 'webp'])->url() ?>"
       type="image/webp"
