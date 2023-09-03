@@ -443,6 +443,10 @@ figure.gallery [role=tablist] button:not(:first-child) {
 figure.gallery [role=tablist] button[aria-selected=true] {
   background-color: var(--color-link-hover);
 }
+figure.gallery [role=tablist] button:not([aria-selected=true]):hover {
+  background-color: var(--color-text);
+  cursor: pointer;
+}
 figure.gallery [role=tablist] button:focus {
   outline: 2px solid var(--color-focus);
   outline-offset: 2px;
@@ -473,6 +477,10 @@ figure.gallery button.gallery-previous, figure.gallery button.gallery-next {
   font-family: var(--font-family);
   font-size: 20px;
   z-index: 2;
+}
+figure.gallery button.gallery-previous:hover, figure.gallery button.gallery-next:hover {
+  background-color: var(--color-link-hover);
+  cursor: pointer;
 }
 .js-enabled figure.gallery button.gallery-previous, .js-enabled figure.gallery button.gallery-next {
   display: flex;

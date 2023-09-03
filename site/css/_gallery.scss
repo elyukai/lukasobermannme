@@ -70,6 +70,11 @@ figure.gallery {
         background-color: var(--color-link-hover);
       }
 
+      &:not([aria-selected="true"]):hover {
+        background-color: var(--color-text);
+        cursor: pointer;
+      }
+
       &:focus {
         outline: 2px solid var(--color-focus);
         outline-offset: 2px;
@@ -106,6 +111,11 @@ figure.gallery {
       font-family: var(--font-family);
       font-size: 20px;
       z-index: 2;
+
+      &:hover {
+        background-color: var(--color-link-hover);
+        cursor: pointer;
+      }
 
       .js-enabled & {
         display: flex;
