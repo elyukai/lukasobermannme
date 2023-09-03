@@ -37,6 +37,8 @@
           sizes="<?= $sizes ?>"
           alt="<?= $cover->alt()->html() ?>"
           aria-hidden="true"
+          width="<?= $cover->width() ?>"
+          height="<?= $cover->height() ?>"
         >
       </picture>
     <?php endif ?>

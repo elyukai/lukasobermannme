@@ -15,6 +15,8 @@
     <img
       src="<?= $file->url() ?>"
       alt="<?= $file->alt()->html() ?>"
+      width="<?= $file->width() ?>"
+      height="<?= $file->height() ?>"
     >
   </picture>
 <?php endif ?>
