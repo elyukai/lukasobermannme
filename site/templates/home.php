@@ -20,7 +20,7 @@
 
 <section class="aboutme">
   <h2 class="aos"><?= t('About Me') ?></h2>
-  <div class="scaled--small aos-parent">
+  <div class="scaled--small aos">
     <?= $page->aboutMe()->kirbytext() ?>
   </div>
   <a href="<?= $site->find("page://jLnMUVj7Z35jOjEk")?->url() ?>" class="aos more"><span class="arrow" aria-hidden="true">→ </span><?= t('View my profile/CV') ?></a>

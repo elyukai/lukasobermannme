@@ -10,9 +10,9 @@
     <?= $page->zipcode()->smartypants() ?> <?= $page->city()->smartypants() ?><br>
     <?= $page->country()->smartypants() ?>
   </address>
-  <ul class="contacts scaled--small">
-    <?php if ($page->email()->isNotEmpty()) : ?><li class="aos"><?= kirbytag(['email' => $page->email(), 'class' => 'contact']) ?></li><?php endif ?>
-    <?php if ($page->tel()->isNotEmpty()) : ?><li class="aos"><?= kirbytag(['tel' => $page->tel(), 'text' => preg_replace('/(\d{4})/', '$1 ', preg_replace('/^(\+\d{2})/', '$1 (0) ', $page->tel()), 1), 'class' => 'contact']) ?></li><?php endif ?>
+  <ul class="contacts scaled--small aos">
+    <?php if ($page->email()->isNotEmpty()) : ?><li><?= kirbytag(['email' => $page->email(), 'class' => 'contact']) ?></li><?php endif ?>
+    <?php if ($page->tel()->isNotEmpty()) : ?><li><?= kirbytag(['tel' => $page->tel(), 'text' => preg_replace('/(\d{4})/', '$1 ', preg_replace('/^(\+\d{2})/', '$1 (0) ', $page->tel()), 1), 'class' => 'contact']) ?></li><?php endif ?>
   </ul>
   <div class="aos-parent">
     <?php if ($page->additionalInformation()->isNotEmpty()) : ?>

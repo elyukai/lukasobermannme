@@ -39,18 +39,18 @@
   <main id="content">
     <?= $slots->default() ?>
   </main>
-  <footer>
+  <footer class="aos">
     <?php $footerMenu = $site->footerMenu()->toPages(); ?>
     <?php if ($footerMenu->isNotEmpty()) : ?>
     <nav class="footer">
       <ul>
         <?php foreach ($footerMenu as $footerMenuItem): ?>
-        <li class="aos"><a href="<?= $footerMenuItem->url() ?>"<?= ($footerMenuItem->id() === $page->id() || $footerMenuItem->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><?= $footerMenuItem->title()->html() ?></a></li>
+        <li><a href="<?= $footerMenuItem->url() ?>"<?= ($footerMenuItem->id() === $page->id() || $footerMenuItem->isAncestorOf($page)) ? ' aria-current="page"' : '' ?>><?= $footerMenuItem->title()->html() ?></a></li>
         <?php endforeach ?>
       </ul>
     </nav>
     <?php endif ?>
-    <p class="copyright aos"><?= $site->copyright()->html() ?></p>
+    <p class="copyright"><?= $site->copyright()->html() ?></p>
   </footer>
 
   <?= js([
