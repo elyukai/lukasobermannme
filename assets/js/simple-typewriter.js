@@ -50,9 +50,15 @@
      */
     let listener = undefined
 
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)")
+    let reducedMotion = mediaQuery.matches
+    mediaQuery.addEventListener("change", event => {
+      reducedMotion = event.matches
+    })
+
     const timer = setInterval(() => {
       if (listener) {
-        listener(cursorState)
+        listener(reducedMotion || cursorState)
       }
       cursorState = !cursorState
     }, 500)
