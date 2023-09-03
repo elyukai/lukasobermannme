@@ -10,16 +10,17 @@
       if ($cover) : ?>
       <?php $sizes = "(min-width: 2200px) 700px, (min-width: 1440px) 33vw, (min-width: 900px) 50vw, 100vw" ?>
       <picture>
-        <source
-          srcset="<?= $cover->srcset([
+        <!-- <source
+          srcset="<?php /* echo $cover->srcset([
             '400w' => ['width' => 400, 'format' => 'avif'],
             '600w' => ['width' => 600, 'format' => 'avif'],
             '800w' => ['width' => 800, 'format' => 'avif'],
             '1200w' => ['width' => 1200, 'format' => 'avif'],
-            '1600w' => ['width' => 1600, 'format' => 'avif']]) ?>"
-          sizes="<?= $sizes ?>"
+            '1600w' => ['width' => 1600, 'format' => 'avif']]) */ ?>"
+          sizes="<?php /* echo $sizes */ ?>"
           type="image/avif"
-        >
+        > -->
+
         <source
           srcset="<?= $cover->srcset([
             '400w' => ['width' => 400, 'format' => 'webp'],
