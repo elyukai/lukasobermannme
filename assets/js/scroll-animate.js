@@ -32,12 +32,15 @@
     if (!isElementInView(element)) {
       element.classList.add(READY_CLASS_NAME)
 
-      window.addEventListener("scroll", () => {
+      const animate = () => {
         if (isElementInView(element)) {
           element.classList.remove(READY_CLASS_NAME)
           element.classList.add(IN_VIEW_CLASS_NAME)
         }
-      })
+      }
+
+      window.addEventListener("scroll", animate)
+      window.addEventListener("resize", animate)
     }
   })
 })()
