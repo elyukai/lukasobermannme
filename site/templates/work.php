@@ -2,7 +2,7 @@
 
 <h1 class="scaled aos"><?= $page->title()->html() ?></h1>
 
-<?php snippet("slideshow", ["files" => $page->gallery()->toFiles()]) ?>
+<?php snippet("gallery", ["files" => $page->gallery()->toFiles()]) ?>
 
 <div class="work-information scaled--small">
   <section class="description scaled--small aos">
