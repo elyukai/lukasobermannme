@@ -1,5 +1,9 @@
 <?php if ($file->type() === "video") : ?>
-  <video controls>
+  <video
+    controls
+    width="<?= $file->width() ?>"
+    height="<?= $file->height() ?>"
+    >
     <source src="<?= $file->url() ?>" type="<?= $file->mime() ?>">
   </video>
 <?php else : ?>
