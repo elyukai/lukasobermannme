@@ -1,4 +1,10 @@
 .js-enabled .typewriter {
+  opacity: 0;
+
+  &.typewriter--active {
+    opacity: 1;
+  }
+
   .typewriter-text--shown {
     position: relative;
 

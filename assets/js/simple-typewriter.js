@@ -2,6 +2,7 @@
 
 (() => {
   const TRIGGER_CLASS_NAME = "typewriter"
+  const ACTIVE_CLASS_NAME = "typewriter--active"
   const KEEP_CURSOR_CLASS_NAME = "typewriter--keep-cursor"
 
   const SPAN_SHOWN_CLASS_NAME = "typewriter-text--shown"
@@ -62,6 +63,8 @@
       }
       cursorState = !cursorState
     }, 500)
+
+    element.classList.add(ACTIVE_CLASS_NAME)
 
     const replacedTextParts = textParts.map(textPart => {
       const initialText = textPart.textContent ?? ""
