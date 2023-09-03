@@ -291,6 +291,12 @@ li::marker {
   }
 }
 
+.js-enabled .typewriter {
+  opacity: 0;
+}
+.js-enabled .typewriter.typewriter--active {
+  opacity: 1;
+}
 .js-enabled .typewriter .typewriter-text--shown {
   position: relative;
 }
