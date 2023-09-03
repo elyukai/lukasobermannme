@@ -279,6 +279,18 @@ li::marker {
   width: 1.5em;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .js-enabled .aos.aos--pending {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  .js-enabled .aos.aos--in-view {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-in-out 0.1s, transform 0.5s ease-in-out 0.1s;
+  }
+}
+
 header {
   display: flex;
   flex-wrap: wrap;

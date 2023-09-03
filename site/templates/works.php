@@ -1,6 +1,6 @@
 <?php snippet('layout', slots: true) ?>
 
-<h1 class="scaled"><?= $page->title()->html() ?></h1>
+<h1 class="scaled aos"><?= $page->title()->html() ?></h1>
 
 <section class="works works--all">
   <div class="grid">

@@ -1,4 +1,4 @@
-<article class="work">
+<article class="work aos">
   <a href="<?= $work->url() ?>">
     <?php
       $cover = $work->gallery()->toFile();
