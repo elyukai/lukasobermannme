@@ -1,6 +1,9 @@
 <article class="work aos">
   <a href="<?= $work->url() ?>">
     <?php
+
+            use Kirby\Toolkit\Str;
+
       $cover = $work->gallery()->toFile();
 
       if ($cover?->type() == "video" && $cover->thumbnail()->isNotEmpty()) {
@@ -43,7 +46,25 @@
       </picture>
     <?php endif ?>
     <h3 class="title"><?= $work->title()->html() ?></h3>
-    <span class="areas"><?= $work->scopes()->html() ?></span><!--
+    <span class="areas"><?= join(", ", array_map(function ($scope) {
+      return match ($scope) {
+        'web' => t('Web Design'),
+        'ui' => t('User Interface Design'),
+        'ux' => t('User Experience Design'),
+        'cd' => t('Corporate Design'),
+        'gd' => t('Graphic Design'),
+        'gamed' => t('Game Design'),
+        'envd' => t('Environment Design'),
+        'mg' => t('Motion Graphics'),
+        'pm' => t('Project Management'),
+        'frontenddev' => t('Frontend Development'),
+        'backenddev' => t('Backend Development'),
+        'appdev' => t('Application Development'),
+        'cms' => t('Content Management Systems'),
+        'seo' => t('Search Engine Optimization'),
+        default => $scope,
+      };
+    }, Str::split($work->scopes()->toArray()['scopes']))) ?></span><!--
  --><span class="arrow" aria-hidden="true">&nbsp;→</span>
   </a>
 </article>

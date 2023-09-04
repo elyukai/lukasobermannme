@@ -14,11 +14,11 @@ I was responsible for most of the graphic design as well as parts of the story a
 
 ----
 
-Projecttype: University Assignment
+Projecttype: assignment
 
 ----
 
-Scopes: Graphic Design, Motion Graphics
+Scopes: gd, mg
 
 ----
 

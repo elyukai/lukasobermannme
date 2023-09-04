@@ -20,11 +20,11 @@ An essential part of the project was scale and accessibility, so I incorporated 
 
 ----
 
-Projecttype: Contract
+Projecttype: commission
 
 ----
 
-Scopes: Web Design, CMS, SEO
+Scopes: web, cms, seo
 
 ----
 

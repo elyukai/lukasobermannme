@@ -14,11 +14,11 @@ In consultation with (link: https://hs-flensburg.de/hochschule/personen/zimmerma
 
 ----
 
-Projecttype: Commission
+Projecttype: commission
 
 ----
 
-Scopes: UI Design, UX Design
+Scopes: ui, ux
 
 ----
 
