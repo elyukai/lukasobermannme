@@ -15,7 +15,23 @@
       <div>
         <dt><?= t('Scope') ?></dt>
         <?php foreach ($page->scopes()->split() as $scope) : ?>
-        <dd><?= $scope ?></dd>
+        <dd><?= match ($scope) {
+          'web' => t('Web Design'),
+          'ui' => t('User Interface Design'),
+          'ux' => t('User Experience Design'),
+          'cd' => t('Corporate Design'),
+          'gd' => t('Graphic Design'),
+          'gamed' => t('Game Design'),
+          'envd' => t('Environment Design'),
+          'mg' => t('Motion Graphics'),
+          'pm' => t('Project Management'),
+          'frontenddev' => t('Frontend Development'),
+          'backenddev' => t('Backend Development'),
+          'appdev' => t('Application Development'),
+          'cms' => t('Content Management Systems'),
+          'seo' => t('Search Engine Optimization'),
+          default => $scope,
+        } ?></dd>
         <?php endforeach ?>
       </div>
       <div>
@@ -47,7 +63,12 @@
       <div>
         <dt><?= t('Project Type') ?></dt>
         <?php foreach ($page->projectType()->split() as $projectType) : ?>
-        <dd><?= $projectType ?></dd>
+        <dd><?= match ($projectType) {
+          'hobby' => t('Hobby'),
+          'assignment' => t('University Assignment'),
+          'commission' => t('Commission'),
+          default => $projectType,
+        } ?></dd>
         <?php endforeach ?>
       </div>
       <?php

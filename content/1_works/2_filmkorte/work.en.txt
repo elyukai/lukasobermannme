@@ -20,11 +20,11 @@ The project was finished in late 2020 and the (link: https://filmkorte.de text: 
 
 ----
 
-Projecttype: University Assignment
+Projecttype: assignment
 
 ----
 
-Scopes: Corporate Design, UX Design, Web Design, CMS
+Scopes: cd, ux, web, cms
 
 ----
 

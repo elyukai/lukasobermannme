@@ -14,11 +14,11 @@ I paid a lot of attention to the look and feel of the game and the difficuly of 
 
 ----
 
-Projecttype: University Assignment
+Projecttype: assignment
 
 ----
 
-Scopes: Game Design, Environment Design, Development
+Scopes: gamed, envd, appdev
 
 ----
 

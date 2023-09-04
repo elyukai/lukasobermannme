@@ -14,19 +14,19 @@ I'm still the main contributor to Optolith, although there are a few other contr
 
 ----
 
-Projecttype: Open Source
+Projecttype: hobby
 
 ----
 
-Scopes: Project Management, UI Design, UX Design, Frontend Development
+Scopes: pm, ui, ux, frontenddev, appdev
 
 ----
 
-Tools: Adobe XD, Adobe Illustrator, Visual Studio Code
+Tools: Adobe XD, Adobe Illustrator, Visual Studio Code, GitHub Issues
 
 ----
 
-Technologies: ReasonML, OCaml, TypeScript, Electron, Node.js, React, Redux
+Technologies: Electron, TypeScript, Node.js, React, Redux
 
 ----
 
@@ -59,7 +59,7 @@ Teammembers:
 - 
   name: Philipp Borucki
 - 
-  name: Contributors (see GitHub)
+  name: Contributors (GitHub)
 
 ----
 
