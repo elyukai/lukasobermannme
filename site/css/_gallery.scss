@@ -12,7 +12,7 @@ figure.gallery {
     transform: translateX(var(--tx, 0));
     z-index: 1;
     outline: 0.5px solid var(--color-text-20);
-    max-width: 49.5rem;
+    max-width: 125vh;
   }
 
   ul {
@@ -21,6 +21,7 @@ figure.gallery {
 
     li {
       display: block;
+      max-width: none;
 
       &:first-child {
         margin-top: 0;
