@@ -136,7 +136,7 @@ Colorselectionbackground: #ffeb00
 
 ----
 
-Colorbackgrounddark: #56575c
+Colorbackgrounddark: #000000
 
 ----
 

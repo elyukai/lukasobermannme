@@ -143,11 +143,11 @@ Colorbackgrounddark: #111111
 
 ----
 
-Colorlinkdark: #826a3e
+Colorlinkdark: #b6a68a
 
 ----
 
-Colorlinkhoverdark: #5d4517
+Colorlinkhoverdark: #826a3e
 
 ----
 
@@ -155,47 +155,47 @@ Colorfocusdark: #826a3e
 
 ----
 
-Colortextdark: #7f7f7f
+Colortextdark: #f7f4ed
 
 ----
 
-Colortextdark90: #7f7f7f
+Colortextdark90: #f7f4ed
 
 ----
 
-Colortextdark80: #7f7f7f
+Colortextdark80: #f7f4ed
 
 ----
 
-Colortextdark70: #7f7f7f
+Colortextdark70: #f7f4ed
 
 ----
 
-Colortextdark60: #7f7f7f
+Colortextdark60: #f7f4ed
 
 ----
 
-Colortextdark50: #7f7f7f
+Colortextdark50: #f7f4ed
 
 ----
 
-Colortextdark40: #7f7f7f
+Colortextdark40: #f7f4ed
 
 ----
 
-Colortextdark30: #7f7f7f
+Colortextdark30: #f7f4ed
 
 ----
 
-Colortextdark20: #7f7f7f
+Colortextdark20: #f7f4ed
 
 ----
 
-Colortextdark10: #7f7f7f
+Colortextdark10: #f7f4ed
 
 ----
 
-Colorselectionbackgrounddark: #79643c
+Colorselectionbackgrounddark: #f7f4ed
 
 ----
 
