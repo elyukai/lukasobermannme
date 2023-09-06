@@ -147,4 +147,111 @@ tabs:
                     type: url
                     required: true
                 translate: false
+  theme:
+    label: Theme
+    icon: brush
+    columns:
+      themed:
+        fields:
+          isThemed:
+            label: Is themed?
+            type: toggle
+            default: false
+            translate: false
+      light:
+        width: 1/2
+        fields:
+          colorBackground:
+            extends: fields/themeColor
+            label: Background Color
+          colorLink:
+            extends: fields/themeColor
+            label: Link Color
+          colorLinkHover:
+            extends: fields/themeColor
+            label: Link Color on Hover
+          colorFocus:
+            extends: fields/themeColor
+            label: Focus Color
+          colorText:
+            extends: fields/themeColor
+            label: Text Color
+          colorText90:
+            extends: fields/themeColor
+            label: Text Color (90% opacity)
+          colorText80:
+            extends: fields/themeColor
+            label: Text Color (80% opacity)
+          colorText70:
+            extends: fields/themeColor
+            label: Text Color (70% opacity)
+          colorText60:
+            extends: fields/themeColor
+            label: Text Color (60% opacity)
+          colorText50:
+            extends: fields/themeColor
+            label: Text Color (50% opacity)
+          colorText40:
+            extends: fields/themeColor
+            label: Text Color (40% opacity)
+          colorText30:
+            extends: fields/themeColor
+            label: Text Color (30% opacity)
+          colorText20:
+            extends: fields/themeColor
+            label: Text Color (20% opacity)
+          colorText10:
+            extends: fields/themeColor
+            label: Text Color (10% opacity)
+          colorSelectionBackground:
+            extends: fields/themeColor
+            label: Selection Background Color
+      dark:
+        width: 1/2
+        fields:
+          colorBackgroundDark:
+            extends: fields/themeColor
+            label: Background Color
+          colorLinkDark:
+            extends: fields/themeColor
+            label: Link Color
+          colorLinkHoverDark:
+            extends: fields/themeColor
+            label: Link Color on Hover
+          colorFocusDark:
+            extends: fields/themeColor
+            label: Focus Color
+          colorTextDark:
+            extends: fields/themeColor
+            label: Text Color
+          colorTextDark90:
+            extends: fields/themeColor
+            label: Text Color (90% opacity)
+          colorTextDark80:
+            extends: fields/themeColor
+            label: Text Color (80% opacity)
+          colorTextDark70:
+            extends: fields/themeColor
+            label: Text Color (70% opacity)
+          colorTextDark60:
+            extends: fields/themeColor
+            label: Text Color (60% opacity)
+          colorTextDark50:
+            extends: fields/themeColor
+            label: Text Color (50% opacity)
+          colorTextDark40:
+            extends: fields/themeColor
+            label: Text Color (40% opacity)
+          colorTextDark30:
+            extends: fields/themeColor
+            label: Text Color (30% opacity)
+          colorTextDark20:
+            extends: fields/themeColor
+            label: Text Color (20% opacity)
+          colorTextDark10:
+            extends: fields/themeColor
+            label: Text Color (10% opacity)
+          colorSelectionBackgroundDark:
+            extends: fields/themeColor
+            label: Selection Background Color
   seo: seo/page

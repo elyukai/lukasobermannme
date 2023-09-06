@@ -9,6 +9,11 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#eae8f0">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141221">
   <?= css(['assets/css/styles.css', '@auto']) ?>
+  <?php if (isset($style) && $style != null) : ?>
+  <style>
+    <?= $style ?>
+  </style>
+  <?php endif ?>
 </head>
 
 <body class="<?= $page->template()->name() ?>">
