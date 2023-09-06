@@ -99,7 +99,7 @@
         showTextElement.textContent = initialText.slice(0, i + 1)
         hiddenTextElement.textContent = initialText.slice(i + 1)
 
-        await delay(Math.random() * 25 + 20)
+        await delay(Math.random() * 30 + 15)
       }
 
       if (textPart !== textParts[textParts.length - 1] || !element.classList.contains(KEEP_CURSOR_CLASS_NAME)) {
