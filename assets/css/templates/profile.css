@@ -3,8 +3,31 @@ main > section {
 }
 main > section > dl,
 main .subsection-grid {
-  margin: var(--padding-scaled-05) 0;
+  margin: var(--padding-scaled) 0;
   counter-reset: section;
+  display: grid;
+  gap: var(--padding-scaled);
+  max-width: 99rem;
+}
+@media (min-width: 400px) {
+  main > section > dl,
+  main .subsection-grid {
+    margin-top: var(--padding-scaled-05);
+    margin-bottom: var(--padding-scaled-05);
+    gap: var(--padding-scaled-05) var(--padding-scaled);
+  }
+}
+@media (min-width: 1024px) {
+  main > section > dl,
+  main .subsection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1920px) {
+  main > section > dl,
+  main .subsection-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (min-width: 1024px) {
   main > section > dl > div > dt,
@@ -67,24 +90,6 @@ main div.blur {
 @media (prefers-contrast: more) {
   main div.blur {
     color: var(--color-text-50);
-  }
-}
-main > section > dl,
-main .subsection-grid {
-  display: grid;
-  gap: var(--padding-scaled-05) var(--padding-scaled);
-  max-width: 99rem;
-}
-@media (min-width: 1024px) {
-  main > section > dl,
-  main .subsection-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1920px) {
-  main > section > dl,
-  main .subsection-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 main .capabilities dl {

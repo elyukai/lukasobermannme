@@ -4,10 +4,10 @@ use Kirby\Toolkit\Str;
 
 snippet('layout', slots: true) ?>
 
-<h1 class="scaled aos"><?= $page->title()->html() ?></h1>
+<h1 class="aos"><?= $page->title()->html() ?></h1>
 
 <section>
-  <h2 class="scaled aos"><?= t('Work Experience') ?></h2>
+  <h2 class="aos"><?= t('Work Experience') ?></h2>
   <dl>
     <?php foreach ($page->workExperience()->toStructure() as $workExperience) : ?>
     <div class="aos">
@@ -44,7 +44,7 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section>
-  <h2 class="scaled aos"><?= t('Education') ?></h2>
+  <h2 class="aos"><?= t('Education') ?></h2>
   <dl>
     <?php foreach ($page->education()->toStructure() as $education) : ?>
     <div<?= $education->gap()->toBool() ? ' class="blur aos"' : ' class="aos"' ?>>
@@ -81,7 +81,7 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section class="capabilities">
-  <h2 class="scaled aos"><?= t('Capabilities') ?></h2>
+  <h2 class="aos"><?= t('Capabilities') ?></h2>
   <div class="subsection-grid">
     <section class="aos">
       <h3><?= t('Languages') ?></h3>
@@ -150,7 +150,7 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section class="interests-hobbies aos">
-  <h2 class="scaled"><?= t('Interests & Hobbies') ?></h2>
+  <h2><?= t('Interests & Hobbies') ?></h2>
   <ul class="scaled--small">
   <?php foreach ($page->interestsHobbies()->toStructure() as $interestHobby) : ?>
     <li><?= $interestHobby->name()->kirbytextinline() ?></li>

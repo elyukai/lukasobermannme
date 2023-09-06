@@ -38,7 +38,7 @@ body {
 }
 
 .scaled {
-  @include v.font-2xl;
+  @include v.font-3xl;
 }
 
 a {
@@ -106,14 +106,14 @@ p {
 h1 {
   font-weight: 600;
   margin: var(--padding-scaled) 0 var(--padding-scaled-2) -0.05em;
+  @include v.font-4xl;
 }
 
 h2 {
-  color: var(--color-text-10);
+  color: var(--color-text);
   font-weight: 600;
-  margin: var(--padding-scaled-2) 0 var(--padding-scaled-05) -0.05em;
-  font-size: calc(min(5vw + 0.4rem, 4rem));
-  line-height: calc(min(5vw + 0.8rem - 0.1em, 4rem));
+  margin: var(--padding-scaled-2) 0 var(--padding-scaled-05) -0.025em;
+  @include v.font-2xl;
   max-width: 15em;
 
   @media (min-width: 768px) {
@@ -121,16 +121,11 @@ h2 {
       margin-left: -0.05em;
     }
   }
-
-  @media (prefers-contrast: more) {
-    color: var(--color-text);
-    font-weight: 400;
-  }
 }
 
 h3 {
   @include v.font-xl;
-  margin: 1.5em 0 0.75em;
+  margin: 1.5em 0 0.75em -0.025em;
   font-weight: 600;
 }
 
