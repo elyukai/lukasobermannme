@@ -6,8 +6,8 @@
   <title><?= $page->title()->html() ?> | <?= $site->title()->html() ?></title>
   <link rel="shortcut icon" href="/favicon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#eae8f0">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141221">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="<?= isset($themeColorLight) && $themeColorLight != null ? $themeColorLight : '#eae8f0' ?>">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="<?= isset($themeColorDark) && $themeColorDark != null ? $themeColorDark : '#141221' ?>">
   <?= css(['assets/css/styles.css', '@auto']) ?>
   <?php if (isset($style) && $style != null) : ?>
   <style>
