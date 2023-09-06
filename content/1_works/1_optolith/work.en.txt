@@ -75,6 +75,130 @@ Links:
 
 ----
 
+Isthemed: true
+
+----
+
+Colorbackground: #f0f0f0
+
+----
+
+Colorlink: #826a3e
+
+----
+
+Colorlinkhover: #b6a68a
+
+----
+
+Colorfocus: #826a3e
+
+----
+
+Colortext: #3c3c3c
+
+----
+
+Colortext90: #3c3c3c
+
+----
+
+Colortext80: #3c3c3c
+
+----
+
+Colortext70: #3c3c3c
+
+----
+
+Colortext60: #3c3c3c
+
+----
+
+Colortext50: #3c3c3c
+
+----
+
+Colortext40: #3c3c3c
+
+----
+
+Colortext30: #3c3c3c
+
+----
+
+Colortext20: #3c3c3c
+
+----
+
+Colortext10: #3c3c3c
+
+----
+
+Colorselectionbackground: #c2ad88
+
+----
+
+Colorbackgrounddark: #111111
+
+----
+
+Colorlinkdark: #826a3e
+
+----
+
+Colorlinkhoverdark: #5d4517
+
+----
+
+Colorfocusdark: #826a3e
+
+----
+
+Colortextdark: #7f7f7f
+
+----
+
+Colortextdark90: #7f7f7f
+
+----
+
+Colortextdark80: #7f7f7f
+
+----
+
+Colortextdark70: #7f7f7f
+
+----
+
+Colortextdark60: #7f7f7f
+
+----
+
+Colortextdark50: #7f7f7f
+
+----
+
+Colortextdark40: #7f7f7f
+
+----
+
+Colortextdark30: #7f7f7f
+
+----
+
+Colortextdark20: #7f7f7f
+
+----
+
+Colortextdark10: #7f7f7f
+
+----
+
+Colorselectionbackgrounddark: #79643c
+
+----
+
 Metatitle: 
 
 ----

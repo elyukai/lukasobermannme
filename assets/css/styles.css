@@ -70,24 +70,24 @@
   --color-blackpurple-30: rgba(20, 18, 33, 0.3);
   --color-blackpurple-20: rgba(20, 18, 33, 0.2);
   --color-blackpurple-10: rgba(20, 18, 33, 0.1);
-  --color-background: var(--color-lightgrey);
-  --color-background-40: var(--color-lightgrey-40);
-  --color-link: var(--color-deeppurple);
-  --color-link-hover: var(--color-deeppurple);
-  --color-focus: var(--color-deeppurple);
-  --color-text: var(--color-blackpurple);
-  --color-text-90: var(--color-blackpurple-90);
-  --color-text-80: var(--color-blackpurple-80);
-  --color-text-70: var(--color-blackpurple-70);
-  --color-text-60: var(--color-blackpurple-60);
-  --color-text-50: var(--color-blackpurple-50);
-  --color-text-40: var(--color-blackpurple-40);
-  --color-text-30: var(--color-blackpurple-30);
-  --color-text-20: var(--color-blackpurple-20);
-  --color-text-10: var(--color-blackpurple-10);
-  --color-selection-background: var(--color-lightpurple);
-  --color-overlay: var(--color-lightgrey-90);
-  --color-overlay-hover: var(--color-lightgrey-60);
+  --color-background: var(--color-theme-background, var(--color-lightgrey));
+  --color-link: var(--color-theme-link, var(--color-deeppurple));
+  --color-link-hover: var(--color-theme-link-hover, var(--color-deeppurple));
+  --color-focus: var(--color-theme-focus, var(--color-deeppurple));
+  --color-text: var(--color-theme-text, var(--color-blackpurple));
+  --color-text-90: var(--color-theme-text-90, var(--color-blackpurple-90));
+  --color-text-80: var(--color-theme-text-80, var(--color-blackpurple-80));
+  --color-text-70: var(--color-theme-text-70, var(--color-blackpurple-70));
+  --color-text-60: var(--color-theme-text-60, var(--color-blackpurple-60));
+  --color-text-50: var(--color-theme-text-50, var(--color-blackpurple-50));
+  --color-text-40: var(--color-theme-text-40, var(--color-blackpurple-40));
+  --color-text-30: var(--color-theme-text-30, var(--color-blackpurple-30));
+  --color-text-20: var(--color-theme-text-20, var(--color-blackpurple-20));
+  --color-text-10: var(--color-theme-text-10, var(--color-blackpurple-10));
+  --color-selection-background: var(
+    --color-theme-selection-background,
+    var(--color-lightpurple)
+  );
   --font-family: "Borna", sans-serif;
   --padding-scaled-025: calc(min(1.25vw + 0.275rem, 1.175rem));
   --padding-scaled-05: calc(min(2.5vw + 0.55rem, 2.35rem));
@@ -97,24 +97,30 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--color-blackpurple);
-    --color-background-40: var(--color-blackpurple-40);
-    --color-link: var(--color-lightpurple);
-    --color-link-hover: var(--color-lightpurple);
-    --color-focus: var(--color-deeppurple);
-    --color-text: var(--color-lightgrey);
-    --color-text-90: var(--color-lightgrey-90);
-    --color-text-80: var(--color-lightgrey-80);
-    --color-text-70: var(--color-lightgrey-70);
-    --color-text-60: var(--color-lightgrey-60);
-    --color-text-50: var(--color-lightgrey-50);
-    --color-text-40: var(--color-lightgrey-40);
-    --color-text-30: var(--color-lightgrey-30);
-    --color-text-20: var(--color-lightgrey-20);
-    --color-text-10: var(--color-lightgrey-10);
-    --color-selection-background: var(--color-deeppurple);
-    --color-overlay: var(--color-blackpurple-80);
-    --color-overlay-hover: var(--color-blackpurple-60);
+    --color-background: var(
+      --color-theme-dark-background,
+      var(--color-blackpurple)
+    );
+    --color-link: var(--color-theme-dark-link, var(--color-lightpurple));
+    --color-link-hover: var(
+      --color-theme-dark-link-hover,
+      var(--color-lightpurple)
+    );
+    --color-focus: var(--color-theme-dark-focus, var(--color-deeppurple));
+    --color-text: var(--color-theme-dark-text, var(--color-lightgrey));
+    --color-text-90: var(--color-theme-dark-text-90, var(--color-lightgrey-90));
+    --color-text-80: var(--color-theme-dark-text-80, var(--color-lightgrey-80));
+    --color-text-70: var(--color-theme-dark-text-70, var(--color-lightgrey-70));
+    --color-text-60: var(--color-theme-dark-text-60, var(--color-lightgrey-60));
+    --color-text-50: var(--color-theme-dark-text-50, var(--color-lightgrey-50));
+    --color-text-40: var(--color-theme-dark-text-40, var(--color-lightgrey-40));
+    --color-text-30: var(--color-theme-dark-text-30, var(--color-lightgrey-30));
+    --color-text-20: var(--color-theme-dark-text-20, var(--color-lightgrey-20));
+    --color-text-10: var(--color-theme-dark-text-10, var(--color-lightgrey-10));
+    --color-selection-background: var(
+      --color-theme-dark-selection-background,
+      var(--color-deeppurple)
+    );
   }
 }
 * {

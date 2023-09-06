@@ -79,6 +79,130 @@ Links:
 
 ----
 
+Isthemed: true
+
+----
+
+Colorbackground: #fff6eb
+
+----
+
+Colorlink: #fc4d5e
+
+----
+
+Colorlinkhover: #fc4d5e
+
+----
+
+Colorfocus: #fc4d5e
+
+----
+
+Colortext: #131a29
+
+----
+
+Colortext90: #131a29
+
+----
+
+Colortext80: #131a29
+
+----
+
+Colortext70: #131a29
+
+----
+
+Colortext60: #131a29
+
+----
+
+Colortext50: #131a29
+
+----
+
+Colortext40: #131a29
+
+----
+
+Colortext30: #131a29
+
+----
+
+Colortext20: #131a29
+
+----
+
+Colortext10: #131a29
+
+----
+
+Colorselectionbackground: #17b2a9
+
+----
+
+Colorbackgrounddark: #131a29
+
+----
+
+Colorlinkdark: #17b2a9
+
+----
+
+Colorlinkhoverdark: #17b2a9
+
+----
+
+Colorfocusdark: #17b2a9
+
+----
+
+Colortextdark: #fff6eb
+
+----
+
+Colortextdark90: #131a29
+
+----
+
+Colortextdark80: #131a29
+
+----
+
+Colortextdark70: #131a29
+
+----
+
+Colortextdark60: #131a29
+
+----
+
+Colortextdark50: #131a29
+
+----
+
+Colortextdark40: #131a29
+
+----
+
+Colortextdark30: #131a29
+
+----
+
+Colortextdark20: #131a29
+
+----
+
+Colortextdark10: #131a29
+
+----
+
+Colorselectionbackgrounddark: #fc4d5e
+
+----
+
 Metatitle: 
 
 ----

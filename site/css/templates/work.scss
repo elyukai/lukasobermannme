@@ -1,13 +1,5 @@
-figure#slideshow {
-  margin: var(--padding-scaled) 0;
-  position: relative;
-  max-width: 66rem;
-
-  img {
-    display: block;
-    width: 100%;
-    outline: 0.5px solid var(--color-text-20);
-  }
+h1 {
+  margin-bottom: var(--padding-scaled);
 }
 
 div.work-information {
