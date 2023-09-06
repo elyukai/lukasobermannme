@@ -1,6 +1,6 @@
 <?php snippet('layout', slots: true) ?>
 
-<h1 class="scaled aos"><?= $page->title()->html() ?></h1>
+<h1 class="aos"><?= $page->title()->html() ?></h1>
 
 <?php snippet("gallery", ["files" => $page->gallery()->toFiles()]) ?>
 
