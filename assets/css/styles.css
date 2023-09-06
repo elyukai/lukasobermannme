@@ -399,7 +399,7 @@ figure.gallery video {
   transform: translateX(var(--tx, 0));
   z-index: 1;
   outline: 0.5px solid var(--color-text-20);
-  max-width: 49.5rem;
+  max-width: 125vh;
 }
 figure.gallery ul {
   margin: 0;
@@ -407,6 +407,7 @@ figure.gallery ul {
 }
 figure.gallery ul li {
   display: block;
+  max-width: none;
 }
 figure.gallery ul li:first-child {
   margin-top: 0;
