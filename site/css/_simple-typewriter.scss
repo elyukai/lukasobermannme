@@ -10,8 +10,6 @@
 
     &.typewriter-text--cursor::after {
       content: "|";
-      display: inline-block;
-      vertical-align: bottom;
       position: absolute;
       color: var(--color-selection-background);
     }
