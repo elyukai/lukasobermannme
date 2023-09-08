@@ -24,18 +24,31 @@
   /**
    * @param {HTMLElement} element
    */
-  const isElementInView = element => element.getBoundingClientRect().top < window.innerHeight
+  const isElementScrolledBy = element => {
+    const elementBounds = element.getBoundingClientRect()
+    return element.getBoundingClientRect().bottom <= 0
+  }
+
+  /**
+   * @param {HTMLElement} element
+   */
+  const isElementInView = element => {
+    const elementBounds = element.getBoundingClientRect()
+    return elementBounds.bottom > 0 && elementBounds.top < window.innerHeight
+  }
 
   elements.forEach(element => {
     element.classList.add(TRIGGER_CLASS_NAME)
 
-    if (!isElementInView(element)) {
+    if (!isElementScrolledBy(element) && !isElementInView(element)) {
       element.classList.add(READY_CLASS_NAME)
 
       const animate = () => {
         if (isElementInView(element)) {
           element.classList.remove(READY_CLASS_NAME)
           element.classList.add(IN_VIEW_CLASS_NAME)
+          window.removeEventListener("scroll", animate)
+          window.removeEventListener("resize", animate)
         }
       }
 
