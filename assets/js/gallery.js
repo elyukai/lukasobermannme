@@ -48,13 +48,13 @@
     // Initialize interaction elements and accessibility
 
     const tablist = document.createElement("div")
-    tablist.role = "tablist"
-    tablist.ariaLabel = tablistLabel
+    tablist.setAttribute("role", "tablist")
+    tablist.setAttribute("aria-label", tablistLabel || "")
 
     const prevButton = document.createElement("button")
     prevButton.classList.add("gallery-previous")
-    prevButton.ariaHidden = "true"
-    prevButton.ariaLabel = prevButtonLabel
+    prevButton.setAttribute("aria-hidden", "true")
+    prevButton.setAttribute("aria-label", prevButtonLabel || "")
     prevButton.tabIndex = -1
     if (iconArrowLeft) {
       gallery.removeChild(iconArrowLeft)
@@ -63,8 +63,8 @@
 
     const nextButton = document.createElement("button")
     nextButton.classList.add("gallery-next")
-    nextButton.ariaHidden = "true"
-    nextButton.ariaLabel = nextButtonLabel
+    nextButton.setAttribute("aria-hidden", "true")
+    nextButton.setAttribute("aria-label", nextButtonLabel || "")
     nextButton.tabIndex = -1
     if (iconArrowRight) {
       gallery.removeChild(iconArrowRight)
@@ -80,20 +80,23 @@
     const prepareTabPair = (index) => {
       const tabPanel = /** @type {HTMLLIElement} */(container.children[index])
       tabPanel.id = `${id}-tabpanel-${index + 1}`
-      tabPanel.role = "tabpanel"
-      tabPanel.ariaRoleDescription = tabPanelRoleDescription
-      tabPanel.ariaLabel = tabPanelLabel
-        ?.replace("{0}", (index + 1).toFixed())
-         .replace("{1}", container.children.length.toFixed()) ?? null
+      tabPanel.setAttribute("role", "tabpanel")
+      tabPanel.setAttribute("aria-role-description", tabPanelRoleDescription || "")
+      tabPanel.setAttribute(
+          "aria-label",
+          (tabPanelLabel || "")
+            .replace("{0}", (index + 1).toFixed())
+            .replace("{1}", container.children.length.toFixed())
+        )
 
       const tab = document.createElement("button")
       tab.id = `${id}-tab-${index + 1}`
-      tab.ariaLabel = tabLabel?.replace("{0}", (index + 1).toFixed()) ?? null
+      tab.setAttribute("aria-label", (tabLabel || "").replace("{0}", (index + 1).toFixed()))
       tab.setAttribute("aria-controls", tabPanel.id)
       tab.tabIndex = -1
 
       if (index === 0) {
-        tab.ariaSelected = "true"
+        tabPanel.setAttribute("aria-selected", "true")
         tab.tabIndex = 0
         tabPanel.classList.add("active")
       }
@@ -119,7 +122,7 @@
      */
     const showTabPanel = (index, moveFocus) => {
       const { tab, tabPanel } = tabPairs[index]
-      tab.ariaSelected = "true"
+      nextButton.setAttribute("aria-selected", "true")
       tab.tabIndex = 0
       tabPanel.classList.add("active")
       if (moveFocus) {
@@ -132,7 +135,7 @@
      */
     const hideTabPanel = (index) => {
       const { tab, tabPanel } = tabPairs[index]
-      tab.ariaSelected = "false"
+      nextButton.setAttribute("aria-selected", "false")
       tab.tabIndex = -1
       tabPanel.classList.remove("active")
     }
