@@ -304,10 +304,25 @@ li::marker {
 .js-enabled .typewriter .typewriter-text--shown {
   position: relative;
 }
-.js-enabled .typewriter .typewriter-text--shown.typewriter-text--cursor::after {
+.js-enabled .typewriter .typewriter-cursor {
+  position: relative;
+  display: inline;
+}
+.js-enabled .typewriter .typewriter-cursor::after {
   content: "|";
   position: absolute;
   color: var(--color-selection-background);
+  animation: cursor-blink 1s steps(2) infinite;
+}
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js-enabled .typewriter .typewriter-cursor::after {
+    animation: none;
+  }
 }
 .js-enabled .typewriter .typewriter-text--hidden {
   opacity: 0;

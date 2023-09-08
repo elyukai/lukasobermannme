@@ -7,11 +7,27 @@
 
   .typewriter-text--shown {
     position: relative;
+  }
 
-    &.typewriter-text--cursor::after {
+  .typewriter-cursor {
+    position: relative;
+    display: inline;
+
+    &::after {
       content: "|";
       position: absolute;
       color: var(--color-selection-background);
+      animation: cursor-blink 1s steps(2) infinite;
+
+      @keyframes cursor-blink {
+        0% {
+          opacity: 0;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animation: none;
+      }
     }
   }
 
