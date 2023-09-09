@@ -248,7 +248,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: An overview about my experiences and skills, representing a digital CV.
 
 ----
 

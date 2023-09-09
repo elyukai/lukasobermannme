@@ -1,0 +1,73 @@
+Title: A Light in the Dark
+
+----
+
+Description:
+
+*A Light in the Dark* is a dexterity game where you have to roll a ball through a labyrinth of paths to collect points and find the end. I created the game during a game programming module at university as the module's assignment.
+
+I paid a lot of attention to the look and feel of the game and the difficuly of the levels rather than complex game mechanics. My goal was to create a pleasing but challenging game while being easy to use.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Ein Videospiel, bei dem man einen Ball durch eine geometrische und dunkle und teils neonfarbene Landschaft führt. Eine Hausarbeit, die mit Unity umgesetzt wurde.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

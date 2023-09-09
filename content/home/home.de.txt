@@ -34,7 +34,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Hi, ich bin Lukas, ein freiberuflicher Designer und Entwickler aus Flensburg. Ich erstelle Websites, Apps und mehr.
 
 ----
 

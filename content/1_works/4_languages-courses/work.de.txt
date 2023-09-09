@@ -1,0 +1,73 @@
+Title: Languages Courses
+
+----
+
+Description:
+
+In partner work, we created a promotional film for the language courses at Flensburg University of Applied Sciences during the post production module at university as the module's assignment. We first created static key images in Illustrator and then animated those in After Effects. The film tells about why people may think about choosing a language course. For example, a language can open up a whole new world for someone, because it is always linked to the people and thus the culture. Thinking in a different language is different, too, which we reflect by using two different color schemes that fade into each other.
+
+I was responsible for most of the graphic design as well as parts of the story and the animation.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Eine Werbevideo für Sprachkurse an der Hochschule Flensburg als Hausarbeit.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

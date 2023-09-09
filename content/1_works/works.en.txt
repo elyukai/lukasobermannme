@@ -14,7 +14,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: A selection of previous and current works/projects I made or contributed to.
 
 ----
 

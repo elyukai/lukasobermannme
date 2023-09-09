@@ -211,7 +211,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Optolith is a character creation tool for The Dark Eye 5, written in TypeScript using Electron.
 
 ----
 

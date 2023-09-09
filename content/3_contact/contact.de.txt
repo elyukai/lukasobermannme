@@ -22,7 +22,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Du kannst mich auf unterschiedliche Art und Weise erreichen – wie du willst!
 
 ----
 
