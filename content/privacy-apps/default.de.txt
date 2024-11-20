@@ -1,0 +1,91 @@
+Title: Datenschutz in Apps
+
+----
+
+Slug: datenschutz-apps
+
+----
+
+Text:
+
+Diese Datenschutzrichtlinie regelt Ihre Nutzung der Software-Anwendung („Anwendung“), die von Lukas Obermann erstellt wurde.
+
+## Vom Benutzer bereitgestellte Informationen
+
+Die Anwendung speichert alle von Ihnen eingegebenen Informationen entweder nur auf dem Gerät, wie z. B. Filter, oder zwischenspeichert und synchronisiert Daten über alle Apple-Plattformen hinweg mit CloudKit. Die mit CloudKit synchronisierten Daten werden verschlüsselt und sind weder für Apple noch für Lukas Obermann oder einen anderen Dritten zugänglich. Durch das Löschen von Inhalten in der Anwendung werden diese auch aus iCloud entfernt.
+
+## Automatisch gesammelte Informationen
+
+Die Anwendung sammelt keine Informationen über den Nutzer, die irgendwelche identifizierenden Daten beinhalten. Es werden nur Informationen gespeichert, die der Nutzer ausdrücklich angegeben hat. Kein Dritter hat Zugriff auf die vom Nutzer bereitgestellten Informationen.
+
+## Änderungen
+
+Diese Datenschutzrichtlinie kann von Zeit zu Zeit aus beliebigen Gründen aktualisiert werden. Ich werde Sie über alle Änderungen dieser Datenschutzrichtlinie informieren, indem ich die neue Datenschutzrichtlinie hier veröffentliche. Ich empfehle Ihnen, diese Datenschutzrichtlinie regelmäßig auf Änderungen hin zu überprüfen, da die weitere Nutzung als Zustimmung zu allen Änderungen gilt.
+
+## Kontakt
+
+Wenn Sie Fragen zum Datenschutz bei der Nutzung der Anwendung oder zu meinen Praktiken haben, kontaktieren Sie mich bitte per E-Mail unter (e-mail: lukas@lukasobermann.me).
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 

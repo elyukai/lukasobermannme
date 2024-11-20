@@ -1,0 +1,91 @@
+Title: Privacy Policy for Apps
+
+----
+
+Text:
+
+This privacy policy governs your use of the software application (“Application”) that was created by Lukas Obermann.
+
+## User Provided Information
+
+The Application stores any information you entered either on-device-only, like filters, or caches and syncs data across Apple platforms using CloudKit. The data synced with CloudKit is encryped and not accessible by Apple, Lukas Obermann or any other third-party. Deleting content in the Application also removes the content from iCloud.
+
+## Automatically Collected Information
+
+The Application does not collect any information about the user, which includes any identifying data. Only information the user explicitly provided is stored. No third party has access to the information the user provided.
+
+## Changes
+
+This Privacy Policy may be updated from time to time for any reason. I will notify you of any changes to this Privacy Policy by posting the new Privacy Policy here. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+
+## Contact
+
+If you have any questions regarding privacy while using the Application, or have questions about my practices, please contact me via email at (email: lukas@lukasobermann.me).
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: UrlE0pcm1n3mYrvl
