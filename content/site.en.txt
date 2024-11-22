@@ -21,7 +21,7 @@ Footermenu:
 
 ----
 
-Copyright: 2023 — Lukas Obermann
+Copyright: 2024 — Lukas Obermann
 
 ----
 
