@@ -1,0 +1,81 @@
+Title: INDIGO-Dachmarke
+
+----
+
+Slug: indigo-dackmarke
+
+----
+
+Description:
+
+Für verschiedene Unternehmen, die bisher nur namentlich unter dem Namen ›Indigo‹ sowie einem gezeichneten Piktogramm als Logo zusammengefasst wurden, sollte ein neues Logo und ein dazugehöriges Corporate Design entwickelt und ausgestaltet werden.
+
+Die Marke vermittelt Seriosität, Verlässlichkeit, Qualität und Anspruch. Dies wird auch durch die Dicke der *At Gambit Stencil* deutlich, die die Wortmarke dominiert. Kontrastiert wird der indigoähnliche Blauton durch ein goldähnliches Ocker.
+
+Dieser Farbton findet sich in den Linien wieder, die das zweite ›I‹ der Wortmarke umgeben. Sie ›winden‹ sich um den Buchstaben und symbolisieren nicht nur die Werte der Marke im übertragenen Sinn, sondern auch Tampen am Mast eines Schiffes – denn der Name ›Indigo‹ war der Name eines Schiffes, welches auch im alten Logo abgebildet war.
+
+Das Corporate Design leitet sich aus der Wortmarke ab. Zentrale Ausrichtung sowie verschieden dicke Linien in 45°-Abständen bestimmen die ansonsten sehr weißhaltige Gestaltung.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
