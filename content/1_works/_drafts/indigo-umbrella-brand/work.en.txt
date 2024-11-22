@@ -70,127 +70,127 @@ Links:
 
 ----
 
-Isthemed: false
+Isthemed: true
 
 ----
 
-Colorbackground: 
+Colorbackground: #fff
 
 ----
 
-Colorlink: 
+Colorlink: #ad9451
 
 ----
 
-Colorlinkhover: 
+Colorlinkhover: #ad9451
 
 ----
 
-Colorfocus: 
+Colorfocus: #ad9451
 
 ----
 
-Colortext: 
+Colortext: #282c58
 
 ----
 
-Colortext90: 
+Colortext90: #282c58
 
 ----
 
-Colortext80: 
+Colortext80: #282c58
 
 ----
 
-Colortext70: 
+Colortext70: #282c58
 
 ----
 
-Colortext60: 
+Colortext60: #282c58
 
 ----
 
-Colortext50: 
+Colortext50: #282c58
 
 ----
 
-Colortext40: 
+Colortext40: #282c58
 
 ----
 
-Colortext30: 
+Colortext30: #282c58
 
 ----
 
-Colortext20: 
+Colortext20: #282c58
 
 ----
 
-Colortext10: 
+Colortext10: #282c58
 
 ----
 
-Colorselectionbackground: 
+Colorselectionbackground: #ad9451
 
 ----
 
-Colorbackgrounddark: 
+Colorbackgrounddark: #282c58
 
 ----
 
-Colorlinkdark: 
+Colorlinkdark: #ad9451
 
 ----
 
-Colorlinkhoverdark: 
+Colorlinkhoverdark: #ad9451
 
 ----
 
-Colorfocusdark: 
+Colorfocusdark: #ad9451
 
 ----
 
-Colortextdark: 
+Colortextdark: #fff
 
 ----
 
-Colortextdark90: 
+Colortextdark90: #fff
 
 ----
 
-Colortextdark80: 
+Colortextdark80: #fff
 
 ----
 
-Colortextdark70: 
+Colortextdark70: #fff
 
 ----
 
-Colortextdark60: 
+Colortextdark60: #fff
 
 ----
 
-Colortextdark50: 
+Colortextdark50: #fff
 
 ----
 
-Colortextdark40: 
+Colortextdark40: #fff
 
 ----
 
-Colortextdark30: 
+Colortextdark30: #fff
 
 ----
 
-Colortextdark20: 
+Colortextdark20: #fff
 
 ----
 
-Colortextdark10: 
+Colortextdark10: #fff
 
 ----
 
-Colorselectionbackgrounddark: 
+Colorselectionbackgrounddark: #ad9451
 
 ----
 
