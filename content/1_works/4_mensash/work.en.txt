@@ -1,0 +1,265 @@
+Title: MensaSH
+
+----
+
+Gallery:
+
+- file://UdaY6ateVvD9cwQJ
+- file://RpIN4W0XJ0qsn1vE
+- file://7UeJ6efA4P3txmK6
+- file://bNC3E4OTsvYGOR5C
+
+----
+
+Description:
+
+MensaSH is an application for reading university canteen menus in the state of Schleswig-Holstein, Germany. It works across all Apple platforms, including iPhone, iPad and Mac.
+
+The application is implemented in SwiftUI and only makes use of native interface elements, increasing the User Experience for people familiar with Apple navigation and interaction experiences, as well as providing a high level of accessibility.
+
+The application icon has been designed from the state initials ‘SH’, a plate with cutlery, and common colors of Schleswig-Holstein and the canteen branding.
+
+----
+
+Projecttype: hobby
+
+----
+
+Scopes: appdev, cd, ux, ui
+
+----
+
+Tools: Xcode, Sketch
+
+----
+
+Technologies: Swift, SwiftUI
+
+----
+
+Startyear: 2024
+
+----
+
+Startmonth: 11
+
+----
+
+Startday: 
+
+----
+
+Endyear: 2024
+
+----
+
+Endmonth: 11
+
+----
+
+Endday: 
+
+----
+
+Teammembers: 
+
+----
+
+Links:
+
+- 
+  name: App Store
+  url: >
+    https://apps.apple.com/de/app/mensash/id6738364895
+
+----
+
+Isthemed: false
+
+----
+
+Colorbackground: 
+
+----
+
+Colorlink: 
+
+----
+
+Colorlinkhover: 
+
+----
+
+Colorfocus: 
+
+----
+
+Colortext: 
+
+----
+
+Colortext90: 
+
+----
+
+Colortext80: 
+
+----
+
+Colortext70: 
+
+----
+
+Colortext60: 
+
+----
+
+Colortext50: 
+
+----
+
+Colortext40: 
+
+----
+
+Colortext30: 
+
+----
+
+Colortext20: 
+
+----
+
+Colortext10: 
+
+----
+
+Colorselectionbackground: 
+
+----
+
+Colorbackgrounddark: 
+
+----
+
+Colorlinkdark: 
+
+----
+
+Colorlinkhoverdark: 
+
+----
+
+Colorfocusdark: 
+
+----
+
+Colortextdark: 
+
+----
+
+Colortextdark90: 
+
+----
+
+Colortextdark80: 
+
+----
+
+Colortextdark70: 
+
+----
+
+Colortextdark60: 
+
+----
+
+Colortextdark50: 
+
+----
+
+Colortextdark40: 
+
+----
+
+Colortextdark30: 
+
+----
+
+Colortextdark20: 
+
+----
+
+Colortextdark10: 
+
+----
+
+Colorselectionbackgrounddark: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: A0IWi3AvCjixKIif

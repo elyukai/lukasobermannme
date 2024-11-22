@@ -1,0 +1,75 @@
+Title: MensaSH
+
+----
+
+Description:
+
+MensaSH ist eine Anwendung zum Anzeigen von Mensa-Speiseplänen in Schleswig-Holstein. Sie funktioniert auf allen Apple-Plattformen, einschließlich iPhone, iPad und Mac.
+
+Die Anwendung ist in SwiftUI implementiert und verwendet nur native Oberflächenelemente, was die User Experience für Menschen, die mit der Apple-Navigation und Interaktionserfahrung vertraut sind, verbessert und ein hohes Maß an Barrierefreiheit bietet.
+
+Das Anwendungssymbol wurde aus den Landesinitialen „SH“, einem Teller mit Besteck und den üblichen Farben Schleswig-Holsteins sowie des Kantinenbrandings entwickelt.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
