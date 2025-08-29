@@ -25,6 +25,14 @@
     <?= $style ?>
   </style>
   <?php endif ?>
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-bold.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-bolditalic.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-medium.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-mediumitalic.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-regular.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-regularitalic.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-semibold.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin ref="/assets/fonts/borna-semibolditalic.woff2">
 </head>
 
 <body class="<?= $page->template()->name() ?>">
