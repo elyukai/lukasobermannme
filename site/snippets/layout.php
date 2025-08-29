@@ -8,7 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="<?= isset($themeColorLight) ? $themeColorLight : '#eae8f0' ?>">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="<?= isset($themeColorDark) ? $themeColorDark : '#141221' ?>">
-  <?= css(['assets/css/styles.css', '@auto']) ?>
+  <?= css([
+    'assets/css/fonts.css',
+    'assets/css/variables.css',
+    'assets/css/global.css',
+    'assets/css/scroll-enabled.css',
+    'assets/css/simple-typewriter.css',
+    'assets/css/header.css',
+    'assets/css/gallery.css',
+    'assets/css/works.css',
+    'assets/css/footer.css',
+    '@auto',
+  ]) ?>
   <?php if (isset($style)) : ?>
   <style>
     <?= $style ?>

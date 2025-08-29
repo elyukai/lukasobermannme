@@ -1,0 +1,39 @@
+.js-enabled .typewriter {
+  opacity: 0;
+}
+
+.js-enabled .typewriter--active {
+  opacity: 1;
+}
+
+.js-enabled .typewriter-text--shown {
+  position: relative;
+}
+
+.js-enabled .typewriter-text--hidden {
+  opacity: 0;
+}
+
+.js-enabled .typewriter-cursor {
+  position: relative;
+  display: inline;
+}
+
+.js-enabled .typewriter-cursor::after {
+  content: "|";
+  position: absolute;
+  color: var(--color-selection-background);
+  animation: cursor-blink 1s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js-enabled .typewriter-cursor::after {
+    animation: none;
+  }
+}
