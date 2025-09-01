@@ -129,7 +129,11 @@ Languages:
   isnativespeaker: 'true'
 - 
   language: English
-  quality: b2
+  quality: c2
+  isnativespeaker: 'false'
+- 
+  language: Dutch
+  quality: a2
   isnativespeaker: 'false'
 
 ----
