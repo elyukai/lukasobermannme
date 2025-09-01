@@ -74,7 +74,7 @@
       </ul>
     </nav>
     <?php endif ?>
-    <p class="copyright"><?= $site->copyright()->html() ?></p>
+    <p class="copyright"><?= $site->copyright()->kti() ?></p>
   </footer>
 
   <?= js([
