@@ -22,8 +22,7 @@ tabs:
                   cover: true
                 translate: false
               description:
-                type: textarea
-                size: medium
+                type: writer
                 required: true
           details:
             type: fields

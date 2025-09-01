@@ -1,12 +1,12 @@
-Title: Digital presence recording UX
+Title: UX für digitale Anwesenheitserfassung
 
 ----
 
-Description:
+Slug: ux-fuer-digitale-anwesenheitserfassung
 
-In early December 2020, I was asked to improve the UI/UX of the current screens used to record present staff and guests in buildings of Flensburg University of Applied Sciences. I aligned the different screens with the corporate design and modified the overall design to be touch-friendly. I also added a home button to every page to be able to recover faster after a failure of the system, where the user had to wait up to 10 seconds before it refreshed the screen. Using proper input types made typing the personal numbers way easier.
+----
 
-In consultation with (link: https://hs-flensburg.de/hochschule/personen/zimmermann text: Uwe Zimmermann), who initiated the UI/UX improvement project, I submitted the proposed changes, which were then deployed in late December, shortly after lauching the original digital recording system.
+Description: <p>Anfang Dezember 2020 wurde ich gebeten, die Benutzeroberfläche und Benutzererfahrung der aktuellen Bildschirme zu verbessern, die zur Erfassung der anwesenden Mitarbeiter und Gäste in den Gebäuden der Hochschule Flensburg verwendet wurden. Ich habe die verschiedenen Bildschirme an das Corporate Design angepasst und das Gesamtdesign touchfreundlich gestaltet. Außerdem habe ich auf jeder Seite eine Home-Taste hinzugefügt, um nach einem Systemausfall, bei dem der Benutzer bis zu 10 Sekunden warten musste, bevor der Bildschirm aktualisiert wurde, eine schnellere Wiederherstellung zu ermöglichen. Durch die Verwendung geeigneter Eingabetypen wurde die Eingabe der persönlichen Nummern erheblich vereinfacht.</p><p>In Absprache mit <a href="https://hs-flensburg.de/hochschule/personen/zimmermann">Uwe Zimmermann</a>, der das Projekt zur Verbesserung der Benutzeroberfläche und Benutzerfreundlichkeit initiiert hatte, reichte ich die vorgeschlagenen Änderungen ein, die dann Ende Dezember, kurz nach der Einführung des ursprünglichen digitalen Erfassungssystems, umgesetzt wurden.</p>
 
 ----
 

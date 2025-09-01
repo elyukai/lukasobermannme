@@ -45,7 +45,7 @@
 <div class="work-information scaled--small">
   <section class="description scaled--small aos">
     <h2 class="sr-only"><?= t('Description') ?></h2>
-    <?= $page->description()->kirbytext() ?>
+    <?= $page->description() ?>
   </section>
   <section class="key-data scaled--small aos">
     <h2 class="sr-only"><?= t('Key Data') ?></h2>

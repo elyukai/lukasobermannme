@@ -1,0 +1,73 @@
+Title: Maats Prinzip
+
+----
+
+Slug: maats-prinzip
+
+----
+
+Description: <p><em>Maats Prinzip</em> ist ein Kartenspiel, das drei Freunde und ich während eines Spieledesign-Moduls an der Universität als Modulaufgabe erfunden haben. Wir mussten uns völlig neue Ideen für ein Spiel ausdenken, um es einzigartig zu machen. Das betraf nicht nur die Spielmechanik, sondern auch die Hintergrundgeschichte und das Grafikdesign.</p><p><em>Maats Prinzip</em> spielt im alten Ägypten, wo man entweder zu den Anhängern von Aton oder den etablierten Göttern gehört. Als Team erstellt man Armbänder, um Punkte zu sammeln, und verziert diese, um starke Effekte zu entfesseln, die das gegnerische Team behindern.</p><p>Ich war für den Großteil des Grafikdesigns verantwortlich, habe die Grundidee für den Hintergrund entwickelt und zur Spielmechanik beigetragen.</p>
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Ein Team-Kartenspiel, welches im alten Ägypten spielt und in dem man, vom Tag-Nacht-Zyklus beeinflusst, Schmuck für die Götter herstellt. Eine Hausarbeit.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

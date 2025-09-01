@@ -2,11 +2,7 @@ Title: A Light in the Dark
 
 ----
 
-Description:
-
-*A Light in the Dark* is a dexterity game where you have to roll a ball through a labyrinth of paths to collect points and find the end. I created the game during a game programming module at university as the module's assignment.
-
-I paid a lot of attention to the look and feel of the game and the difficuly of the levels rather than complex game mechanics. My goal was to create a pleasing but challenging game while being easy to use.
+Description: <p><em>A Light in the Dark</em> ist ein Geschicklichkeitsspiel, bei dem Sie einen Ball durch ein Labyrinth aus Pfaden rollen müssen, um Punkte zu sammeln und das Ende zu finden. Ich habe das Spiel während eines Spieleprogrammiermoduls an der Universität als Modulaufgabe entwickelt.</p><p>Ich habe viel Wert auf das Aussehen und die Atmosphäre des Spiels sowie auf den Schwierigkeitsgrad der Levels gelegt, anstatt auf komplexe Spielmechaniken. Mein Ziel war es, ein ansprechendes, aber herausforderndes Spiel zu entwickeln, das gleichzeitig einfach zu bedienen ist.</p>
 
 ----
 

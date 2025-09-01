@@ -1,12 +1,12 @@
-Title: Languages Courses
+Title: Sprachkurse
 
 ----
 
-Description:
+Slug: sprachkurse
 
-In partner work, we created a promotional film for the language courses at Flensburg University of Applied Sciences during the post production module at university as the module's assignment. We first created static key images in Illustrator and then animated those in After Effects. The film tells about why people may think about choosing a language course. For example, a language can open up a whole new world for someone, because it is always linked to the people and thus the culture. Thinking in a different language is different, too, which we reflect by using two different color schemes that fade into each other.
+----
 
-I was responsible for most of the graphic design as well as parts of the story and the animation.
+Description: <p>Im Rahmen einer Partnerarbeit haben wir während des Postproduktionsmoduls an der Hochschule einen Werbefilm für die Sprachkurse der Fachhochschule Flensburg als Modulaufgabe erstellt. Zunächst haben wir statische Schlüsselbilder in Illustrator erstellt und diese dann in After Effects animiert. Der Film erzählt, warum Menschen darüber nachdenken sollten, einen Sprachkurs zu belegen. Eine Sprache kann beispielsweise jemandem eine ganz neue Welt eröffnen, da sie immer mit den Menschen und damit auch mit der Kultur verbunden ist. Das Denken in einer anderen Sprache ist ebenfalls anders, was wir durch die Verwendung von zwei verschiedenen Farbschemata, die ineinander übergehen, widerspiegeln.</p><p>Ich war für den Großteil des Grafikdesigns sowie für Teile der Geschichte und der Animation verantwortlich.</p>
 
 ----
 

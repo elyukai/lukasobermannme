@@ -1,18 +1,17 @@
-Title: Maats Prinzip
+Title: Maat’s Principle
 
 ----
 
-Gallery: - file://611ClG9aRV8UCDgt
+Gallery:
+
+- file://611ClG9aRV8UCDgt
+- file://1vagk8ihs771ween
+- file://b9zp4ujypeptxjfu
+- file://hqxbd7ssq4xj8c9v
 
 ----
 
-Description:
-
-*Maats Prinzip* is a card game three friends of mine and I invented during a game design module at university as the module's assignment. We had to come up with completely new ideas how to play a game to make it unique. That did not only cover the game's mechanics, but the background story and graphic design as well.
-
-*Maats Prinzip* takes place in ancient Egypt where you are part of he followers of either Aton or the established gods. As a team, you create bracelets to collect points and you decorate them to unleash strong effects to hinder the enemy team.
-
-I was responsible for most of the graphic design, created the base idea for the background and contributed to the game's mechanics.
+Description: <p><em>Maat’s Principle</em> is a card game three friends of mine and I invented during a game design module at university as the module's assignment. We had to come up with completely new ideas how to play a game to make it unique. That did not only cover the game's mechanics, but the background story and graphic design as well.</p><p><em>Maat’s Principle</em> takes place in ancient Egypt where you are part of he followers of either Aton or the established gods. As a team, you create bracelets to collect points and you decorate them to unleash strong effects to hinder the enemy team.</p><p>I was responsible for most of the graphic design, created the base idea for the background and contributed to the game's mechanics.</p>
 
 ----
 

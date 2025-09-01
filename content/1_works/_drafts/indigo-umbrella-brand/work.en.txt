@@ -10,15 +10,7 @@ Gallery:
 
 ----
 
-Description:
-
-A new logo and associated corporate design were to be developed and designed for various companies that had previously only been grouped together by name under the name ‘Indigo’ and a drawn pictogram as a logo.
-
-The brand conveys seriousness, reliability, quality and high standards. This is also made clear by the thickness of the *At Gambit Stencil*, which dominates the word mark. The indigo-like blue tone is contrasted by a gold-like ochre.
-
-This color tone can be found in the lines that surround the second ‘I’ of the word mark. They ‘wind’ around the letter and symbolize not only the values of the brand in a figurative sense, but also ropes on the mast of a ship – because the name ‘Indigo’ was the name of a ship, which was also depicted in the old logo.
-
-The corporate design is derived from the word mark. Central alignment and lines of varying thickness at 45° intervals define the otherwise very white design.
+Description: <p>A new logo and associated corporate design were to be developed and designed for various companies that had previously only been grouped together by name under a pictogram of a ship named ‘Indigo’ and its name itself.</p><p>The brand needs to convey seriousness, reliability, quality and high standards. This is also made clear by the thickness of the *At Gambit Stencil*, which dominates the word mark. The indigo-like blue tone is contrasted by a gold-like ochre.</p><p>This color tone can be found in the lines that surround the second ‘I’ of the word mark. They ‘wind’ around the letter and symbolize not only the values of the brand in a figurative sense, but also ropes on the mast of a ship – building on and continuing the legacy of the brand.</p><p>The corporate design is derived from the word mark. Central alignment and lines of varying thickness at 45° intervals define the otherwise very white design.</p><p>The project included the logo design itself, a brand manual as well as templates for business cards and letters.</p>
 
 ----
 
@@ -74,7 +66,7 @@ Isthemed: true
 
 ----
 
-Colorbackground: #fff
+Colorbackground: #ffffff
 
 ----
 
@@ -150,43 +142,43 @@ Colorfocusdark: #ad9451
 
 ----
 
-Colortextdark: #fff
+Colortextdark: #ffffff
 
 ----
 
-Colortextdark90: #fff
+Colortextdark90: #ffffff
 
 ----
 
-Colortextdark80: #fff
+Colortextdark80: #ffffff
 
 ----
 
-Colortextdark70: #fff
+Colortextdark70: #ffffff
 
 ----
 
-Colortextdark60: #fff
+Colortextdark60: #ffffff
 
 ----
 
-Colortextdark50: #fff
+Colortextdark50: #ffffff
 
 ----
 
-Colortextdark40: #fff
+Colortextdark40: #ffffff
 
 ----
 
-Colortextdark30: #fff
+Colortextdark30: #ffffff
 
 ----
 
-Colortextdark20: #fff
+Colortextdark20: #ffffff
 
 ----
 
-Colortextdark10: #fff
+Colortextdark10: #ffffff
 
 ----
 
