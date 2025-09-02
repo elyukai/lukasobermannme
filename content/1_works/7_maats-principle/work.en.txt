@@ -58,7 +58,7 @@ Endday:
 Teammembers:
 
 - 
-  name: Antonia Bornefeld-Ettmann
+  name: Valentin Bornefeld-Ettmann
 - 
   name: Thorben Dusenstahl
 - 
