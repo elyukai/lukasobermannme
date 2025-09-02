@@ -3,7 +3,7 @@
 
 <h1 class="sr-only"><?= $page->title()->html() ?></h1>
 
-<p class="intro scaled typewriter typewriter--keep-cursor"><?= $page->intro()->kti() ?></p>
+<p class="intro typewriter typewriter--keep-cursor"><?= $page->intro()->kti() ?></p>
 
 <section class="works">
   <h2><?= t('Selected Work') ?></h2>
@@ -20,7 +20,7 @@
 
 <section class="aboutme">
   <h2><?= t('About Me') ?></h2>
-  <div class="scaled--small">
+  <div>
     <?= $page->aboutMe()->kirbytext() ?>
   </div>
   <a href="<?= $site->find("page://jLnMUVj7Z35jOjEk")?->url() ?>" class="more"><span class="arrow" aria-hidden="true">→ </span><?= t('View my profile/CV') ?></a>

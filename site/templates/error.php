@@ -10,4 +10,4 @@
   <p><?= t('I don’t know what happened …') ?></p>
 <?php endif ?>
 
-<a class="back scaled--small" href="<?= $site->url() ?>">← <?= t('Back to home page') ?></a>
+<a class="back" href="<?= $site->url() ?>">← <?= t('Back to home page') ?></a>

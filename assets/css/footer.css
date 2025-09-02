@@ -1,7 +1,7 @@
 footer {
-  margin: var(--padding-scaled-2) 0 0;
+  margin: var(--spacing-xl) 0 0;
   display: grid;
-  gap: var(--padding-scaled) var(--padding-scaled-05);
+  gap: var(--spacing-lg) var(--spacing-md);
   align-items: end;
 }
 
@@ -17,8 +17,7 @@ footer ul {
 }
 
 footer li {
-  font: var(--font-xs);
-  margin: 0.4rem 0 0 0;
+  margin: var(--spacing-sm) 0 0 0;
 }
 
 footer li::marker {
@@ -39,6 +38,5 @@ footer a[aria-current="page"] {
 }
 
 footer p.copyright {
-  font: var(--font-xs);
   margin: 0;
 }

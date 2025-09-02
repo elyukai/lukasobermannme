@@ -40,11 +40,13 @@
 
 <h1><?= $page->title()->html() ?></h1>
 
-  <section class="description scaled--small">
+<div class="work-information">
+  <?php snippet("gallery", ["files" => $page->gallery()->toFiles()]) ?>
+  <section class="description">
     <h2 class="sr-only"><?= t('Description') ?></h2>
     <?= $page->description() ?>
   </section>
-  <section class="key-data scaled--small">
+  <section class="key-data">
     <h2 class="sr-only"><?= t('Key Data') ?></h2>
     <dl>
       <div>
@@ -134,4 +136,4 @@
   </section>
 </div>
 
-<a href="<?= $page->parent()->url() ?>" class="back scaled--small">← <?= t('View all works') ?></a>
+<a href="<?= $page->parent()->url() ?>" class="back">← <?= t('View all works') ?></a>

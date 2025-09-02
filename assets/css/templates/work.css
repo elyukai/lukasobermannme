@@ -1,21 +1,54 @@
-h1 {
-  margin-bottom: var(--padding-scaled);
-}
-
 div.work-information {
   display: grid;
   max-width: none;
-  gap: var(--padding-scaled);
+  gap: var(--spacing-lg) var(--column-spacing);
+  grid-template-areas: "gallery" "description" "tags";
+  align-items: start;
 }
 
-@media (min-width: 96.875rem) {
+@media (min-width: 50rem) {
   div.work-information {
-    grid-template-columns: 33em 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "gallery gallery gallery ." "description description tags tags";
   }
 }
 
+@media (min-width: 70rem) {
+  div.work-information {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "gallery description" "tags tags";
+  }
+}
+
+@media (min-width: 120rem) {
+  div.work-information {
+    grid-template-areas: "gallery description" ". tags";
+  }
+}
+
+figure.gallery {
+  margin: 0;
+  grid-area: gallery;
+}
+
+/* @media (min-width: 96.875rem) {
+  div.work-information {
+    grid-template-columns: 33em 1fr;
+  }
+} */
+/*
 div.work-information > section {
   margin: 0;
+} */
+
+section.description {
+  grid-area: description;
+}
+
+@media (min-width: 70rem) {
+  section.description {
+    margin-top: -0.2em; /* visually align text with image */
+  }
 }
 
 section.description p:first-of-type {
@@ -23,19 +56,33 @@ section.description p:first-of-type {
 }
 
 section.key-data {
-  font-size: 0.8rem;
-  line-height: 1.4;
-  margin: var(--padding-scaled) 0;
+  margin: 0;
+  grid-area: tags;
+}
+
+section.key-data dl {
+  margin: 0;
+  display: grid;
+  gap: var(--column-spacing);
+}
+
+@media (min-width: 24rem) {
+  section.key-data dl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 70rem) {
+  section.key-data dl {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (min-width: 93.75rem) {
   section.key-data dl {
     margin: 0.5em 0 0;
   }
-}
-
-section.key-data dl div:not(:first-child) {
-  margin-top: 0.5em;
 }
 
 section.key-data dl dt {
@@ -45,10 +92,5 @@ section.key-data dl dt {
 }
 
 section.key-data dl dd {
-  display: inline;
   margin: 0;
-}
-
-section.key-data dl dd:not(:last-child)::after {
-  content: ", ";
 }

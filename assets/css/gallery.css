@@ -1,6 +1,6 @@
 figure.gallery {
   display: flex;
-  margin: var(--padding-scaled) 0;
+  margin: var(--spacing-lg) 0;
   position: relative;
   --tab-size: 0.75rem;
   --stepper-size: 2.125rem;
@@ -49,6 +49,7 @@ figure.gallery [role="tablist"] {
   bottom: 0;
   width: 100%;
   justify-content: center;
+  gap: var(--spacing-sm);
 }
 
 figure.gallery [role="tablist"] button {
@@ -59,7 +60,7 @@ figure.gallery [role="tablist"] button {
   border: none;
   display: block;
   padding: 0;
-  margin: 0;
+  margin: 0.125rem;
 }
 
 @media (prefers-contrast: more) {
@@ -68,17 +69,17 @@ figure.gallery [role="tablist"] button {
   }
 }
 
-figure.gallery [role="tablist"] button:not(:first-child) {
-  margin-left: 0.5rem;
-}
-
-figure.gallery [role="tablist"] button[aria-selected="true"] {
+figure.gallery [role="tablist"] button[tabindex="0"] {
   background-color: var(--color-link-hover);
+  --tab-size: 1rem;
+  margin: 0;
 }
 
-figure.gallery [role="tablist"] button:not([aria-selected="true"]):hover {
+figure.gallery [role="tablist"] button:not([tabindex="0"]):hover {
   background-color: var(--color-text);
   cursor: pointer;
+  --tab-size: 1rem;
+  margin: 0;
 }
 
 figure.gallery [role="tablist"] button:focus {
@@ -92,7 +93,7 @@ figure.gallery [role="tablist"] button:focus {
 
 figure.gallery .gallery-main {
   position: relative;
-  padding-bottom: calc(1rem + var(--tab-size));
+  padding-bottom: calc(var(--spacing-md) + var(--tab-size));
 }
 
 figure.gallery button {
@@ -103,7 +104,7 @@ figure.gallery button {
 
 figure.gallery button:is(.gallery-previous, .gallery-next) {
   position: absolute;
-  top: calc((100% - 1rem - var(--tab-size)) / 2 - var(--stepper-size) / 2);
+  top: calc((100% - var(--spacing-md) - var(--tab-size)) / 2 - var(--stepper-size) / 2);
   width: var(--stepper-size);
   height: var(--stepper-size);
   border-radius: calc(var(--stepper-size) / 2);
@@ -127,11 +128,11 @@ figure.gallery button:is(.gallery-previous, .gallery-next):hover {
 }
 
 figure.gallery button.gallery-previous {
-  left: calc(var(--stepper-size) / -2);
+  left: calc(var(--column-spacing) * -0.5);
 }
 
 figure.gallery button.gallery-next {
-  right: calc(var(--stepper-size) / -2);
+  right: calc(var(--column-spacing) * -0.5);
 }
 
 .js-enabled figure.gallery button {

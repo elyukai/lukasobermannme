@@ -8,10 +8,10 @@ snippet('layout', slots: true) ?>
 
 <section>
   <h2><?= t('Work Experience') ?></h2>
-  <dl>
+  <dl class="timed">
     <?php foreach ($page->workExperience()->toStructure() as $workExperience) : ?>
     <div>
-      <dt><?= $workExperience->title()->kti() ?></dt>
+      <dt class="h3"><?= $workExperience->title()->kti() ?></dt>
       <dd>
         <dl>
           <div class="time">
@@ -45,10 +45,10 @@ snippet('layout', slots: true) ?>
 
 <section>
   <h2><?= t('Education') ?></h2>
-  <dl>
+  <dl class="timed">
     <?php foreach ($page->education()->toStructure() as $education) : ?>
     <div<?= $education->gap()->toBool() ? ' class="blur"' : '' ?>>
-      <dt><?= $education->title()->kti() ?></dt>
+      <dt class="h3"><?= $education->title()->kti() ?></dt>
       <dd>
         <dl>
           <div class="time">
@@ -151,7 +151,7 @@ snippet('layout', slots: true) ?>
 
 <section class="interests-hobbies">
   <h2><?= t('Interests & Hobbies') ?></h2>
-  <ul class="scaled--small">
+  <ul>
   <?php foreach ($page->interestsHobbies()->toStructure() as $interestHobby) : ?>
     <li><?= $interestHobby->name()->kirbytextinline() ?></li>
   <?php endforeach ?>

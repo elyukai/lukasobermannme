@@ -1,83 +1,57 @@
 main > section {
-  margin: var(--padding-scaled-2) 0;
+  margin: var(--spacing-xl) 0;
 }
 
 main > section > dl,
 main .subsection-grid {
-  margin: var(--padding-scaled) 0;
+  margin: var(--spacing-lg) 0;
   counter-reset: section;
   display: grid;
-  gap: var(--padding-scaled);
-  max-width: 99rem;
+  gap: var(--spacing-lg) var(--column-spacing);
 }
 
-@media (min-width: 25rem) {
-  main > section > dl,
-  main .subsection-grid {
-    margin-top: var(--padding-scaled-05);
-    margin-bottom: var(--padding-scaled-05);
-    gap: var(--padding-scaled-05) var(--padding-scaled);
+@media (min-width: 30rem) {
+  dl.timed > div:nth-child(even) {
+    padding-left: calc((100% - var(--column-spacing) * 3) / 4 + var(--column-spacing));
+  }
+
+  dl.timed > div:nth-child(odd) {
+    padding-right: calc((100% - var(--column-spacing) * 3) / 4 + var(--column-spacing));
   }
 }
 
-@media (min-width: 64rem) {
-  main > section > dl,
+@media (min-width: 50rem) {
+  main > section > dl:not(.timed),
   main .subsection-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  dl.timed > div:nth-child(even) {
+    padding-left: calc((100% - var(--column-spacing)) / 2 + var(--column-spacing));
+  }
+
+  dl.timed > div:nth-child(odd) {
+    padding-right: calc((100% - var(--column-spacing)) / 2 + var(--column-spacing));
+  }
 }
 
-@media (min-width: 120rem) {
-  main > section > dl,
+@media (min-width: 100rem) {
+  main > section > dl:not(.timed),
   main .subsection-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 64rem) {
-  main > section > dl > div > dt,
-  main .subsection-grid > section {
-    counter-increment: section;
-    position: relative;
-  }
-
-  main > section > dl > div > dt::before,
-  main .subsection-grid > section > h3::before {
-    content: counter(section, decimal-leading-zero);
-    position: absolute;
-    color: var(--color-text-10);
-    right: calc(100% + 0.4em);
-    font-weight: 600;
-  }
-
-  @media (prefers-contrast: more) {
-    main > section > dl > div > dt::before,
-    main .subsection-grid > section > h3::before {
-      color: var(--color-text-50);
-    }
-  }
-}
-
-main dt,
-main .subsection-grid h3 {
-  display: block;
+main .h3,
+main h3 {
   margin: 0;
-  font-size: calc(min(5vw + 0.1rem, 1.5rem));
-  line-height: 1.4;
-  max-width: 33em;
-  font-weight: 600;
 }
 
 main dd dl {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0;
-}
-
-main dd dl > div {
-  margin-top: var(--padding-scaled-025);
-  margin-right: var(--padding-scaled-025);
+  gap: var(--column-spacing);
 }
 
 main dd dl > div.time {
@@ -86,15 +60,11 @@ main dd dl > div.time {
 }
 
 main dd dt {
-  font-size: 0.8rem;
-  line-height: 1.4;
   font-weight: 600;
 }
 
 main section:not(.interests-hobbies) :is(dd, li) {
   margin: 0;
-  font-size: 0.8rem;
-  line-height: 1.4;
 }
 
 main div.blur {
@@ -108,14 +78,14 @@ main div.blur {
 }
 
 main .capabilities dl {
-  margin: 1rem 0 0;
+  margin: var(--spacing-md) 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem 0;
+  gap: var(--spacing-sm) var(--column-spacing);
 }
 
 main .capabilities ul {
-  margin: 0.5em 0 0;
+  margin: var(--spacing-sm) 0 0;
   padding: 0;
 }
 
@@ -124,16 +94,11 @@ main .capabilities li {
 }
 
 main .capabilities li:not(:first-child) {
-  margin-top: 0.5rem;
+  margin-top: var(--spacing-sm);
 }
 
 main .capabilities li::marker {
   color: transparent;
-}
-
-main .capabilities :is(dt, dd) {
-  font-size: 0.8rem;
-  line-height: 1.4;
 }
 
 main .capabilities dt {
@@ -141,15 +106,16 @@ main .capabilities dt {
 }
 
 main .capabilities dd {
-  font-size: 0.8rem;
-  line-height: 1.4;
   align-self: center;
   position: relative;
 }
 
 main .capabilities .level-description {
   display: block;
-  font-size: 0.55rem;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: 500;
+  letter-spacing: 0.04em;
   text-align: right;
   position: absolute;
   right: 0;

@@ -1,24 +1,30 @@
-.intro {
-  font-weight: 500;
-  margin: var(--padding-scaled) 0 var(--padding-scaled) -0.05em;
-}
-
-@media (min-width: 48rem) {
-  .intro {
-    margin-left: -0.075em;
-  }
-}
-
 h2 {
-  font: var(--font-xs);
-  font-weight: 400;
-  margin: 0 0 var(--padding-scaled-05);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  font-weight: 700;
+  margin: var(--spacing-lg) 0;
   color: var(--color-text);
   max-width: none;
 }
 
+.work:not(:first-child):not(:nth-child(2)):not(:nth-child(3)) {
+  display: none;
+}
+
+@media (min-width: 50rem) {
+  .work:not(:first-child):not(:nth-child(2)):not(:nth-child(3)) {
+    display: block;
+  }
+}
+
 section.aboutme {
-  margin: var(--padding-scaled-2) 0;
+  margin: var(--spacing-xl) 0;
+}
+
+@media (min-width: 48rem) {
+  section.aboutme {
+    padding-left: calc((100% - var(--column-spacing)) / 2 + var(--column-spacing));
+  }
 }
 
 section.aboutme p {
