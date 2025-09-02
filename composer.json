@@ -1,21 +1,20 @@
 {
-    "name": "getkirby/plainkit",
-    "description": "Kirby Plainkit",
+    "name": "lukasobermann/website",
+    "description": "Personal Website of Lukas Obermann",
     "type": "project",
-    "keywords": ["kirby", "cms", "starterkit"],
-    "homepage": "https://getkirby.com",
+    "keywords": [],
+    "homepage": "https://lukasobermann.me",
     "authors": [
         {
-            "name": "Bastian Allgeier",
-            "email": "bastian@getkirby.com",
-            "homepage": "https://getkirby.com"
+            "name": "Lukas Obermann",
+            "email": "lukas@lukasobermann.me",
+            "homepage": "https://lukasobermann.me"
         }
     ],
     "support": {
-        "email": "support@getkirby.com",
-        "issues": "https://github.com/getkirby/starterkit/issues",
-        "forum": "https://forum.getkirby.com",
-        "source": "https://github.com/getkirby/starterkit"
+        "email": "lukas@lukasobermann.me",
+        "issues": "https://github.com/lukasobermann/website/issues",
+        "source": "https://github.com/lukasobermann/website"
     },
     "require": {
         "php": ">=8.1.0 <8.4.0",
@@ -26,11 +25,6 @@
       "start": [
         "Composer\\Config::disableProcessTimeout",
         "@php -S localhost:8000 kirby/router.php"
-      ],
-      "css:build": "sass site/styles:assets/css",
-      "css:watch": [
-        "Composer\\Config::disableProcessTimeout",
-        "sass -w site/css:assets/css"
       ]
     },
     "config": {
