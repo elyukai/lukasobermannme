@@ -64,7 +64,7 @@
     <main id="content">
       <?= $slots->default() ?>
     </main>
-    <footer class="aos">
+    <footer>
       <?php $footerMenu = $site->footerMenu()->toPages(); ?>
       <?php if ($footerMenu->isNotEmpty()) : ?>
       <nav class="footer">

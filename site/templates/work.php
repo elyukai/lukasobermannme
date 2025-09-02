@@ -38,16 +38,13 @@
   'themeColorDark' => $page->colorBackgroundDark()->escape(),
 ] : [], slots: true) ?>
 
-<h1 class="aos"><?= $page->title()->html() ?></h1>
+<h1><?= $page->title()->html() ?></h1>
 
-<?php snippet("gallery", ["files" => $page->gallery()->toFiles()]) ?>
-
-<div class="work-information scaled--small">
-  <section class="description scaled--small aos">
+  <section class="description scaled--small">
     <h2 class="sr-only"><?= t('Description') ?></h2>
     <?= $page->description() ?>
   </section>
-  <section class="key-data scaled--small aos">
+  <section class="key-data scaled--small">
     <h2 class="sr-only"><?= t('Key Data') ?></h2>
     <dl>
       <div>
@@ -137,4 +134,4 @@
   </section>
 </div>
 
-<a href="<?= $page->parent()->url() ?>" class="back scaled--small aos">← <?= t('View all works') ?></a>
+<a href="<?= $page->parent()->url() ?>" class="back scaled--small">← <?= t('View all works') ?></a>

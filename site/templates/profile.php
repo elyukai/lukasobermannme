@@ -4,13 +4,13 @@ use Kirby\Toolkit\Str;
 
 snippet('layout', slots: true) ?>
 
-<h1 class="aos"><?= $page->title()->html() ?></h1>
+<h1><?= $page->title()->html() ?></h1>
 
 <section>
-  <h2 class="aos"><?= t('Work Experience') ?></h2>
+  <h2><?= t('Work Experience') ?></h2>
   <dl>
     <?php foreach ($page->workExperience()->toStructure() as $workExperience) : ?>
-    <div class="aos">
+    <div>
       <dt><?= $workExperience->title()->kti() ?></dt>
       <dd>
         <dl>
@@ -44,10 +44,10 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section>
-  <h2 class="aos"><?= t('Education') ?></h2>
+  <h2><?= t('Education') ?></h2>
   <dl>
     <?php foreach ($page->education()->toStructure() as $education) : ?>
-    <div<?= $education->gap()->toBool() ? ' class="blur aos"' : ' class="aos"' ?>>
+    <div<?= $education->gap()->toBool() ? ' class="blur"' : '' ?>>
       <dt><?= $education->title()->kti() ?></dt>
       <dd>
         <dl>
@@ -81,9 +81,9 @@ snippet('layout', slots: true) ?>
 </section>
 
 <section class="capabilities">
-  <h2 class="aos"><?= t('Capabilities') ?></h2>
+  <h2><?= t('Capabilities') ?></h2>
   <div class="subsection-grid">
-    <section class="aos">
+    <section>
       <h3><?= t('Languages') ?></h3>
       <dl>
         <?php foreach ($page->languages()->toStructure() as $language) : ?>
@@ -114,7 +114,7 @@ snippet('layout', slots: true) ?>
       </dl>
     </section>
     <?php foreach ($page->skills()->toStructure() as $category) : ?>
-    <section class="aos">
+    <section>
       <h3><?= $category->category()->kti() ?></h3>
       <dl>
       <?php foreach ($category->skills()->toStructure() as $skill) : ?>
@@ -149,7 +149,7 @@ snippet('layout', slots: true) ?>
   </div>
 </section>
 
-<section class="interests-hobbies aos">
+<section class="interests-hobbies">
   <h2><?= t('Interests & Hobbies') ?></h2>
   <ul class="scaled--small">
   <?php foreach ($page->interestsHobbies()->toStructure() as $interestHobby) : ?>

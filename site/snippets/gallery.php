@@ -1,5 +1,5 @@
 <figure
-  class="gallery aos"
+  class="gallery"
   data-id="main"
   data-tab-list-label="<?= t('Pictures') ?>"
   data-prev-button-label="<?= t('Previous picture') ?>"

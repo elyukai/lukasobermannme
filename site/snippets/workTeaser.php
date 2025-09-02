@@ -1,4 +1,4 @@
-<article class="work aos">
+<article class="work">
   <a href="<?= $work->url() ?>">
     <?php
 
