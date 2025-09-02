@@ -90,42 +90,6 @@ Colortext: #000000
 
 ----
 
-Colortext90: #000000
-
-----
-
-Colortext80: #000000
-
-----
-
-Colortext70: #000000
-
-----
-
-Colortext60: #000000
-
-----
-
-Colortext50: #000000
-
-----
-
-Colortext40: #000000
-
-----
-
-Colortext30: #000000
-
-----
-
-Colortext20: #000000
-
-----
-
-Colortext10: #000000
-
-----
-
 Colorselectionbackground: #ffeb00
 
 ----
@@ -147,42 +111,6 @@ Colorfocusdark: #ffeb00
 ----
 
 Colortextdark: #ffffff
-
-----
-
-Colortextdark90: #ffffff
-
-----
-
-Colortextdark80: #ffffff
-
-----
-
-Colortextdark70: #ffffff
-
-----
-
-Colortextdark60: #ffffff
-
-----
-
-Colortextdark50: #ffffff
-
-----
-
-Colortextdark40: #ffffff
-
-----
-
-Colortextdark30: #ffffff
-
-----
-
-Colortextdark20: #ffffff
-
-----
-
-Colortextdark10: #ffffff
 
 ----
 

@@ -5,27 +5,9 @@
 
   /* colors */
   --color-lightgrey: #eae8f0;
-  --color-lightgrey-90: rgba(234, 232, 240, 0.9);
-  --color-lightgrey-80: rgba(234, 232, 240, 0.8);
-  --color-lightgrey-70: rgba(234, 232, 240, 0.7);
-  --color-lightgrey-60: rgba(234, 232, 240, 0.6);
-  --color-lightgrey-50: rgba(234, 232, 240, 0.5);
-  --color-lightgrey-40: rgba(234, 232, 240, 0.4);
-  --color-lightgrey-30: rgba(234, 232, 240, 0.3);
-  --color-lightgrey-20: rgba(234, 232, 240, 0.2);
-  --color-lightgrey-10: rgba(234, 232, 240, 0.1);
   --color-lightpurple: #8b79fb;
   --color-deeppurple: #422bd7;
   --color-blackpurple: #141221;
-  --color-blackpurple-90: rgba(20, 18, 33, 0.9);
-  --color-blackpurple-80: rgba(20, 18, 33, 0.8);
-  --color-blackpurple-70: rgba(20, 18, 33, 0.7);
-  --color-blackpurple-60: rgba(20, 18, 33, 0.6);
-  --color-blackpurple-50: rgba(20, 18, 33, 0.5);
-  --color-blackpurple-40: rgba(20, 18, 33, 0.4);
-  --color-blackpurple-30: rgba(20, 18, 33, 0.3);
-  --color-blackpurple-20: rgba(20, 18, 33, 0.2);
-  --color-blackpurple-10: rgba(20, 18, 33, 0.1);
 
   /* semantic colors */
   --color-background: var(--color-theme-background, var(--color-lightgrey));
@@ -33,19 +15,11 @@
   --color-link-hover: var(--color-theme-link-hover, var(--color-deeppurple));
   --color-focus: var(--color-theme-focus, var(--color-deeppurple));
   --color-text: var(--color-theme-text, var(--color-blackpurple));
-  --color-text-90: var(--color-theme-text-90, var(--color-blackpurple-90));
-  --color-text-80: var(--color-theme-text-80, var(--color-blackpurple-80));
-  --color-text-70: var(--color-theme-text-70, var(--color-blackpurple-70));
-  --color-text-60: var(--color-theme-text-60, var(--color-blackpurple-60));
-  --color-text-50: var(--color-theme-text-50, var(--color-blackpurple-50));
-  --color-text-40: var(--color-theme-text-40, var(--color-blackpurple-40));
-  --color-text-30: var(--color-theme-text-30, var(--color-blackpurple-30));
-  --color-text-20: var(--color-theme-text-20, var(--color-blackpurple-20));
-  --color-text-10: var(--color-theme-text-10, var(--color-blackpurple-10));
   --color-selection-background: var(
     --color-theme-selection-background,
     var(--color-lightpurple)
   );
+  --outline-color: rgba(0, 0, 0, 0.2);
 
   /* fonts */
   --font-family: "Borna", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -69,6 +43,12 @@
   --column-spacing: 1rem;
 }
 
+@supports (color: color-mix(in srgb, var(--color-text), transparent 80%)) {
+  :root {
+    --outline-color: color-mix(in srgb, var(--color-text), transparent 80%);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     /* adjust semantic colors */
@@ -83,15 +63,6 @@
     );
     --color-focus: var(--color-theme-dark-focus, var(--color-deeppurple));
     --color-text: var(--color-theme-dark-text, var(--color-lightgrey));
-    --color-text-90: var(--color-theme-dark-text-90, var(--color-lightgrey-90));
-    --color-text-80: var(--color-theme-dark-text-80, var(--color-lightgrey-80));
-    --color-text-70: var(--color-theme-dark-text-70, var(--color-lightgrey-70));
-    --color-text-60: var(--color-theme-dark-text-60, var(--color-lightgrey-60));
-    --color-text-50: var(--color-theme-dark-text-50, var(--color-lightgrey-50));
-    --color-text-40: var(--color-theme-dark-text-40, var(--color-lightgrey-40));
-    --color-text-30: var(--color-theme-dark-text-30, var(--color-lightgrey-30));
-    --color-text-20: var(--color-theme-dark-text-20, var(--color-lightgrey-20));
-    --color-text-10: var(--color-theme-dark-text-10, var(--color-lightgrey-10));
     --color-selection-background: var(
       --color-theme-dark-selection-background,
       var(--color-deeppurple)

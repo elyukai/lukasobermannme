@@ -86,42 +86,6 @@ Colortext: #282c58
 
 ----
 
-Colortext90: #282c58
-
-----
-
-Colortext80: #282c58
-
-----
-
-Colortext70: #282c58
-
-----
-
-Colortext60: #282c58
-
-----
-
-Colortext50: #282c58
-
-----
-
-Colortext40: #282c58
-
-----
-
-Colortext30: #282c58
-
-----
-
-Colortext20: #282c58
-
-----
-
-Colortext10: #282c58
-
-----
-
 Colorselectionbackground: #ad9451
 
 ----
@@ -143,42 +107,6 @@ Colorfocusdark: #ad9451
 ----
 
 Colortextdark: #ffffff
-
-----
-
-Colortextdark90: #ffffff
-
-----
-
-Colortextdark80: #ffffff
-
-----
-
-Colortextdark70: #ffffff
-
-----
-
-Colortextdark60: #ffffff
-
-----
-
-Colortextdark50: #ffffff
-
-----
-
-Colortextdark40: #ffffff
-
-----
-
-Colortextdark30: #ffffff
-
-----
-
-Colortextdark20: #ffffff
-
-----
-
-Colortextdark10: #ffffff
 
 ----
 

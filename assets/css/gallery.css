@@ -12,7 +12,7 @@ figure.gallery :is(picture, img, video) {
   display: block;
   transform: translateX(var(--tx, 0));
   z-index: 1;
-  outline: 0.5px solid var(--color-text-20);
+  outline: 0.5px solid var(--outline-color);
   max-width: 125vh;
 }
 
@@ -56,7 +56,8 @@ figure.gallery [role="tablist"] button {
   width: var(--tab-size);
   height: var(--tab-size);
   border-radius: calc(var(--tab-size) / 2);
-  background-color: var(--color-text-10);
+  background-color: var(--color-text);
+  background-color: color-mix(in srgb, var(--color-text), transparent 80%);
   border: none;
   display: block;
   padding: 0;

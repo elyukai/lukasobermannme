@@ -94,42 +94,6 @@ Colortext:
 
 ----
 
-Colortext90: 
-
-----
-
-Colortext80: 
-
-----
-
-Colortext70: 
-
-----
-
-Colortext60: 
-
-----
-
-Colortext50: 
-
-----
-
-Colortext40: 
-
-----
-
-Colortext30: 
-
-----
-
-Colortext20: 
-
-----
-
-Colortext10: 
-
-----
-
 Colorselectionbackground: 
 
 ----
@@ -151,42 +115,6 @@ Colorfocusdark:
 ----
 
 Colortextdark: 
-
-----
-
-Colortextdark90: 
-
-----
-
-Colortextdark80: 
-
-----
-
-Colortextdark70: 
-
-----
-
-Colortextdark60: 
-
-----
-
-Colortextdark50: 
-
-----
-
-Colortextdark40: 
-
-----
-
-Colortextdark30: 
-
-----
-
-Colortextdark20: 
-
-----
-
-Colortextdark10: 
 
 ----
 

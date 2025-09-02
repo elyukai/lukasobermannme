@@ -51,7 +51,7 @@ article.work img {
   object-position: center top;
   margin-bottom: 0.75em;
   /* opacity: 0.6; */
-  outline: 0.5px solid var(--color-text-20);
+  outline: 0.5px solid var(--outline-color);
 }
 
 article.work h3 {

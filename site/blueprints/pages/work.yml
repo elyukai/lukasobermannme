@@ -175,33 +175,6 @@ tabs:
           colorText:
             extends: fields/themeColor
             label: Text Color
-          colorText90:
-            extends: fields/themeColor
-            label: Text Color (90% opacity)
-          colorText80:
-            extends: fields/themeColor
-            label: Text Color (80% opacity)
-          colorText70:
-            extends: fields/themeColor
-            label: Text Color (70% opacity)
-          colorText60:
-            extends: fields/themeColor
-            label: Text Color (60% opacity)
-          colorText50:
-            extends: fields/themeColor
-            label: Text Color (50% opacity)
-          colorText40:
-            extends: fields/themeColor
-            label: Text Color (40% opacity)
-          colorText30:
-            extends: fields/themeColor
-            label: Text Color (30% opacity)
-          colorText20:
-            extends: fields/themeColor
-            label: Text Color (20% opacity)
-          colorText10:
-            extends: fields/themeColor
-            label: Text Color (10% opacity)
           colorSelectionBackground:
             extends: fields/themeColor
             label: Selection Background Color
@@ -223,33 +196,6 @@ tabs:
           colorTextDark:
             extends: fields/themeColor
             label: Text Color
-          colorTextDark90:
-            extends: fields/themeColor
-            label: Text Color (90% opacity)
-          colorTextDark80:
-            extends: fields/themeColor
-            label: Text Color (80% opacity)
-          colorTextDark70:
-            extends: fields/themeColor
-            label: Text Color (70% opacity)
-          colorTextDark60:
-            extends: fields/themeColor
-            label: Text Color (60% opacity)
-          colorTextDark50:
-            extends: fields/themeColor
-            label: Text Color (50% opacity)
-          colorTextDark40:
-            extends: fields/themeColor
-            label: Text Color (40% opacity)
-          colorTextDark30:
-            extends: fields/themeColor
-            label: Text Color (30% opacity)
-          colorTextDark20:
-            extends: fields/themeColor
-            label: Text Color (20% opacity)
-          colorTextDark10:
-            extends: fields/themeColor
-            label: Text Color (10% opacity)
           colorSelectionBackgroundDark:
             extends: fields/themeColor
             label: Selection Background Color

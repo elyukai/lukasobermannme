@@ -6,15 +6,6 @@
       --color-theme-link-hover: {$page->colorLinkHover()->escape()};
       --color-theme-focus: {$page->colorFocus()->escape()};
       --color-theme-text: {$page->colorText()->escape()};
-      --color-theme-text-90: {$page->colorText90()->escape()};
-      --color-theme-text-80: {$page->colorText80()->escape()};
-      --color-theme-text-70: {$page->colorText70()->escape()};
-      --color-theme-text-60: {$page->colorText60()->escape()};
-      --color-theme-text-50: {$page->colorText50()->escape()};
-      --color-theme-text-40: {$page->colorText40()->escape()};
-      --color-theme-text-30: {$page->colorText30()->escape()};
-      --color-theme-text-20: {$page->colorText20()->escape()};
-      --color-theme-text-10: {$page->colorText10()->escape()};
       --color-theme-selection-background: {$page->colorSelectionBackground()->escape()};
 
       --color-theme-dark-background: {$page->colorBackgroundDark()->escape()};
@@ -22,15 +13,6 @@
       --color-theme-dark-link-hover: {$page->colorLinkHoverDark()->escape()};
       --color-theme-dark-focus: {$page->colorFocusDark()->escape()};
       --color-theme-dark-text: {$page->colorTextDark()->escape()};
-      --color-theme-dark-text-90: {$page->colorTextDark90()->escape()};
-      --color-theme-dark-text-80: {$page->colorTextDark80()->escape()};
-      --color-theme-dark-text-70: {$page->colorTextDark70()->escape()};
-      --color-theme-dark-text-60: {$page->colorTextDark60()->escape()};
-      --color-theme-dark-text-50: {$page->colorTextDark50()->escape()};
-      --color-theme-dark-text-40: {$page->colorTextDark40()->escape()};
-      --color-theme-dark-text-30: {$page->colorTextDark30()->escape()};
-      --color-theme-dark-text-20: {$page->colorTextDark20()->escape()};
-      --color-theme-dark-text-10: {$page->colorTextDark10()->escape()};
       --color-theme-dark-selection-background: {$page->colorSelectionBackgroundDark()->escape()};
     }
   EOT,
