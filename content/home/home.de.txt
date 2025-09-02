@@ -12,13 +12,11 @@ Contacthook: Interessiert? Kontaktiere mich!
 
 Aboutme:
 
-Ich habe Medieninformatik im Bachelor absolviert und studiere nun Angewandte Informatik im Master, beides an der Hochschule Flensburg.
+Ich habe an der Hochschule Flensburg einen interdisziplinären Studiengang absolviert, der Design und Programmierung miteinander verbindet. Seit 2021 arbeite ich mit verschiedenen Kunden an einer Vielzahl von Projekten, von traditionellen Flyern über komplette Corporate Designs, Webdesign und -entwicklung bis hin zu spezialisierten Webanwendungen.
 
-Ich arbeite mit JavaScript und TypeScript seit über 5 Jahren, dabei auch viel mit React und funktionaler Programmierung. Für Websites nutze ich meist Kirby als CMS. Zum einen ist es für (fast) alle Anwendungsarten sehr flexibel ist, zum anderen ist das Backend sehr leicht verständlich und übersichtlich (anders als bei typischen Mainstream-CMS). Apps entwickle ich in Kotlin bzw. Swift, um eine bestmögliche native User Experience bereitzustellen.
+Ich liebe es, an dieser Schnittstelle zwischen den Bedürfnissen meiner Kunden und denen ihrer Nutzer zu stehen und sie durch einen ganzheitlichen Ansatz bei Design und Umsetzung miteinander zu verbinden. Allerdings arbeite ich gerne auf einer soliden Grundlage, daher ist es nichts für mich, ständig mit den neuesten Designtrends oder Frameworks zu hantieren. Ich strebe keine Apple-ähnlichen Designs oder die Orchestrierung von ›KI‹ an.
 
-Gleichzeitig bin ich sehr vertraut mit der Adobe Creative Cloud, aber auch der Affinity-Serie und unabhängiger Software wie Figma oder Sketch.
-
-Wenn ich nicht arbeite oder studiere, spiele ich sehr gerne Pen-and-Paper (vor allem *Das Schwarze Auge*), Klavier und beschäftige mich mit Tee. Und ich lerne jeden Tag etwas Neues.
+Außerhalb meiner Arbeit mag ich Pen-and-Paper-Spiele (wie *Dungeons & Dragons*), Klavier spielen und Tee. Und ich liebe es, jeden Tag etwas Neues zu lernen.
 
 ----
 

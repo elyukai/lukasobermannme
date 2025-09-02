@@ -12,13 +12,11 @@ Contacthook: Interested? Get in touch!
 
 Aboutme:
 
-I’ve done my B. Sc. in Media Informatics and I’m currently studying Applied Computer Science (M. Sc.), both at Flensburg University of Applied Sciences.
+I have graduated at Flensburg University of Applied Sciences in interdisciplinary courses, bridging design and coding. Since 2021 I have been working with multiple clients on a diverse range of projects, from traditional flyers, full corporate designs, web design and development, to specialized web applications.
 
-I’ve been working with JavaScript and TypeScript for over five years. I am a big fan of React and related libraries as well as functional programming in general. For websites, I enjoy using Kirby as a CMS, since it’s very flexible and can adapt to (almost) all needs. For apps, I prefer native development with Kotlin and Swift to build the best possible experience.
+I love being at this intersection of my clients’ needs, their users’ needs, and connecting them through a holistic approach to design and implementation. However, I like doing work on solid foundations, so always getting into the next design trend or newest framework is not something for me. I am not going for Apple-like designs or orchestration of ‘AI’.
 
-On the design side, I’m very familiar with Adobe’s Creative Cloud, but also the Affinity suite and individual software such as Figma or Sketch.
-
-When I’m not working, I really enjoy pen-and-paper games, playing the piano, and tea. And learning something new everyday.
+Outside of my work, I really enjoy pen-and-paper games (think *Dungeons & Dragons*), playing the piano, and tea. And I love learning something new every day.
 
 ----
 
