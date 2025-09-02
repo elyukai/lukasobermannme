@@ -19,7 +19,7 @@ return [
         'View all works' => 'Alle Arbeiten ansehen',
         'Mail' => 'Mail',
         'About Me' => 'Über mich',
-        'View my profile/CV' => 'Mein Profil/Lebenslauf ansehen',
+        'View my profile/CV' => 'Mein/en Profil/Lebenslauf ansehen',
         'Pictures' => 'Bilder',
         'Previous picture' => 'Vorheriges Bild',
         'Next picture' => 'Nächstes Bild',

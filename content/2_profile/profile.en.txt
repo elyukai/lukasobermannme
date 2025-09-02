@@ -182,15 +182,6 @@ Skills:
     - 
       name: PHP
       proficiency: intermediate
-    - 
-      name: Elixir
-      proficiency: intermediate
-    - 
-      name: Java
-      proficiency: beginner
-    - 
-      name: 'C#'
-      proficiency: beginner
 - 
   category: Application Development
   skills:
@@ -198,7 +189,7 @@ Skills:
       name: Electron
       proficiency: advanced
     - 
-      name: Swift with SwiftUI (Apple)
+      name: SwiftUI
       proficiency: intermediate
     - 
       name: Android Native
