@@ -15,6 +15,8 @@
     <source
       srcset="<?= $file->thumb(['format' => 'webp'])->url() ?>"
       type="image/webp"
+      width="<?= $file->width() ?>"
+      height="<?= $file->height() ?>"
     >
     <img
       src="<?= $file->url() ?>"
