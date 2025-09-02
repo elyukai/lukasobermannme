@@ -12,6 +12,13 @@ body {
   padding: var(--padding-scaled);
   background-color: var(--color-background);
   font: var(--font-sm);
+  display: flex;
+  justify-content: center;
+}
+
+.max-width {
+  max-width: 120rem;
+  width: 100%;
 }
 
 ::selection {
