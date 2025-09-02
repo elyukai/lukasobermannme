@@ -112,7 +112,7 @@ h1 {
   font-weight: 600;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 30rem) {
   h1, .intro {
     margin-block: var(--spacing-xl);
   }

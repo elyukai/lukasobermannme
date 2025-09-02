@@ -11,7 +11,7 @@ header {
   padding: 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 30rem) {
   :is(nav.main, nav.languages) ul {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +21,17 @@ header {
 }
 
 :is(nav.main, nav.languages) li {
-  margin: 0;
+  margin: var(--spacing-sm) 0 0;
+}
+
+:is(nav.main, nav.languages) li:first-child {
+  margin-top: 0;
+}
+
+@media (min-width: 30rem) {
+  :is(nav.main, nav.languages) li {
+    margin-top: 0;
+  }
 }
 
 :is(nav.main, nav.languages) li::marker {
