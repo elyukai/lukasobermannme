@@ -12,7 +12,6 @@
     'assets/css/fonts.css',
     'assets/css/variables.css',
     'assets/css/global.css',
-    'assets/css/scroll-enabled.css',
     'assets/css/simple-typewriter.css',
     'assets/css/header.css',
     'assets/css/gallery.css',
@@ -82,7 +81,6 @@
   <?= js([
     'assets/js/enabled.js',
     'assets/js/gallery.js',
-    'assets/js/scroll-animate.js',
     'assets/js/simple-typewriter.js',
     '@auto',
   ]) ?>
