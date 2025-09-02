@@ -6,14 +6,14 @@ snippet('layout', slots: true) ?>
 
 <h1><?= $page->title()->html() ?></h1>
 
-<section>
+<section class="section section--timed">
   <h2><?= t('Work Experience') ?></h2>
-  <dl class="timed">
+  <dl class="section__item-grid">
     <?php foreach ($page->workExperience()->toStructure() as $workExperience) : ?>
-    <div>
-      <dt class="h3"><?= $workExperience->title()->kti() ?></dt>
-      <dd>
-        <dl>
+    <div class="section-item">
+      <dt class="section-item__title"><?= $workExperience->title()->kti() ?></dt>
+      <dd class="section-item__list-wrapper">
+        <dl class="section-item__list">
           <div class="time">
             <dt class="sr-only">Time Period</dt>
             <dd><?php snippet(
@@ -43,14 +43,14 @@ snippet('layout', slots: true) ?>
   </dl>
 </section>
 
-<section>
+<section class="section section--timed">
   <h2><?= t('Education') ?></h2>
-  <dl class="timed">
+  <dl class="section__item-grid">
     <?php foreach ($page->education()->toStructure() as $education) : ?>
-    <div<?= $education->gap()->toBool() ? ' class="blur"' : '' ?>>
-      <dt class="h3"><?= $education->title()->kti() ?></dt>
-      <dd>
-        <dl>
+    <div<?= $education->gap()->toBool() ? ' class="section-item section-item--blurred"' : ' class="section-item"' ?>>
+      <dt class="section-item__title"><?= $education->title()->kti() ?></dt>
+      <dd class="section-item__list-wrapper">
+        <dl class="section-item__list">
           <div class="time">
             <dt class="sr-only">Time Period</dt>
             <dd><?php snippet(
@@ -80,68 +80,72 @@ snippet('layout', slots: true) ?>
   </dl>
 </section>
 
-<section class="capabilities">
+<section class="section section--rated capabilities">
   <h2><?= t('Capabilities') ?></h2>
-  <div class="subsection-grid">
-    <section>
-      <h3><?= t('Languages') ?></h3>
-      <dl>
+  <div class="section__item-grid">
+    <section class="section-item">
+      <h3 class="section-item__title"><?= t('Languages') ?></h3>
+      <dl class="section-item__list">
         <?php foreach ($page->languages()->toStructure() as $language) : ?>
-        <dt><?= $language->language()->smartypants() ?></dt>
-        <dd>
-          <?php $isNativeSpeaker = $language->isNativeSpeaker()->toBool() ?>
-          <?php $label = $isNativeSpeaker ? t('Native Speaker') : Str::upper($language->quality()) ?>
-          <?php $quality = match ($language->quality()->toString()) {
-              'a1' => 1,
-              'a2' => 2,
-              'b1' => 3,
-              'b2' => 4,
-              'c1' => 5,
-              'c2' => 6,
-              default => 0,
-          } ?>
-          <span class="level-description" aria-hidden="true"><?= $label ?></span>
-          <div class="level" role="img" aria-label="<?= $label ?>">
-            <div<?= e($quality >= 1, ' class="active"') ?>></div>
-            <div<?= e($quality >= 2, ' class="active"') ?>></div>
-            <div<?= e($quality >= 3, ' class="active"') ?>></div>
-            <div<?= e($quality >= 4, ' class="active"') ?>></div>
-            <div<?= e($quality >= 5, ' class="active"') ?>></div>
-            <div<?= e($quality >= 6, ' class="active"') ?>></div>
-          </div>
-        </dd>
+        <div>
+          <dt><?= $language->language()->smartypants() ?></dt>
+          <dd>
+            <?php $isNativeSpeaker = $language->isNativeSpeaker()->toBool() ?>
+            <?php $label = $isNativeSpeaker ? t('Native Speaker') : Str::upper($language->quality()) ?>
+            <?php $quality = match ($language->quality()->toString()) {
+                'a1' => 1,
+                'a2' => 2,
+                'b1' => 3,
+                'b2' => 4,
+                'c1' => 5,
+                'c2' => 6,
+                default => 0,
+            } ?>
+            <span class="level-description" aria-hidden="true"><?= $label ?></span>
+            <div class="level" role="img" aria-label="<?= $label ?>">
+              <div<?= e($quality >= 1, ' class="active"') ?>></div>
+              <div<?= e($quality >= 2, ' class="active"') ?>></div>
+              <div<?= e($quality >= 3, ' class="active"') ?>></div>
+              <div<?= e($quality >= 4, ' class="active"') ?>></div>
+              <div<?= e($quality >= 5, ' class="active"') ?>></div>
+              <div<?= e($quality >= 6, ' class="active"') ?>></div>
+            </div>
+          </dd>
+        </div>
         <?php endforeach ?>
       </dl>
     </section>
     <?php foreach ($page->skills()->toStructure() as $category) : ?>
-    <section>
-      <h3><?= $category->category()->kti() ?></h3>
-      <dl>
+    <section class="section-item">
+      <h3 class="section-item__title"><?= $category->category()->kti() ?></h3>
+      <dl class="section-item__list">
       <?php foreach ($category->skills()->toStructure() as $skill) : ?>
-        <dt><?= $skill->name()->kti() ?></dt>
-        <dd>
-          <?php $label = match ($skill->proficiency()->toString()) {
-              'beginner' => t('Beginner'),
-              'intermediate' => t('Intermediate'),
-              'proficient' => t('Proficient'),
-              'advanced' => t('Advanced'),
-              default => '—',
-          } ?>
-          <?php $proficiency = match ($skill->proficiency()->toString()) {
-              'beginner' => 1,
-              'intermediate' => 2,
-              'proficient' => 3,
-              'advanced' => 4,
-              default => 0,
-          } ?>
-          <span class="level-description" aria-hidden="true"><?= $label ?></span>
-          <div class="level" role="img" aria-label="<?= $label ?>">
-            <div<?= e($proficiency >= 1, ' class="active"') ?>></div>
-            <div<?= e($proficiency >= 2, ' class="active"') ?>></div>
-            <div<?= e($proficiency >= 3, ' class="active"') ?>></div>
-            <div<?= e($proficiency >= 4, ' class="active"') ?>></div>
-          </div>
-        </dd>
+        <div>
+          <dt><?= $skill->name()->kti() ?></dt>
+          <dd>
+            <?php $label = match ($skill->proficiency()->toString()) {
+                'beginner' => t('Beginner'),
+                'intermediate' => t('Intermediate'),
+                'proficient' => t('Proficient'),
+                'advanced' => t('Advanced'),
+                default => '—',
+            } ?>
+            <?php $proficiency = match ($skill->proficiency()->toString()) {
+                'beginner' => 1,
+                'intermediate' => 2,
+                'proficient' => 3,
+                'advanced' => 4,
+                default => 0,
+            } ?>
+            <span class="level-description" aria-hidden="true"><?= $label ?></span>
+            <div class="level" role="img" aria-label="<?= $label ?>">
+              <div<?= e($proficiency >= 1, ' class="active"') ?>></div>
+              <div<?= e($proficiency >= 2, ' class="active"') ?>></div>
+              <div<?= e($proficiency >= 3, ' class="active"') ?>></div>
+              <div<?= e($proficiency >= 4, ' class="active"') ?>></div>
+            </div>
+          </dd>
+        </div>
       <?php endforeach ?>
       </dl>
     </section>
@@ -149,7 +153,7 @@ snippet('layout', slots: true) ?>
   </div>
 </section>
 
-<section class="interests-hobbies">
+<section class="section interests-hobbies">
   <h2><?= t('Interests & Hobbies') ?></h2>
   <ul>
   <?php foreach ($page->interestsHobbies()->toStructure() as $interestHobby) : ?>
