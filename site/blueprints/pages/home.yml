@@ -35,7 +35,7 @@ tabs:
               selectedWork:
                 label: Selected Work
                 type: pages
-                query: site.find('projects')
+                query: site.index.filterBy('template', 'work')
                 required: true
                 subpages: false
                 translate: false
