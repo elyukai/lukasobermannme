@@ -39,12 +39,8 @@ tabs:
     label: Contact Options
     icon: chat
     fields:
-      mail:
-        label: E-Mail
-        type: email
-        translate: false
-      otherContactOptions:
-        label: Other
+      contactOptions:
+        label: Contact Options
         type: structure
         translate: false
         fields:
@@ -52,8 +48,8 @@ tabs:
             label: Name
             type: text
             required: true
-          url:
-            label: URL
-            type: url
+          link:
+            label: Link
+            type: link
             required: true
   seo: seo/site

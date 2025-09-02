@@ -25,21 +25,20 @@ Copyright: (date: year) — Lukas Obermann
 
 ----
 
-Mail: lukas@lukasobermann.me
+Contactoptions:
 
-----
-
-Othercontactoptions:
-
+- 
+  name: Mail
+  link: mailto:lukas@lukasobermann.me
 - 
   name: Twitter
-  url: https://twitter.com/@elyukai
+  link: https://twitter.com/@elyukai
 - 
   name: Mastodon
-  url: https://mastodon.social/@elyukai
+  link: https://mastodon.social/@elyukai
 - 
   name: GitHub
-  url: https://github.com/elyukai
+  link: https://github.com/elyukai
 
 ----
 

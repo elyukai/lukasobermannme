@@ -16,7 +16,7 @@
   <a href="<?= $page->selectedWork()->toPage()?->parent()->url() ?>" class="more"><span class="arrow" aria-hidden="true">→ </span><?= t('View all works') ?></a>
 </section>
 
-<p class="intro scaled typewriter"><?= $page->contactHook()->html() ?> <?php if ($site->mail()->isNotEmpty()) : ?>→&nbsp;<?= kirbytag(['email' => $site->mail(), 'text' => t('Mail'), 'class' => 'contact']) ?><?php endif ?><?php foreach ($site->otherContactOptions()->toStructure() as $contactOption) : ?> →&nbsp;<a class="contact" href="<?= $contactOption->url() ?>" target="_blank" rel="noopener noreferrer"><?= $contactOption->name()->html() ?></a><?php endforeach ?></p>
+<p class="intro contact"><?= $page->contactHook()->html() ?> <?php foreach ($site->contactOptions()->toStructure() as $contactOption) : ?> →&nbsp;<a class="contact" href="<?= $contactOption->link()->toUrl() ?>" target="_blank" rel="noopener noreferrer"><?= $contactOption->name()->html() ?></a><?php endforeach ?></p>
 
 <section class="aboutme">
   <h2><?= t('About Me') ?></h2>
