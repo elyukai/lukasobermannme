@@ -145,7 +145,6 @@ tabs:
                     label: URL
                     type: url
                     required: true
-                translate: false
   theme:
     label: Theme
     icon: brush
