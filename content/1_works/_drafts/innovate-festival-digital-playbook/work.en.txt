@@ -1,0 +1,127 @@
+Title: Innovate! Festival Digital Playbook
+
+----
+
+Gallery:
+
+- file://n7p3w2kxwrybsjye
+- file://jrcujmwkp3ha6rha
+- file://6exhyhil5h1ub6nq
+- file://3zsvdmxwu53mqt07
+- file://cecywhev7xq1ordi
+- file://rls87xtrv6cbs5bo
+- file://pmeersqr1bqhzmen
+- file://u6wamlxyja4js0rw
+
+----
+
+Description: <p>The module <em>Organization and Innovation Management</em> at Technische Universität Berlin (TU Berlin) contains a multi-day event, where students can experience innovation at hand, representing teams in a (fictional) company. The <em>Innovate! Festival</em> previously used printed scripts and playbooks for students to fill out. The organizers at TU Berlin approached me to develop a web application to replace all paperwork and to make it easier to manage, especially during the event itself.</p><p>In the conception phase I had to develop a schema to be able to translate the scripts into data structures, as well as understanding what tools the organizers need and how they imagine tasks for students to look like.</p><p>I developed the web application using PHP and the Symfony framework, using Twig Components and Live Components for the frontend to keep most of the application in PHP. The UI design was made by hand and reflects TU Berlin brand colors and design elements.</p><p>Student groups can go through the application in pages that roughly equal the pages of the original playbook, optimized for the digital environment. Answers can be provided by typing into an input field or by uploading documents or photos, depending on the task and what students prefer. A wide range of tasks is supported, from simple text-only tasks where students just have to do something, text field tasks, to reordering a list and giving text input to each and text field grids.</p><p>Facilitators can import students from TU Berlin’s student management software, assign students to groups and roles within their group, and view all the input students entered for their group. Since tasks can be graded, facilitators can enter grades and display a diagram to students of how the grade was built. After an event, all the data can be exported as CSV files for future analysis.</p><p>A large feature of the application is a hand-made content management system for almost all the content within the web application. All text content, tasks and their parameters, images and videos can be changed as needed.</p>
+
+----
+
+Projecttype: commission
+
+----
+
+Scopes: web, ui, frontenddev, backenddev, cms
+
+----
+
+Tools: Sketch
+
+----
+
+Technologies: PHP, Symfony
+
+----
+
+Startyear: 2024
+
+----
+
+Startmonth: 2
+
+----
+
+Startday: 
+
+----
+
+Endyear: 2025
+
+----
+
+Endmonth: 7
+
+----
+
+Endday: 
+
+----
+
+Teammembers: 
+
+----
+
+Links:
+
+- 
+  name: TU Berlin Innovate! Festival
+  url: >
+    https://www.tu.berlin/en/innovatefestival
+
+----
+
+Isthemed: false
+
+----
+
+Colorbackground: 
+
+----
+
+Colorlink: 
+
+----
+
+Colorlinkhover: 
+
+----
+
+Colorfocus: 
+
+----
+
+Colortext: 
+
+----
+
+Colorselectionbackground: 
+
+----
+
+Colorbackgrounddark: 
+
+----
+
+Colorlinkdark: 
+
+----
+
+Colorlinkhoverdark: 
+
+----
+
+Colorfocusdark: 
+
+----
+
+Colortextdark: 
+
+----
+
+Colorselectionbackgrounddark: 
+
+----
+
+Uuid: ia9tznlp5h4v1azp
