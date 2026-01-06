@@ -128,11 +128,11 @@ Education:
 Languages:
 
 - 
-  language: German
+  language: Deutsch
   quality: c2
   isnativespeaker: 'true'
 - 
-  language: English
+  language: Englisch
   quality: c2
   isnativespeaker: 'false'
 - 
