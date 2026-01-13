@@ -17,8 +17,9 @@
         "source": "https://github.com/lukasobermann/website"
     },
     "require": {
-        "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-        "getkirby/cms": "^5.0"
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+        "getkirby/cms": "^5.2",
+        "ext-intl": "*"
     },
     "scripts": {
       "start": [
