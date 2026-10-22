@@ -106,7 +106,9 @@ figure.gallery button {
 
 figure.gallery button:is(.gallery-previous, .gallery-next) {
   position: absolute;
-  top: calc((100% - var(--spacing-md) - var(--tab-size)) / 2 - var(--stepper-size) / 2);
+  top: calc(
+    (100% - var(--spacing-md) - var(--tab-size)) / 2 - var(--stepper-size) / 2
+  );
   width: var(--stepper-size);
   height: var(--stepper-size);
   border-radius: calc(var(--stepper-size) / 2);
