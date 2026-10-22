@@ -4,6 +4,7 @@ figure.gallery {
   position: relative;
   --tab-size: 0.75rem;
   --stepper-size: 2.125rem;
+  width: 100%;
 }
 
 figure.gallery :is(picture, img, video) {
