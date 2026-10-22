@@ -8,30 +8,7 @@ Slug: profil
 
 Workexperience:
 
-- 
-  startyear: 2021
-  startmonth: 4
-  startday: ""
-  endyear: 2021
-  endmonth: 6
-  endday: ""
-  title: 'Praktikum bei *Chainsulting*'
-  details:
-    - 
-      label: Ort
-      contents:
-        - 
-          content: Flensburg
-      content: [ ]
-    - 
-      label: Hauptthemen
-      contents:
-        - 
-          content: Decentralized Web Apps
-        - 
-          content: Mobile Apps mit React Native
-      content: [ ]
-- 
+-
   startyear: 2022
   startmonth: ""
   startday: ""
@@ -40,27 +17,139 @@ Workexperience:
   endday: ""
   title: Freiberuflicher Medieninformatiker
   details: [ ]
+-
+  startyear: 2023
+  startmonth: 9
+  startday: ""
+  endyear: 2025
+  endmonth: 2
+  endday: ""
+  title: Studentische Hilfskraft
+  details:
+    -
+      label: Ort
+      contents:
+        -
+          content: Hochschule Flensburg
+      content: [ ]
+    -
+      label: Aufgaben
+      contents:
+        -
+          content: 'Aufbau und Begleitung einer Druckerei für Studierenden- und andere hochschulinterne Projekte, Auftragsmanangementplattform, Druckausführung und Zuschnitt'
+-
+  startyear: 2018
+  startmonth: 9
+  startday: ""
+  endyear: 2024
+  endmonth: 2
+  endday: ""
+  title: Tutor
+  details:
+    -
+      label: Ort
+      contents:
+        -
+          content: Hochschule Flensburg
+      content: [ ]
+    -
+      label: Fächer
+      contents:
+        -
+          content: '3D-Computergrafik, Grundlagen Gestaltung, Interface- und Interaktionsdesign, Strukturierte Programmierung, sowie WWW-Programmiering'
+-
+  startyear: 2021
+  startmonth: 4
+  startday: ""
+  endyear: 2021
+  endmonth: 6
+  endday: ""
+  title: 'Praktikum bei *Chainsulting*'
+  details:
+    -
+      label: Ort
+      contents:
+        -
+          content: Flensburg
+      content: [ ]
+    -
+      label: Hauptthemen
+      contents:
+        -
+          content: Decentralized Web Apps
+        -
+          content: Mobile Apps mit React Native
+      content: [ ]
 
 ----
 
 Education:
 
-- 
-  startyear: 2007
-  startmonth: ""
+-
+  startyear: 2021
+  startmonth: 9
   startday: ""
-  endyear: 2016
-  endmonth: ""
+  endyear: 2025
+  endmonth: 8
   endday: ""
-  title: Weiterführende Schule
+  title: Angewandte Informatik, M. Sc.
   details:
-    - 
-      label: Schule
+    -
+      label: Hochschule
       contents:
-        - 
-          content: Gymnasium Jungmannschule Eckernförde
+        -
+          content: Hochschule Flensburg
+    -
+      label: Schwerpunkt
+      contents:
+        -
+          content: Mobile Computing
+    -
+      label: Abschlussnote
+      contents:
+        -
+          content: 1,0
+    -
+      label: Thesistitel
+      contents:
+        -
+          content: >
+            Statische Garantien in der
+            Model-View-Update-Architektur
   gap: 'false'
-- 
+-
+  startyear: 2017
+  startmonth: 9
+  startday: ""
+  endyear: 2021
+  endmonth: 2
+  endday: ""
+  title: Medieninformatik, B. Sc.
+  details:
+    -
+      label: Hochschule
+      contents:
+        -
+          content: Hochschule Flensburg
+    -
+      label: Schwerpunkt
+      contents:
+        -
+          content: Film
+    -
+      label: Abschlussnote
+      contents:
+        -
+          content: 1,2
+    -
+      label: Thesistitel
+      contents:
+        -
+          content: >
+            Besucherleitsysteme im pandemischen
+            Kontext analoger offener Veranstaltungen
+  gap: 'false'
+-
   startyear: 2016
   startmonth: 11
   startday: ""
@@ -70,153 +159,116 @@ Education:
   title: 'Work & Travel Neuseeland'
   details: [ ]
   gap: 'true'
-- 
-  startyear: 2017
-  startmonth: 9
+-
+  startyear: 2007
+  startmonth: ""
   startday: ""
-  endyear: 2021
-  endmonth: 2
-  endday: ""
-  title: Medieninformatik, B. Sc.
-  details:
-    - 
-      label: Hochschule
-      contents:
-        - 
-          content: Hochschule Flensburg
-    - 
-      label: Schwerpunkt
-      contents:
-        - 
-          content: Film
-    - 
-      label: Abschlussnote
-      contents:
-        - 
-          content: 1,2
-    - 
-      label: Thesistitel
-      contents:
-        - 
-          content: >
-            Besucherleitsysteme im pandemischen
-            Kontext analoger offener Veranstaltungen
-  gap: 'false'
-- 
-  startyear: 2021
-  startmonth: 9
-  startday: ""
-  endyear: ""
+  endyear: 2016
   endmonth: ""
   endday: ""
-  title: Angewandte Informatik, M. Sc.
+  title: Weiterführende Schule
   details:
-    - 
-      label: Hochschule
+    -
+      label: Schule
       contents:
-        - 
-          content: Hochschule Flensburg
-    - 
-      label: Schwerpunkt
-      contents:
-        - 
-          content: Mobile Computing
+        -
+          content: Gymnasium Jungmannschule Eckernförde
   gap: 'false'
 
 ----
 
 Languages:
 
-- 
+-
   language: Deutsch
   quality: c2
   isnativespeaker: 'true'
-- 
+-
   language: Englisch
   quality: c2
   isnativespeaker: 'false'
-- 
+-
   language: Niederländisch
-  quality: a2
+  quality: b1
   isnativespeaker: 'false'
 
 ----
 
 Skills:
 
-- 
+-
   category: Design
   skills:
-    - 
+    -
       name: Web Design
       proficiency: proficient
-    - 
+    -
       name: User Interface Design
       proficiency: proficient
-    - 
+    -
       name: User Experience Design
       proficiency: proficient
-    - 
+    -
       name: Corporate Design
       proficiency: intermediate
-- 
+-
   category: 'Programmier&shy;sprachen'
   skills:
-    - 
+    -
       name: JavaScript
       proficiency: advanced
-    - 
+    -
       name: TypeScript
       proficiency: advanced
-    - 
+    -
       name: ReasonML
       proficiency: proficient
-    - 
+    -
       name: ReScript
       proficiency: proficient
-    - 
+    -
       name: OCaml
       proficiency: proficient
-    - 
+    -
       name: Swift
       proficiency: intermediate
-    - 
+    -
       name: Kotlin
       proficiency: intermediate
-    - 
+    -
       name: PHP
       proficiency: intermediate
-- 
+-
   category: 'Anwendungs&shy;ent&shy;wick&shy;lung'
   skills:
-    - 
+    -
       name: Electron
       proficiency: advanced
-    - 
+    -
       name: SwiftUI
       proficiency: intermediate
-    - 
+    -
       name: Android Native
       proficiency: intermediate
-- 
+-
   category: Webentwicklung
   skills:
-    - 
+    -
       name: Node.js
       proficiency: proficient
-    - 
+    -
       name: React
       proficiency: advanced
-    - 
+    -
       name: Redux
       proficiency: advanced
-- 
+-
   category: Content-Management-Systeme
   skills:
-    - 
+    -
       name: Kirby
       proficiency: proficient
-    - 
+    -
       name: Drupal
       proficiency: beginner
 
@@ -224,22 +276,22 @@ Skills:
 
 Interestshobbies:
 
-- 
+-
   name: 'Pen-and-paper, besonders *Das Schwarze Auge*'
-- 
+-
   name: Klavier spielen
-- 
+-
   name: Digitales Zeichnen
-- 
+-
   name: Funktionale Programmierung
 
 ----
 
-Metatitle: 
+Metatitle:
 
 ----
 
-Metatemplate: 
+Metatemplate:
 
 ----
 
@@ -251,7 +303,7 @@ Metadescription: Ein Überblick über meine bisherigen Erfahrungen und Fähigkei
 
 ----
 
-Ogtemplate: 
+Ogtemplate:
 
 ----
 
@@ -259,19 +311,19 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription:
 
 ----
 
-Ogimage: 
+Ogimage:
 
 ----
 
-Twittercardtype: 
+Twittercardtype:
 
 ----
 
-Twitterauthor: 
+Twitterauthor:
 
 ----
 
@@ -295,4 +347,4 @@ Robotssnippet: default
 
 ----
 
-Metainherit: 
+Metainherit:

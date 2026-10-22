@@ -4,30 +4,7 @@ Title: Profile
 
 Workexperience:
 
-- 
-  startyear: 2021
-  startmonth: 4
-  startday: ""
-  endyear: 2021
-  endmonth: 6
-  endday: ""
-  title: 'Internship at *Chainsulting*'
-  details:
-    - 
-      label: Location
-      contents:
-        - 
-          content: Flensburg
-      content: [ ]
-    - 
-      label: Main Topics
-      contents:
-        - 
-          content: Decentralized Web Apps
-        - 
-          content: Mobile Apps with React Native
-      content: [ ]
-- 
+-
   startyear: 2022
   startmonth: ""
   startday: ""
@@ -36,27 +13,148 @@ Workexperience:
   endday: ""
   title: Freelance Media IT Specialist
   details: [ ]
+-
+  startyear: 2023
+  startmonth: 9
+  startday: ""
+  endyear: 2025
+  endmonth: 2
+  endday: ""
+  title: Student Assistant
+  details:
+    -
+      label: Location
+      contents:
+        -
+          content: Flensburg University of Applied Sciences
+      content: [ ]
+    -
+      label: Tasks
+      contents:
+        -
+          content: >
+            Establishment and support of a print
+            shop for student projects and other
+            university-internal projects, including
+            an order management platform, print
+            production, and cutting
+-
+  startyear: 2018
+  startmonth: 9
+  startday: ""
+  endyear: 2024
+  endmonth: 2
+  endday: ""
+  title: Tutor
+  details:
+    -
+      label: Location
+      contents:
+        -
+          content: Flensburg University of Applied Sciences
+      content: [ ]
+    -
+      label: Subjects
+      contents:
+        -
+          content: >
+            3D Computer Graphics, Design
+            Foundations, Interface and Interaction
+            Design, Structured Programming, as well
+            as Web Programming
+-
+  startyear: 2021
+  startmonth: 4
+  startday: ""
+  endyear: 2021
+  endmonth: 6
+  endday: ""
+  title: 'Internship at *Chainsulting*'
+  details:
+    -
+      label: Location
+      contents:
+        -
+          content: Flensburg
+      content: [ ]
+    -
+      label: Main Topics
+      contents:
+        -
+          content: Decentralized Web Apps
+        -
+          content: Mobile Apps with React Native
+      content: [ ]
 
 ----
 
 Education:
 
-- 
-  startyear: 2007
-  startmonth: ""
+-
+  startyear: 2021
+  startmonth: 9
   startday: ""
-  endyear: 2016
-  endmonth: ""
+  endyear: 2025
+  endmonth: 8
   endday: ""
-  title: High School
+  title: Applied Computer Science, M. Sc.
   details:
-    - 
-      label: School
+    -
+      label: University
       contents:
-        - 
-          content: Gymnasium Jungmannschule Eckernförde
+        -
+          content: Flensburg University of Applied Sciences
+    -
+      label: Major
+      contents:
+        -
+          content: Mobile Computing
+    -
+      label: Final Grade
+      contents:
+        -
+          content: 1,0
+    -
+      label: Thesis Title
+      contents:
+        -
+          content: >
+            Static Guarantees in the
+            Model-View-Update Architecture
   gap: 'false'
-- 
+-
+  startyear: 2017
+  startmonth: 9
+  startday: ""
+  endyear: 2021
+  endmonth: 2
+  endday: ""
+  title: Media Informatics, B. Sc.
+  details:
+    -
+      label: University
+      contents:
+        -
+          content: Flensburg University of Applied Sciences
+    -
+      label: Major
+      contents:
+        -
+          content: Film
+    -
+      label: Final Grade
+      contents:
+        -
+          content: "1.2"
+    -
+      label: Thesis Title
+      contents:
+        -
+          content: >
+            Visitor guidance systems in a pandemic
+            context of analog open events
+  gap: 'false'
+-
   startyear: 2016
   startmonth: 11
   startday: ""
@@ -66,153 +164,116 @@ Education:
   title: 'Work & Travel New Zealand'
   details: [ ]
   gap: 'true'
-- 
-  startyear: 2017
-  startmonth: 9
+-
+  startyear: 2007
+  startmonth: ""
   startday: ""
-  endyear: 2021
-  endmonth: 2
-  endday: ""
-  title: Media Informatics, B. Sc.
-  details:
-    - 
-      label: University
-      contents:
-        - 
-          content: Flensburg University of Applied Sciences
-    - 
-      label: Major
-      contents:
-        - 
-          content: Film
-    - 
-      label: Final Grade
-      contents:
-        - 
-          content: "1.2"
-    - 
-      label: Thesis Title
-      contents:
-        - 
-          content: >
-            Visitor guidance systems in a pandemic
-            context of analog open events
-  gap: 'false'
-- 
-  startyear: 2021
-  startmonth: 9
-  startday: ""
-  endyear: ""
+  endyear: 2016
   endmonth: ""
   endday: ""
-  title: Applied Computer Science, M. Sc.
+  title: High School
   details:
-    - 
-      label: University
+    -
+      label: School
       contents:
-        - 
-          content: Flensburg University of Applied Sciences
-    - 
-      label: Major
-      contents:
-        - 
-          content: Mobile Computing
+        -
+          content: Gymnasium Jungmannschule Eckernförde
   gap: 'false'
 
 ----
 
 Languages:
 
-- 
+-
   language: German
   quality: c2
   isnativespeaker: 'true'
-- 
+-
   language: English
   quality: c2
   isnativespeaker: 'false'
-- 
+-
   language: Dutch
-  quality: a2
+  quality: b1
   isnativespeaker: 'false'
 
 ----
 
 Skills:
 
-- 
+-
   category: Design
   skills:
-    - 
+    -
       name: Web Design
       proficiency: proficient
-    - 
+    -
       name: User Interface Design
       proficiency: proficient
-    - 
+    -
       name: User Experience Design
       proficiency: proficient
-    - 
+    -
       name: Corporate Design
       proficiency: intermediate
-- 
+-
   category: Programming Languages
   skills:
-    - 
+    -
       name: JavaScript
       proficiency: advanced
-    - 
+    -
       name: TypeScript
       proficiency: advanced
-    - 
+    -
       name: ReasonML
       proficiency: proficient
-    - 
+    -
       name: ReScript
       proficiency: proficient
-    - 
+    -
       name: OCaml
       proficiency: proficient
-    - 
+    -
       name: Swift
       proficiency: intermediate
-    - 
+    -
       name: Kotlin
       proficiency: intermediate
-    - 
+    -
       name: PHP
       proficiency: intermediate
-- 
+-
   category: Application Development
   skills:
-    - 
+    -
       name: Electron
       proficiency: advanced
-    - 
+    -
       name: SwiftUI
       proficiency: intermediate
-    - 
+    -
       name: Android Native
       proficiency: intermediate
-- 
+-
   category: Web Development
   skills:
-    - 
+    -
       name: Node.js
       proficiency: proficient
-    - 
+    -
       name: React
       proficiency: advanced
-    - 
+    -
       name: Redux
       proficiency: advanced
-- 
+-
   category: Content Management Systems
   skills:
-    - 
+    -
       name: Kirby
       proficiency: proficient
-    - 
+    -
       name: Drupal
       proficiency: beginner
 
@@ -220,22 +281,22 @@ Skills:
 
 Interestshobbies:
 
-- 
+-
   name: 'Pen-and-paper, especially *The Dark Eye*'
-- 
+-
   name: Playing the piano
-- 
+-
   name: Digital painting
-- 
+-
   name: Functional Programming
 
 ----
 
-Metatitle: 
+Metatitle:
 
 ----
 
-Metatemplate: 
+Metatemplate:
 
 ----
 
@@ -247,7 +308,7 @@ Metadescription: An overview about my experiences and skills, representing a dig
 
 ----
 
-Ogtemplate: 
+Ogtemplate:
 
 ----
 
@@ -255,19 +316,19 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription:
 
 ----
 
-Ogimage: 
+Ogimage:
 
 ----
 
-Twittercardtype: 
+Twittercardtype:
 
 ----
 
-Twitterauthor: 
+Twitterauthor:
 
 ----
 
@@ -291,7 +352,7 @@ Robotssnippet: default
 
 ----
 
-Metainherit: 
+Metainherit:
 
 ----
 
