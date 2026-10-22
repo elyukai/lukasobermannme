@@ -1,0 +1,9 @@
+Alt: 
+
+----
+
+Uuid: 1ztyajgzbexgtuql
+
+----
+
+Template: image

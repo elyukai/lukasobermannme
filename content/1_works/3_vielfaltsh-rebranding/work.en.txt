@@ -1,0 +1,124 @@
+Title: vielfalt.SH Rebranding
+
+----
+
+Gallery:
+
+- file://m43ofsusts6sedmq
+- file://lrjlawioauhle9fl
+- file://1ztyajgzbexgtuql
+- file://y0fewmflnsfsbj1x
+
+----
+
+Description:
+
+<p>The association <em>vielfalt.SH</em> from Flensburg, Germany, supports queer individuals and groups with counseling, education and events. They requested a new and fresh brand design that would be appealing to their target audience no matter their age.</p><p>During the ideation phase, it became clear that the site needed to be safe for those who are still closeted or simply not ready to be out. This led to the creation of the “emergency exit” button that visitors can use to quickly leave the site. To also make the brand design comply with this need, we chose a color palette that both fits the brand and is not an obvious pride flag. Not only is this color palette safe in this regard, it also helps the brand stand out in a time where many queer brands stick to a rainbow-inspired design.</p><p>From three design directions I developed, they picked a bold yet soft design, blending contrasting typefaces with pastel colors. The four colors Hot Pink, Purple, Indigo and Turquoise form a well-distributed and harmonizing color sequence that communicates a safe environment. Sharp edges and soft organic shapes communicate being loud but vulnerable, ultimately human. The shapes are inspired by water, communication and thoughts, anchoring the brand locally as well as in its values.</p><p>While the general idea of the design should be applied to the logo as well, they required it not to be changed otherwise. Next to changing the logo to be all-purple, the typeface of the text is also changed to match the new typefaces of the design. To be able to use the logo in smaller areas such as the tab bar in browsers (favicon), I derived smaller icon-only logo variants from the existing logo as well.</p><p>The design elements and rules developed during the project were set in stone in form of a corporate design manual, which got applied in creating a simple two-sided flyer template in ⅓ DIN A4 (99 × 210 mm) on top.</p>
+
+----
+
+Projecttype: commission
+
+----
+
+Scopes: web, cms, backenddev, frontenddev, cd, ux
+
+----
+
+Tools: Sketch, Affinity Designer
+
+----
+
+Technologies: Kirby, PHP
+
+----
+
+Startyear: 2026
+
+----
+
+Startmonth: 5
+
+----
+
+Startday: 
+
+----
+
+Endyear: 2026
+
+----
+
+Endmonth: 9
+
+----
+
+Endday: 
+
+----
+
+Teammembers: 
+
+----
+
+Links:
+
+- 
+  name: Website
+  url: https://vielfalt.sh
+
+----
+
+Isthemed: true
+
+----
+
+Colorbackground: #fefaff
+
+----
+
+Colorlink: #202a5d
+
+----
+
+Colorlinkhover: #7a90ff
+
+----
+
+Colorfocus: #7a90ff
+
+----
+
+Colortext: #8d4892
+
+----
+
+Colorselectionbackground: #e2e7ff
+
+----
+
+Colorbackgrounddark: #341936
+
+----
+
+Colorlinkdark: #9eaeff
+
+----
+
+Colorlinkhoverdark: #e2e7ff
+
+----
+
+Colorfocusdark: #e2e7ff
+
+----
+
+Colortextdark: #fbcfff
+
+----
+
+Colorselectionbackgrounddark: #7a90ff
+
+----
+
+Uuid: jqdn7j97kbj7dgze

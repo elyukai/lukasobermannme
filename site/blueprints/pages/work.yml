@@ -20,7 +20,6 @@ tabs:
                 image:
                   ratio: 16/9
                   cover: true
-                translate: false
               description:
                 type: writer
                 required: true

@@ -1,0 +1,9 @@
+Alt: 
+
+----
+
+Uuid: m43ofsusts6sedmq
+
+----
+
+Template: image

@@ -1,0 +1,22 @@
+Title: vielfalt.SH-Rebranding
+
+----
+
+Gallery:
+
+- file://vhjmea8i1uhy131n
+- file://lrjlawioauhle9fl
+- file://1ztyajgzbexgtuql
+- file://y0fewmflnsfsbj1x
+
+----
+
+Description: <p>Der Verein <em>vielfalt.SH</em> aus Flensburg unterstützt queere Personen und Gruppen mit Beratungs- und Bildungsangeboten sowie Veranstaltungen. Sie benötigten einen neuen und frischen Markenauftritt, der ihre Zielgruppe altersunabhängig anspricht.</p><p>Während der Ideenfindung wurde deutlich, dass die Seite auch für diejenigen, die noch nicht geoutet bzw. dafür noch nicht bereit sind, sicher sein muss. Aus dieser Anforderung ist der prominente „Notausgang“-Button entstanden, mit dem Besucher*innen schnell die Seite verlassen können. Aber auch die allgemeine Gestaltung richtet sich danach aus: Die Farbpalette soll zwar zum Verein passen, aber nicht offensichtlich „Pride“ sein. Dadurch ist die Farbpalette nicht nur in der Hinsicht sicher, sondern sorgt auch dafür, dass die Marke stärker in einer Zeit hervorsticht, in der viele queere Marken eine regenbogenflaggeninspirierte Gestaltung aufweisen.</p><p>Aus drei von mir entwickelten Gestaltungsentwürfen hat der Verein eine starke und gleichzeitig weiche Gestaltung gewählt, bei der kontrastreiche Schrift mit Pastellfarben kombiniert wird. Die vier Markenfarben Hot Pink, Violett, Indigo und Türkis bilden eine gleichmäßig verteilte, harmonisierende Farbsequenz, die eine sichere Umgebung kommuniziert. Scharfe Kanten und weiche organische Formen sind laut, aber auch verletzlich, also letztendlich auch menschlich. Die Formen sind von Wasser, Kommunikation und Gedanken inspiriert, die die Marke sowohl räumlich – am Meer – verankern als auch in dem, wofür der Verein steht.</p><p>Das Design sollte auch auf das existierende Logo angewendet werden, ohne dieses jedoch zu stark zu verändern. Daher wurden nur die Farben auf ein einfarbiges Violett reduziert und die Schrift an die verwendete Displayschrift angepasst. Um das Logo auch in kleineren Bereichen wie Browser-Tableisten (Favicons) zu benutzen, habe ich kleine reine Bildmarken aus dem existierenden Logo abgeleitet.</p><p>Die Gestaltungselemente und -regeln, die im Rahmen des Projekts entwickelt wurden, sind abschließend im Rahmen eines Corporate-Design-Manuals festgehalten worden. Auf Basis dieser Regeln wurde dann auch eine zweiseitige Flyervorlage im DIN-lang-Format entwickelt.</p>
+
+----
+
+Links:
+
+- 
+  name: Website
+  url: https://vielfalt.sh
